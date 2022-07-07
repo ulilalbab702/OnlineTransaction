@@ -1,0 +1,23 @@
+@import '../../themes/size';
+@import '../../themes/fonts';
+@import '../../themes/colors';
+
+.table-cell{
+    padding: 0;
+    height: vw(50);
+    font-size: vw(13) !important;
+    line-height: vw(16) !important;
+    font-family: 'Lato-Bold';
+    color: #3C3B3B;
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+    .table-cell{
+        padding: 0;
+        height: vw-tab(50);
+        font-size: vw-tab(13) !important;
+        line-height: vw-tab(16) !important;
+        font-family: 'Lato-Bold';
+        color: #3C3B3B;
+    }
+}

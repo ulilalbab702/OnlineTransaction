@@ -1,0 +1,395 @@
+body {
+  background-color: #ffffff;
+}
+
+.bgTP {
+  margin-left: 150px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .imageDetailProduct {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 296px;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  .titleProductDetail {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+
+  .priceProduct {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #148f0f;
+    margin-left: 15px;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #c60242;
+    margin-left: 20px;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .titleRating {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 20px;
+  }
+
+  .descRating {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 20px;
+    opacity: 0.5;
+  }
+
+  .titleBrandProduct {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+  }
+
+  .ratingProduct {
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeProduct {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 5px;
+  }
+  .unitDiscountProduct {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.8;
+    background: #ffd500;
+    padding: 5px;
+    display: inline-block;
+  }
+  .buyButton {
+    padding-top: 15px;
+    width: 204.96px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+  }
+  .addButton {
+    margin-left: 20px;
+    padding-top: 15px;
+    width: 318.13px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetail {
+    width: 25px;
+    height: 29px;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .imageListProduct {
+    transform: scale(0.9) !important;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: -30px;
+  }
+  .imageItem {
+    transform: scale(1) !important;
+    max-width: 100%;
+    max-height: 90%;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 80px;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SF UI Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .dateRating {
+    font-family: SF UI Text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: SF UI Text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .bgTP {
+    margin-left: 150px;
+  }
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+.listProductItem {
+  width: 400px;
+}

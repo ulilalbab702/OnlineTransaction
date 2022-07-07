@@ -1,0 +1,1651 @@
+.containerFlex {
+  display: flex;
+  flex-direction: row;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.containerRowProduct {
+  margin-top: 2rem;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+}
+.colFilter {
+  margin-right: 2rem;
+  width: 14vw;
+}
+.containerBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+.logoBrandBanner {
+  width: 11.7vw;
+}
+.containerUnit {
+  height: 12vw;
+  border-radius: 1.25vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #8a7613;
+  .containerTitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+    .textBrandNew {
+      font-family: "SFUIDisplay-Bold";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 2.8vw;
+      line-height: 1.5vw;
+      letter-spacing: 0.02em;
+      color: #000000;
+      margin-top: 1.5vw;
+      margin-bottom: 1.5vw;
+      text-align: center;
+    }
+  }
+  .rowUnit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .boxUnit {
+      display: flex;
+      width: 20%;
+      justify-content: center;
+      .imageBrandKomatsu {
+        transform: scale(1.5);
+        max-width: 40%;
+      }
+      .imageBrandUdtruck {
+        transform: scale(2.3);
+        max-width: 40%;
+      }
+      .imageBrandTadano {
+        transform: scale(2);
+        max-width: 40%;
+      }
+    }
+  }
+}
+.containerPaddingLP {
+  padding: 0 9vw;
+  padding-top: 7vw;
+}
+.colBanner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 0;
+  .logoBrand {
+    width: 20%;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .bannerWelcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffd500;
+    border-radius: 1.5vw;
+    padding: 1.5vw;
+    padding-left: 3rem;
+    padding-right: 0;
+    height: 12vw;
+    .containerResponsiveFlex {
+      display: flex;
+      flex-direction: row;
+      .containerTitle {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1vw;
+        .textBrand {
+          font-family: "SFUIText-Bold";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 3.2vw;
+          line-height: 3.1vw;
+          letter-spacing: 0.02em;
+          color: #000000;
+        }
+        .textDescBrand {
+          font-family: "SFProText-Regular";
+          font-style: normal;
+          font-size: 1.5vw;
+          line-height: 2.3vw;
+          letter-spacing: 0.06em;
+          color: #000000;
+          opacity: 0.6;
+          width: 70%;
+        }
+      }
+    }
+    .imagePC200 {
+      max-width: 100%;
+      max-height: 100%;
+      transform: scale(2.2) translateX(-42px) translateY(-20px);
+    }
+  }
+}
+.titleRadio {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1.3vw;
+  color: #000000;
+  opacity: 0.75;
+  margin-bottom: 0.5vw;
+}
+.titleStar {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: #000000;
+  margin-left: 0.7vw;
+  margin-top: 0.15vw;
+}
+.ratingList {
+  margin-left: 0.15vw;
+  height: 1.4vw;
+  width: 1.4vw;
+}
+.titleFilter1 {
+  font-family: "SFUIDisplay-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #030303;
+}
+.titleFilterList {
+  font-family: "SFUIDisplay-Bold" !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8vw;
+  letter-spacing: 0.03em;
+  color: #030303;
+  margin-right: 1.5vw;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+.titleFilterListActive {
+  font-family: "SFUIDisplay-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8vw;
+  letter-spacing: 0.03em;
+  color: #030303;
+  margin-right: 1.5vw;
+  margin-left: 1vw;
+  border-bottom: 3px solid #ffd500;
+}
+.titleList {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25vw;
+  line-height: 1.4vw;
+  color: #000000;
+  width: 15.1vw;
+}
+.checkboxLP {
+  width: 1vw;
+  height: 1vw;
+}
+.lineListProduct {
+  margin-top: -17px;
+  border-radius: 5px;
+}
+.lineProduct {
+  width: 100%;
+  margin-top: -1em;
+  border-radius: 5px;
+}
+.sortByInput {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.titleSort {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.75;
+  margin-left: 1rem;
+  margin-top: 10px;
+}
+.gridListProduct {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(15px, auto);
+  grid-gap: 1.2vw;
+  margin-left: 0px;
+}
+.cardListLP {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 0.6vw;
+  width: 15vw;
+  height: 25.6vw;
+  margin-right: 1.5vw;
+  margin-bottom: 1.5vw;
+  cursor: pointer;
+}
+.cardImageLP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6vw;
+  width: 100%;
+  margin-top: 1.5vw;
+  margin-bottom: 0.8vw;
+  background-color: #f1f1f1;
+  height: 12.9vw;
+}
+.styleFilterForm {
+  font-family: "SFUIText-Regular";
+  font-size: 1vw;
+  color: #000000;
+  font-weight: 600;
+  font-style: normal;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 3.2vw;
+  border-radius: 0.6vw;
+  opacity: 0.4;
+  margin-top: -0.7vw;
+  width: 15.1vw;
+}
+.cardSelect {
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  width: 194px;
+  height: auto !important;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: -1.5rem;
+}
+.checkBoxStyle {
+  margin-left: 5px;
+  margin-top: 0;
+}
+.titleCheckbox {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.75;
+  margin-left: 2rem;
+  margin-top: -5px;
+}
+.selectedFilter {
+  width: 78px;
+  height: 30px;
+  background: #f2f2f2;
+  border: 1px solid #b3b3b3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.textSelectedFilter {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0;
+}
+.boxSelectedFilter {
+  margin-left: 0rem !important;
+  margin-bottom: 10px;
+  width: 11rem;
+  display: flex;
+}
+.line-vertical-list {
+  opacity: 0.15;
+  border: 0.7px solid #000000;
+  transform: rotate(180deg);
+  margin-left: 10px;
+  height: 20px;
+}
+.boxPrice {
+  display: flex;
+  width: 100%;
+  height: 3vw;
+  border: 1px solid #000000;
+  opacity: 0.5;
+  border-radius: 0.6vw;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4vw;
+  margin-bottom: 0.8vw;
+}
+.rp {
+  margin-top: 1vw;
+  margin-left: 0.8vw;
+  font-size: 1.25vw;
+  line-height: 1.4vw;
+}
+.titleListProduct {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9vw;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.4;
+  margin-bottom: 0;
+}
+.titleListProduct2 {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  font-size: 1.15vw;
+  margin-bottom: 0.4vw;
+}
+.titleListProduct3 {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8vw;
+  line-height: 12px;
+  color: #000000;
+  opacity: 0.75;
+  margin-bottom: 0;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+}
+.titleListProduct4 {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25vw;
+  line-height: 19px;
+  color: #fa591d;
+  margin-bottom: 0.4vw;
+}
+.titleListProduct5 {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 0.9vw;
+  line-height: 0.9vw;
+  color: #000000;
+  margin-bottom: 0.4vw;
+  margin-right: 0.4vw;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.btn-terapkan {
+  width: 100%;
+  height: auto;
+  background-color: #ffd500;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+
+  .text-terapkan {
+    font-family: "SFProText-Regular";
+    margin-bottom: 0;
+    margin: 5px 0;
+  }
+}
+
+.container-not-found {
+  width: 70vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .img-not-found {
+    width: 50%;
+    height: auto;
+    transform: scale(1);
+  }
+
+  .text-not-found {
+    font-family: "SFProText-Bold";
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+
+.con-breadcrupm {
+  width: 100%;
+  .breadcrump-name {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4da1ff;
+    &:hover {
+      text-decoration: none;
+    }
+    span {
+      margin-left: 10px;
+    }
+  }
+  .breadcrump-typography {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #323232;
+  }
+}
+
+// Mobile
+@media (max-width: 599px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 30px;
+    padding-top: 7vw;
+  }
+  .textBrand {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .textDescBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 10px;
+  }
+  .containerResponsiveFlex {
+    display: flex;
+    flex-direction: column;
+  }
+  .bannerWelcome {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    flex: 1;
+    background-color: #ffd500;
+    border-radius: 20px;
+    padding: 20px;
+    height: 300px;
+  }
+  .imagePC200 {
+    max-width: 50%;
+    max-height: 50%;
+    transform: scale(1) !important;
+    align-items: center;
+  }
+  .logoBrand {
+    max-width: 80%;
+    max-height: 80%;
+    transform: scale(0.8) !important;
+  }
+}
+
+// mobile
+@media only screen and (max-width: 319px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// mobile
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 10px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 145px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+// mobile iphone 7/8 plus
+@media only screen and (max-width: 414px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 180px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+// mobile iphone x
+@media only screen and (min-width: 360px) and (max-width: 413px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 15px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 160px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 433px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 180px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+@media only screen and (min-width: 434px) and (max-width: 479px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 200px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+// mobile
+
+@media only screen and (min-width: 480px) and (max-width: 530px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 15px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 225px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+@media only screen and (min-width: 531px) and (max-width: 596px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 240px;
+    height: 350px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .sortByInput {
+    font-size: 14px;
+    width: 170px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+// Mobile semi Tab
+@media (min-width: 597px) and (max-width: 816px) {
+  .containerRowProduct {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 190px;
+    height: 328px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .titleFilterList {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .titleFilterListActive {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: #030303;
+    border-bottom: 3px solid #ffd500;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .titleRadio {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000000;
+    opacity: 0.75;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .titleList {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .titleFilter1 {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: #030303;
+  }
+  .containerTitle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .textBrand {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .textDescBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 10px;
+  }
+  .containerResponsiveFlex {
+    display: flex;
+    flex-direction: row;
+  }
+  .bannerWelcome {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    flex: 1;
+    background-color: #ffd500;
+    border-radius: 20px;
+    padding: 20px;
+    height: 150px;
+  }
+  .imagePC200 {
+    max-width: 100%;
+    max-height: 50%;
+    transform: scale(1.5) !important;
+    margin-bottom: -3rem;
+  }
+  .logoBrand {
+    max-width: 80%;
+    max-height: 80%;
+    transform: scale(0.8) !important;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 5%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+// tab
+@media (min-width: 817px) and (max-width: 900px) {
+  .containerRowProduct {
+    margin-top: 50rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 180px;
+    height: 328px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .containerPaddingLP {
+    padding: 0 15px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .textBrand {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .textDescBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 10px;
+  }
+  .imagePC200 {
+    max-width: 56%;
+    max-height: 84%;
+    transform: scale(1.9) !important;
+    margin-bottom: -33px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 2%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 901px) and (max-width: 990px) {
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 150px;
+    height: 328px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .textBrand {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .textDescBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 10px;
+  }
+  .imagePC200 {
+    max-width: 56%;
+    max-height: 84%;
+    transform: scale(1.9) !important;
+    margin-bottom: -33px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 8%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1229px) {
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 180px;
+    height: 328px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .containerPaddingLP {
+    padding: 0 20px;
+    padding-top: 7vw;
+  }
+  .gridListProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+  .textBrand {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .textDescBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 10px;
+  }
+  .imagePC200 {
+    max-width: 56%;
+    max-height: 84%;
+    transform: scale(1.9) !important;
+    margin-bottom: -33px;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 2%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+// Laptop 13 "
+@media only screen and (min-width: 1280px) {
+  .cardListLP {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 0.6vw;
+    width: 15.4vw;
+    height: 27.3vw;
+    margin-right: 0.4vw;
+    margin-bottom: 0.4vw;
+  }
+  .bannerWelcome {
+    background-color: #ffd500;
+    border-radius: 20px;
+    padding: 20px;
+    height: 170px;
+  }
+  .imagePC200 {
+    max-width: 50%;
+    max-height: 90%;
+    transform: scale(1.9);
+    margin-bottom: -15px;
+  }
+  .textBrand {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  .textDescBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    opacity: 0.6;
+  }
+  .con-breadcrupm {
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 12%;
+    .breadcrump-name {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .breadcrump-typography {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+  .titleFilter1 {
+    font-family: "SFUIDisplay-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8vw;
+    letter-spacing: 0.03em;
+    color: #030303;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .radioBtn {
+    margin-top: 0.2vw !important;
+    transform: scale(1.2);
+  }
+  .colCategory {
+    padding-left: 2px;
+  }
+}

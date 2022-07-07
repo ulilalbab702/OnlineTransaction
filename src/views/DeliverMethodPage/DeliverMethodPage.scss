@@ -1,0 +1,1629 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.kontenCardPurchaseSummary {
+  padding: 1.25vw;
+}
+.subTotalBL {
+  padding-top: 0.5rem;
+}
+.iconChecklist {
+  width: vw(25);
+  height: vw(25);
+  margin-left: vw(170);
+}
+.iconBank {
+  max-width: 11vw;
+  max-height: 8vw;
+}
+.iconWallet {
+  max-width: 8vw;
+  max-height: 2vw;
+}
+.iconCard {
+  max-width: 4.6vw;
+  max-height: 2.6vw;
+}
+.istMethode-page {
+  background-color: #ffffff;
+}
+.default-margin-left-right {
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+.default-margin-top-bottom {
+  margin-top: vw(10);
+  margin-bottom: vw(10);
+}
+.title-methode {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 22px;
+  line-height: vw(20);
+  color: #000000;
+  margin-bottom: 0;
+}
+.default-flex-row-card {
+  display: flex;
+  flex-direction: row;
+  margin-left: vw(10);
+  margin-right: vw(10);
+}
+.default-flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: vw(10);
+  margin-right: vw(10);
+}
+.default-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.default-flex-one {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+}
+.default-flex-one-minus {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+}
+.card-item-title {
+  background: #f9f9f9;
+  border-radius: vw(16);
+  margin-bottom: vw(26);
+  // width: vw(900);
+}
+.title-id {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(24);
+  line-height: vw(20);
+  color: #050505;
+}
+.title-name {
+  font-style: normal;
+  font-size: vw(22);
+  line-height: vw(30);
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.4;
+  margin-bottom: 0;
+}
+.title-edit {
+  font-style: normal;
+  font-size: vw(18);
+  line-height: vw(25);
+  letter-spacing: 0.01em;
+  color: #148f0f;
+  opacity: 0.75;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: vw(20);
+}
+.line-horizontal-dash {
+  opacity: 0.15;
+  border: 0.7px dashed #000000;
+  transform: rotate(180deg);
+  justify-items: center;
+}
+.title-hide {
+  display: flex;
+  flex: 0.3;
+  margin-right: 20px;
+}
+.title-arrow {
+  display: flex;
+  flex: 1;
+  align-content: flex-end;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.card-warehouse {
+  width: vw(45);
+  height: vw(45);
+  border-radius: 40px;
+  background-color: #ffd500;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-right: vw(20);
+}
+.line-horizontal-methode {
+  opacity: 0.15;
+  border: 0.7px solid #000000;
+  width: vw(900);
+}
+
+.title-kurir {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: vw(40);
+  color: #404040;
+  margin-bottom: 0;
+  margin-left: vw(5);
+  margin-top: vw(20);
+}
+
+.title-item-kurir {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-size: 1.1vw;
+  line-height: vw(35);
+  color: #404040;
+  margin-left: vw(5);
+  margin-bottom: vw(5);
+  margin-top: vw(5);
+}
+
+.title-price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(28);
+  line-height: vw(35);
+  color: #FA591D;
+  opacity: 0.75;
+}
+.button-change {
+  width: 7.5vw;
+  height: 2.5vw;
+  background: #2490c1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: vw(30);
+  margin-top: vw(20);
+  cursor: pointer;
+}
+.title-change {
+  font-style: normal;
+  font-size: vw(22);
+  color: #ffffff;
+  opacity: 0.75;
+  margin-bottom: 0;
+  font-weight: 600;
+  margin-top: 0;
+}
+.card-payment {
+  margin-right: vw(20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: vw(210);
+  height: vw(150);
+  cursor: pointer;
+}
+.title-select-payment {
+  font-weight: bold;
+  font-size: 1vw;
+  text-align: center;
+  color: #050505;
+  margin-top: vw(10);
+  margin-bottom: vw(10);
+}
+.card-wallet {
+  background: #76d672;
+  border-radius: 12px;
+  width: vw(70);
+  height: vw(70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-bank {
+  background: #ffffff;
+  border-radius: 12px;
+  flex: 1;
+  height: 5.1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: vw(10);
+  cursor: pointer;
+}
+.container-purchase-order {
+  background: white;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  padding: 10px;
+}
+.input-purchase {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 100%;
+}
+.title-status-payment {
+  font-weight: normal;
+  font-size: vw(20);
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.75);
+  opacity: 0.8;
+  margin: 0;
+}
+.title-price-payment {
+  font-weight: bold;
+  font-size: vw(24);
+  letter-spacing: 0.05em;
+}
+.teks-voucher-success {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #707070;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.radio-button {
+  background: #148f0f;
+  width: vw(18);
+  height: vw(18);
+  border-radius: 10px;
+}
+.radio-border {
+  border: 2px solid #148f0f;
+  box-sizing: border-box;
+  width: vw(30);
+  height: vw(30);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-right: vw(10);
+}
+.radio-border-disable {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  width: vw(30);
+  height: vw(30);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-right: vw(10);
+}
+.margin-image-bank {
+  margin-left: auto;
+  margin-right: vw(40);
+}
+.title-bank {
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: #303030;
+  margin-left: vw(40);
+  margin-bottom: 0rem;
+  margin-top: 0;
+}
+.container-number {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 0;
+  margin-right: vw(20);
+}
+.container-number-visa {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1;
+  margin-right: vw(20);
+}
+.card-cvv {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: vw(100);
+  height: vw(50);
+  display: flex;
+  margin-left: vw(20);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.title-cvv {
+  font-style: normal;
+  font-weight: normal;
+  font-size: vw(14);
+  color: #707070;
+  margin-bottom: 0;
+}
+.card-add {
+  border: 2px dashed #565555;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: vw(20);
+  margin-left: vw(40);
+}
+.title-add-card {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(24);
+  color: #050505;
+  margin-bottom: vw(10);
+  margin-top: vw(10);
+}
+.noteCompleteOrder {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 0.7vw;
+  line-height: 0.9vw;
+  padding-left: 2.1vw;
+  padding-right: 1.5vw;
+}
+.orderDetailTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem !important;
+  cursor: pointer;
+}
+.orderDetailArrowShow {
+  width: 18px;
+  height: auto;
+  margin: auto;
+  margin-right: 0;
+  transform: rotate(0deg);
+}
+.orderDetailArrowHide {
+  width: 18px;
+  height: auto;
+  margin: auto;
+  margin-right: 0;
+  transform: rotate(-180deg);
+}
+.conImgDetail {
+  background-color: #f1f1f1;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  border-radius: 6px;
+}
+.detailBrand {
+  padding: 0;
+  margin: 0;
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.4;
+}
+.detailProductDesc {
+  margin: 0;
+  padding: 0;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.detailProductBefore {
+  margin: 0;
+  padding: 0;
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  opacity: 0.75;
+  text-decoration: line-through;
+}
+.detailPriceAfter {
+  margin: 0;
+  padding: 0;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #148f0f;
+  opacity: 0.75;
+}
+.conFormPromotion {
+  width: 100%;
+  height: fit-content;
+  margin-left: 0;
+  margin-top: 5px;
+  justify-content: space-between;
+  border-radius: 6px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 1px 3px 10px 0 rgba(0, 0, 0, 0.08);
+}
+.formPromotion {
+  display: flex;
+  flex: 1;
+  border: none;
+  border-radius: 6px;
+  padding-left: 15px;
+}
+.formPromotion:focus {
+  outline: none;
+}
+.btnPromo {
+  background-color: #ffd500;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.teksBtnPromo {
+  padding: 0;
+  margin: auto;
+  font-family: "SFUIText-Regular";
+  font-weight: bold;
+  font-size: 12px;
+  color: #000000;
+}
+.myVoucher {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0055a0;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.modal-pkps {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40%;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 16px;
+  @media (max-width: 599px) {
+    width: 90%;
+  }
+  .confirm-title {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .img-container {
+    width: 100%;
+    height: 5vw;
+    @media (max-width: 599px) {
+      height: 20vw;
+    }
+  }
+  .verify-code-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .verify-code {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px;
+    input {
+      width: 15%;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      margin: 0 5px;
+    }
+  }
+  .text-description {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .btn-submit {
+    background-color: #ffd500;
+    border-radius: 12px;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    padding: 10px 0;
+    height: 50px;
+  }
+  .resend-code {
+    font-weight: 600;
+    font-size: 16px;
+    color: #c2a100;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.cardPO {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 0.8vw;
+  padding: 1vw;
+  background-color: #ffffff;
+  input {
+    border-radius: 0.5vw;
+    border: 1px solid #000000;
+    height: 2.8vw;
+    padding-left: 1vw;
+    margin-bottom: 1.5vw;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 1vw;
+  }
+}
+.titlePO {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  margin: 0;
+  font-size: 1.25vw;
+  color: #707070;
+}
+.rowSelectFile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectFile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3da7de;
+  padding: 0.5vw 1vw;
+  border-radius: 0.8vw;
+  cursor: pointer;
+}
+.iconUpload {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin-right: 0.7vw;
+}
+.textSelectFile {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  margin: 0;
+  font-size: 1vw;
+  color: #ffffff;
+}
+.rowPdf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.titlePdf {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  margin: 0;
+  font-size: 1vw;
+}
+//mobile version
+@media (max-width: 599px) {
+  .istMethode-page {
+    background-color: #ffffff;
+  }
+  .default-margin-left-right {
+    margin-left: vw-mobile(5);
+    margin-right: vw-mobile(5);
+  }
+  .default-margin-top-bottom {
+    margin-top: vw-mobile(10);
+    margin-bottom: vw-mobile(10);
+  }
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+  .default-flex-row {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+  .default-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .default-flex-one {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    margin-bottom: vw-mobile(20);
+  }
+  .title-methode {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: vw-mobile(15);
+    line-height: vw-mobile(15);
+    color: #000000;
+  }
+  .card-item-title {
+    background: #f9f9f9;
+    border-radius: vw-mobile(16);
+    padding-left: vw-mobile(10);
+    padding-right: vw-mobile(10);
+    padding-top: vw-mobile(10);
+    padding-bottom: vw-mobile(10);
+    // width: vw-mobile(200);
+  }
+  .MuiPaper-rounded {
+    border-radius: vw-mobile(16) !important;
+  }
+  .card-item-cart {
+    padding-left: vw-mobile(10);
+    padding-right: vw-mobile(10);
+    padding-top: vw-mobile(10);
+    padding-bottom: vw-mobile(10);
+  }
+  .title-id {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(12);
+    line-height: vw-mobile(20);
+    color: #050505;
+  }
+  .title-name {
+    font-style: normal;
+    font-size: vw-mobile(8);
+    line-height: vw-mobile(20);
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 0;
+  }
+  .title-edit {
+    font-style: normal;
+    font-size: vw-mobile(12);
+    line-height: vw-mobile(25);
+    letter-spacing: 0.01em;
+    color: #148f0f;
+    opacity: 0.75;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: vw-mobile(20);
+  }
+  .title-kurir {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(8);
+    line-height: vw-mobile(12);
+    color: #404040;
+    margin-bottom: 0;
+    margin-left: vw-mobile(5);
+    margin-top: vw-mobile(20);
+  }
+  .title-item-kurir {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: vw-mobile(7);
+    line-height: vw-mobile(10);
+    color: #404040;
+    margin-left: vw-mobile(5);
+    margin-bottom: vw-mobile(5);
+    margin-top: vw-mobile(5);
+  }
+  .card-payment {
+    margin-right: vw-mobile(20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: vw-mobile(150);
+    height: vw-mobile(80);
+    margin-bottom: vw-mobile(10);
+  }
+  .title-select-payment {
+    font-weight: bold;
+    font-size: vw-mobile(8);
+    text-align: center;
+    color: #050505;
+    margin-top: vw-mobile(10);
+    margin-bottom: vw-mobile(10);
+  }
+  .button-change {
+    width: vw-mobile(50);
+    height: vw-mobile(20);
+    background: #2490c1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: vw-mobile(30);
+    margin-top: vw-mobile(20);
+  }
+  .title-change {
+    font-style: normal;
+    font-size: vw-mobile(8);
+    color: #ffffff;
+    opacity: 0.75;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .title-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(10);
+    color: #148f0f;
+    opacity: 0.75;
+  }
+  .card-warehouse {
+    width: vw-mobile(50);
+    height: vw-mobile(22);
+    border-radius: 40px;
+    background-color: #ffd500;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: vw-mobile(20);
+  }
+  .card-wallet {
+    background: #76d672;
+    border-radius: 12px;
+    width: vw-mobile(30);
+    height: vw-mobile(30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 319px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+}
+
+// iphone se
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+  .card-payment {
+    margin-right: vw-mobile(20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: vw-mobile(300);
+    height: vw-mobile(150);
+  }
+  .iconChecklist {
+    width: vw-mobile(25);
+    height: vw-mobile(25);
+    margin-left: vw-mobile(170);
+  }
+  .iconCard {
+    max-width: vw-mobile(50);
+    max-height: vw-mobile(50);
+  }
+  .title-select-payment {
+    font-weight: bold;
+    font-size: vw-mobile(14);
+    text-align: center;
+    color: #050505;
+    margin-top: vw-mobile(10);
+    margin-bottom: vw-mobile(10);
+  }
+  .card-item-title {
+    background: #f9f9f9;
+    border-radius: vw-mobile(16);
+    // width: vw-mobile(320);
+  }
+  .radio-button {
+    background: #148f0f;
+    width: vw-mobile(18);
+    height: vw-mobile(18);
+    border-radius: 10px;
+  }
+  .radio-border {
+    border: 2px solid #148f0f;
+    box-sizing: border-box;
+    width: vw-mobile(30);
+    height: vw-mobile(30);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: vw-mobile(10);
+  }
+  .radio-border-disable {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    width: vw-mobile(30);
+    height: vw-mobile(30);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: vw-mobile(10);
+  }
+  .card-wallet {
+    background: #76d672;
+    border-radius: 12px;
+    width: vw-mobile(70);
+    height: vw-mobile(70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title-status-payment {
+    font-weight: normal;
+    font-size: vw-mobile(14);
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+  }
+  .title-price-payment {
+    font-weight: bold;
+    font-size: vw-mobile(16);
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .card-bank {
+    background: #ffffff;
+    border-radius: 12px;
+    flex: 1;
+    height: vw-mobile(70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: vw-mobile(10);
+    cursor: pointer;
+  }
+  .iconBank {
+    max-width: vw-mobile(100);
+    max-height: vw-mobile(50);
+  }
+  .iconWallet {
+    max-width: vw-mobile(100);
+    max-height: vw-mobile(50);
+  }
+  .margin-image-bank {
+    margin-left: auto;
+    margin-right: vw(40);
+  }
+  .title-bank {
+    font-weight: 600;
+    font-size: vw-mobile(12);
+    color: #303030;
+    margin-bottom: 0rem;
+    margin-top: 0;
+  }
+  .card-add {
+    border: 2px dashed #565555;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: vw-mobile(20);
+  }
+  .title-add-card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(12);
+    color: #050505;
+    margin-bottom: vw-mobile(10);
+    margin-top: vw-mobile(10);
+  }
+  .card-cvv {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: vw-mobile(50);
+    height: vw-mobile(30);
+    display: flex;
+    margin-left: vw-mobile(20);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .title-cvv {
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw-mobile(14);
+    color: #707070;
+    margin-bottom: 0;
+  }
+}
+
+// mobile iphone 7/8 plus
+@media only screen and (max-width: 414px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+}
+
+// mobile iphone x
+@media only screen and (min-width: 360px) and (max-width: 413px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+  .card-payment {
+    margin-right: vw-mobile(20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: vw-mobile(300);
+    height: vw-mobile(150);
+  }
+  .iconChecklist {
+    width: vw-mobile(25);
+    height: vw-mobile(25);
+    margin-left: vw-mobile(170);
+  }
+  .iconCard {
+    max-width: vw-mobile(50);
+    max-height: vw-mobile(50);
+  }
+  .title-select-payment {
+    font-weight: bold;
+    font-size: vw-mobile(14);
+    text-align: center;
+    color: #050505;
+    margin-top: vw-mobile(10);
+    margin-bottom: vw-mobile(10);
+  }
+  .card-item-title {
+    background: #f9f9f9;
+    border-radius: vw-mobile(16);
+    // width: vw-mobile(320);
+  }
+  .radio-button {
+    background: #148f0f;
+    width: vw-mobile(18);
+    height: vw-mobile(18);
+    border-radius: 10px;
+  }
+  .radio-border {
+    border: 2px solid #148f0f;
+    box-sizing: border-box;
+    width: vw-mobile(30);
+    height: vw-mobile(30);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: vw-mobile(10);
+  }
+  .radio-border-disable {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    width: vw-mobile(30);
+    height: vw-mobile(30);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: vw-mobile(10);
+  }
+  .card-wallet {
+    background: #76d672;
+    border-radius: 12px;
+    width: vw-mobile(70);
+    height: vw-mobile(70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title-status-payment {
+    font-weight: normal;
+    font-size: vw-mobile(14);
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+  }
+  .title-price-payment {
+    font-weight: bold;
+    font-size: vw-mobile(16);
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .card-bank {
+    background: #ffffff;
+    border-radius: 12px;
+    flex: 1;
+    height: vw-mobile(70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: vw-mobile(10);
+    cursor: pointer;
+  }
+  .iconBank {
+    max-width: vw-mobile(100);
+    max-height: vw-mobile(50);
+  }
+  .iconWallet {
+    max-width: vw-mobile(100);
+    max-height: vw-mobile(50);
+  }
+  .margin-image-bank {
+    margin-left: auto;
+    margin-right: vw(40);
+  }
+  .title-bank {
+    font-weight: 600;
+    font-size: vw-mobile(12);
+    color: #303030;
+    margin-bottom: 0rem;
+    margin-top: 0;
+  }
+  .card-add {
+    border: 2px dashed #565555;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: vw-mobile(20);
+  }
+  .title-add-card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(12);
+    color: #050505;
+    margin-bottom: vw-mobile(10);
+    margin-top: vw-mobile(10);
+  }
+  .card-cvv {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: vw-mobile(50);
+    height: vw-mobile(30);
+    display: flex;
+    margin-left: vw-mobile(20);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .title-cvv {
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw-mobile(14);
+    color: #707070;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 433px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+}
+
+@media only screen and (min-width: 434px) and (max-width: 479px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 530px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+}
+
+@media only screen and (min-width: 531px) and (max-width: 596px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+}
+@media (min-width: 597px) and (max-width: 816px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw-tab(10);
+    margin-right: vw-tab(10);
+  }
+  .button-change {
+    width: vw-tab(80);
+    height: vw-tab(30);
+    background: #2490c1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: vw-tab(30);
+    margin-top: vw-tab(20);
+  }
+  .title-change {
+    font-style: normal;
+    font-size: vw-tab(12);
+    color: #ffffff;
+    opacity: 0.75;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .title-kurir {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(12);
+    line-height: vw-tab(12);
+    color: #404040;
+    margin-bottom: 0;
+    margin-left: vw-tab(5);
+    margin-top: vw-tab(20);
+  }
+  .title-item-kurir {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: vw-tab(10);
+    line-height: vw-tab(10);
+    color: #404040;
+    margin-left: vw-tab(5);
+    margin-bottom: vw-tab(5);
+    margin-top: vw-tab(5);
+  }
+  .card-payment {
+    margin-right: vw-tab(20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: vw-tab(110);
+    height: vw-tab(90);
+  }
+  .iconChecklist {
+    width: vw-tab(20);
+    height: vw-tab(20);
+    margin-left: vw-tab(50);
+  }
+  .iconCard {
+    max-width: vw-tab(17);
+    max-height: vw-tab(17);
+  }
+  .title-select-payment {
+    font-weight: bold;
+    font-size: vw-tab(10);
+    text-align: center;
+    color: #050505;
+    margin-top: vw-tab(10);
+    margin-bottom: vw-tab(10);
+  }
+  .card-item-title {
+    background: #f9f9f9;
+    border-radius: vw-tab(16);
+    // width: vw-tab(500);
+    padding: vw-tab(15);
+  }
+  .radio-button {
+    background: #148f0f;
+    width: vw-tab(18);
+    height: vw-tab(18);
+    border-radius: 10px;
+  }
+  .radio-border {
+    border: 2px solid #148f0f;
+    box-sizing: border-box;
+    width: vw-tab(30);
+    height: vw-tab(30);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: vw-tab(10);
+  }
+  .radio-border-disable {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    width: vw-tab(30);
+    height: vw-tab(30);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-right: vw-tab(10);
+  }
+  .card-wallet {
+    background: #76d672;
+    border-radius: 12px;
+    width: vw-tab(70);
+    height: vw-tab(70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title-status-payment {
+    font-weight: normal;
+    font-size: vw-tab(14);
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+  }
+  .title-price-payment {
+    font-weight: bold;
+    font-size: vw-tab(16);
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .card-bank {
+    background: #ffffff;
+    border-radius: 12px;
+    flex: 1;
+    height: vw-tab(70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: vw-tab(10);
+    cursor: pointer;
+  }
+  .iconBank {
+    max-width: vw-tab(100);
+    max-height: vw-tab(50);
+  }
+  .iconWallet {
+    max-width: vw-tab(100);
+    max-height: vw-tab(50);
+  }
+  .margin-image-bank {
+    margin-left: auto;
+    margin-right: vw(40);
+  }
+  .title-bank {
+    font-weight: 600;
+    font-size: vw-tab(12);
+    color: #303030;
+    margin-bottom: 0rem;
+    margin-top: 0;
+  }
+  .card-add {
+    border: 2px dashed #565555;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: vw-tab(20);
+  }
+  .title-add-card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(12);
+    color: #050505;
+    margin-bottom: vw-tab(10);
+    margin-top: vw-tab(10);
+  }
+  .card-cvv {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: vw-tab(50);
+    height: vw-tab(30);
+    display: flex;
+    margin-left: vw-tab(20);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .title-cvv {
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw-tab(12);
+    color: #707070;
+    margin-bottom: 0;
+  }
+  .title-methode {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: vw-tab(18);
+    line-height: 2;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  .default-margin-left-right {
+    margin-left: vw-tab(20);
+    margin-right: vw-tab(20);
+  }
+  .default-margin-top-bottom {
+    margin-top: vw-tab(10);
+    margin-bottom: vw-tab(10);
+  }
+  .default-flex-one {
+    display: flex;
+    flex: 0;
+    align-items: flex-start;
+  }
+  .default-flex-row {
+    display: flex;
+    flex-direction: column;
+    margin-left: vw-tab(20);
+    margin-right: vw-tab(20);
+  }
+  .title-id {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(16);
+    line-height: vw-tab(20);
+    color: #050505;
+  }
+  .title-name {
+    font-style: normal;
+    font-size: vw-tab(12);
+    line-height: vw-tab(25);
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 817px) and (max-width: 900px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw-tab(10);
+    margin-right: vw-tab(10);
+  }
+}
+@media (min-width: 901px) and (max-width: 990px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw-tab(10);
+    margin-right: vw-tab(10);
+  }
+  .default-flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw-tab(20);
+    margin-right: vw-tab(20);
+  }
+  .istMethode-page {
+    background-color: #ffffff;
+  }
+  .default-margin-left-right {
+    margin-left: vw-tab(20);
+    margin-right: vw-tab(20);
+  }
+  .default-margin-top-bottom {
+    margin-top: vw-tab(10);
+    margin-bottom: vw-tab(10);
+  }
+  .default-flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw-tab(10);
+    margin-right: vw-tab(10);
+  }
+  .default-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .default-flex-one {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    margin-right: vw-tab(50);
+  }
+  .title-methode {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: vw-tab(20);
+    line-height: vw-tab(20);
+    color: #000000;
+  }
+  .card-item-title {
+    background: #f9f9f9;
+    border-radius: vw-tab(20);
+    padding-left: vw-tab(40);
+    padding-right: vw-tab(40);
+    padding-top: vw-tab(20);
+    padding-bottom: vw-tab(20);
+  }
+  .MuiPaper-rounded {
+    border-radius: vw-tab(20) !important;
+  }
+  .card-item-cart {
+    padding-left: vw-tab(40);
+    padding-right: vw-tab(40);
+    padding-top: vw-tab(20);
+    padding-bottom: vw-tab(20);
+  }
+  .title-id {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(18);
+    line-height: vw-tab(20);
+    color: #050505;
+  }
+  .title-name {
+    font-style: normal;
+    font-size: vw-tab(12);
+    line-height: vw-tab(25);
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 0;
+  }
+  .title-edit {
+    font-style: normal;
+    font-size: vw-tab(12);
+    line-height: vw-tab(25);
+    letter-spacing: 0.01em;
+    color: #148f0f;
+    opacity: 0.75;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: vw-tab(20);
+  }
+}
+@media (min-width: 990px) and (max-width: 1229px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw(10);
+    margin-right: vw(10);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .default-flex-row-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw(10);
+    margin-right: vw(10);
+  }
+  .istMethode-page {
+    background-color: #ffffff;
+  }
+  .default-margin-left-right {
+    margin-left: 9vw;
+    margin-right: 8vw;
+  }
+  .default-margin-top-bottom {
+    margin-top: vw(10);
+    margin-bottom: vw(10);
+  }
+
+  .default-flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw(10);
+    margin-right: vw(10);
+  }
+  .default-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .default-flex-one {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    margin-right: vw(100);
+  }
+  .default-flex-one-minus {
+    display: flex;
+    flex: 0.8;
+  }
+  .title-methode {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 22px;
+    line-height: vw(20);
+    color: #000000;
+    margin-left: vw(10);
+    margin-bottom: vw(40);
+    margin-top: 2rem;
+  }
+  .default-flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: vw(10);
+    margin-right: vw(10);
+  }
+  .default-flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .default-flex-one {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    margin-right: 2vw;
+  }
+  .default-flex-one-minus {
+    display: flex;
+    flex: 0.8 1;
+  }
+  .card-item-title {
+    background: #f9f9f9;
+    height: fit-content;
+    padding: 1vw;
+    width: 49vw;
+  }
+  .card-item-cart {
+    border-radius: vw(16);
+    padding-left: vw(40);
+    padding-right: vw(40);
+    padding-top: vw(20);
+    padding-bottom: vw(20);
+  }
+  .MuiPaper-rounded {
+    border-radius: vw(20);
+  }
+  .labelDA {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 21px;
+    color: #050505;
+  }
+  .nameDA {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 0px;
+  }
+  .detailDA {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.4;
+    margin: 0;
+  }
+}

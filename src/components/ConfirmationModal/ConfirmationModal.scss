@@ -1,0 +1,158 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+.modal-container {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  width: 35%;
+  .confirmation-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    .confirmation-modal {
+      width: vw(519);
+      height: vh(321);
+      background-color: white;
+      margin: auto;
+      border-radius: vw(15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: vw(15) vw(24) vw(30) vw(24);
+      .confirmation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        .confirmation-title {
+          margin: 0;
+          font-size: vw(33);
+          font-family: "SFUIDisplay-Bold";
+          color: #3c3b3b;
+        }
+        .confirmation-image {
+          width: vw(135);
+          margin-top: vw(16);
+          margin-bottom: vw(25);
+        }
+        .confirmation-caption {
+          margin: 0;
+          font-size: vw(20);
+          font-family: "SFUIDisplay-Regular";
+          opacity: 0.5;
+          text-align: center;
+          color: #3c3b3b;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+  .modal-container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    width: 35%;
+    .confirmation-modal-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      .confirmation-modal {
+        width: vw-tab(450);
+        height: vw-tab(300);
+        background-color: white;
+        margin: auto;
+        border-radius: vw-tab(5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: vw-tab(15) vw-tab(24) vw-tab(30) vw-tab(24);
+        .confirmation-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex: 1;
+          .confirmation-title {
+            margin: 0;
+            font-size: vw-tab(33);
+            font-family: "SFUIDisplay-Bold";
+            color: #3c3b3b;
+          }
+          .confirmation-image {
+            width: vw-tab(150);
+            margin-top: vw-tab(16);
+            margin-bottom: vw-tab(25);
+          }
+          .confirmation-caption {
+            margin: 0;
+            font-size: vw-tab(20);
+            font-family: "SFUIDisplay-Regular";
+            text-align: center;
+            opacity: 0.5;
+            color: #3c3b3b;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .modal-container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    .confirmation-modal-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      .confirmation-modal {
+        margin: 0;
+        width: vw-mobile(215);
+        height: vw-mobile(200);
+        background-color: white;
+        border-radius: vw-mobile(15);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: vw-mobile(10);
+        .confirmation-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex: 1;
+          .confirmation-title {
+            margin: 0;
+            font-size: vw-mobile(20);
+            font-family: "SFUIDisplay-Bold";
+            color: #3c3b3b;
+          }
+          .confirmation-image {
+            width: vw-mobile(100);
+            margin-top: vw-mobile(5);
+            margin-bottom: vw-mobile(10);
+          }
+          .confirmation-caption {
+            margin: 0;
+            font-size: vw-mobile(15);
+            font-family: "SFUIDisplay-Regular";
+            text-align: center;
+            opacity: 0.5;
+            color: #3c3b3b;
+          }
+        }
+      }
+    }
+  }
+}

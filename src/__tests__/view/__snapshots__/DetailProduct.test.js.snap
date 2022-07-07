@@ -1,0 +1,798 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Product Component Detail Product Component Should match to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "4rem",
+    }
+  }
+>
+  <Row
+    className="defaultFlexProduct"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <div
+      className="bgTP"
+      style={
+        Object {
+          "paddingLeft": "0",
+        }
+      }
+    >
+      <p
+        className="titleBrandProduct"
+      />
+      <p
+        className="titleProductDetail"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <img
+          className="ratingProduct"
+          src="Star.png"
+        />
+        <p
+          className="titleRating"
+        >
+          5.0
+        </p>
+        <p
+          className="descRating"
+        >
+          (undefined Review)
+        </p>
+        <p
+          className="titleRating"
+        >
+          •
+        </p>
+        <p
+          className="descRating"
+        >
+          Sold
+        </p>
+        <p
+          className="titleRating"
+        >
+          56x
+        </p>
+      </Row>
+      <hr
+        className="mt-0"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="priceProduct"
+        >
+          IDR
+           
+        </p>
+        <p
+          className="priceBefore"
+        />
+        <p
+          className="discountProduct"
+        >
+          25%
+        </p>
+      </Row>
+      <hr
+        className="mt-0"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="serialNumberProduct"
+        >
+          Serial Number
+        </p>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <p
+              className="unitCodeProduct"
+            >
+              100801
+            </p>
+            <p
+              className="canBeUse"
+            >
+              (can be used for unit Model)
+            </p>
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <p
+              className="unitCodeBrand"
+            >
+              PC200
+            </p>
+            <p
+              className="unitCodeBrand"
+            >
+              PC210
+            </p>
+            <p
+              className="unitCodeBrand"
+            >
+              PC195
+            </p>
+            <p
+              className="unitCodeBrand"
+            >
+              PC2000
+            </p>
+          </Row>
+        </Col>
+      </Row>
+      <hr
+        className="mt-0"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="serialNumberProduct"
+        >
+          Promotion
+        </p>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <p
+              className="unitDiscountProduct"
+            >
+              Diskon 30%, Hingga 2.000.000
+            </p>
+            <img
+              className="discountDetail"
+              src="discountDetail.png"
+            />
+          </Row>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <p
+              className="unitDiscountProduct"
+            >
+              Buy 2, Diskon Hingga 30%
+            </p>
+            <img
+              className="discountDetail"
+              src="discountDetail.png"
+            />
+          </Row>
+        </Col>
+      </Row>
+      <hr
+        className="mt-0"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="serialNumberProduct"
+        >
+          Kode Product
+        </p>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="serialNumberProduct"
+          >
+            600-311-8293
+          </p>
+        </Col>
+      </Row>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="serialNumberProduct"
+        >
+          Status
+        </p>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="serialNumberProduct"
+          >
+            Tersedia
+          </p>
+        </Col>
+      </Row>
+      <hr
+        className="mt-0"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="buyButton"
+        >
+          Buy Now
+        </p>
+        <p
+          className="addButton"
+        >
+          Add Bucket
+        </p>
+      </Row>
+    </div>
+  </Row>
+  <hr
+    className="mt-0"
+  />
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Row
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": "1rem",
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <p
+        className="descriptionProductActive"
+        onClick={[Function]}
+      >
+        Description
+      </p>
+      <p
+        className="descriptionProduct"
+        onClick={[Function]}
+      >
+        Review (2)
+      </p>
+    </Row>
+    <Row
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "marginRight": "4rem",
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <p
+        className="descriptionFavourite"
+      >
+        Favourite
+      </p>
+      <img
+        className="iconFavourite"
+        src="heart.png"
+      />
+      <p
+        className="descriptionFavourite"
+      >
+        Share
+      </p>
+      <img
+        className="iconFavourite"
+        src="share.png"
+      />
+    </Row>
+  </Row>
+  <hr
+    className="mt-0"
+  />
+  <Col
+    style={
+      Object {
+        "marginLeft": "3rem",
+      }
+    }
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <p
+      style={
+        Object {
+          "marginLeft": "3rem",
+          "textAlign": "justify",
+          "width": "60%",
+        }
+      }
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+  </Col>
+  <p
+    className="relateProduct"
+  >
+    Related Product
+  </p>
+  <Row
+    className="gridListRelate  defaultMargin"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <div
+      className="cardList"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="cardImage"
+        >
+          <img
+            className="imageList"
+            src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F37978014-625e-41ff-b29f-639ce3451d42%5C.png?alt=media&token=35f346eb-3199-41e8-a6c6-1fad0a5ee73d"
+          />
+        </div>
+        <p
+          className="titleKategoriProduct"
+        >
+          Komatsu
+        </p>
+        <p
+          className="titleProduct"
+        >
+          Cartridge
+        </p>
+        <p
+          className="titlePrice"
+        />
+        <p
+          className="titlePriceDiscount"
+        />
+        <p
+          className="titleKategoriProduct"
+        >
+          <img
+            src="Star.png"
+            style={
+              Object {
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+           ( 
+           review )
+        </p>
+      </Col>
+    </div>
+    <div
+      className="cardList"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="cardImage"
+        >
+          <img
+            className="imageList"
+            src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2Fcc9a0189-d1ab-4d8e-a304-8c75ee88fdc6%5C.png?alt=media&token=5fdf1c91-688b-497b-9d2e-6f7a58d0b905"
+          />
+        </div>
+        <p
+          className="titleKategoriProduct"
+        >
+          Komatsu
+        </p>
+        <p
+          className="titleProduct"
+        >
+          Cartridge
+        </p>
+        <p
+          className="titlePrice"
+        />
+        <p
+          className="titlePriceDiscount"
+        />
+        <p
+          className="titleKategoriProduct"
+        >
+          <img
+            src="Star.png"
+            style={
+              Object {
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+           ( 
+           review )
+        </p>
+      </Col>
+    </div>
+    <div
+      className="cardList"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="cardImage"
+        >
+          <img
+            className="imageList"
+            src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F7e2fa93a-4485-45af-ba90-e3a5a08333da%5C.png?alt=media&token=448bae01-fac7-4d55-ba87-22d051c5e6b8"
+          />
+        </div>
+        <p
+          className="titleKategoriProduct"
+        >
+          Bomag
+        </p>
+        <p
+          className="titleProduct"
+        >
+          Cartridge
+        </p>
+        <p
+          className="titlePrice"
+        />
+        <p
+          className="titlePriceDiscount"
+        />
+        <p
+          className="titleKategoriProduct"
+        >
+          <img
+            src="Star.png"
+            style={
+              Object {
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+           ( 
+           review )
+        </p>
+      </Col>
+    </div>
+    <div
+      className="cardList"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="cardImage"
+        >
+          <img
+            className="imageList"
+            src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F84921cd8-fcd7-4c1e-816f-6a7d3b9868e6%5C.png?alt=media&token=f66c6b33-cfcb-462e-b8b5-7248af4fbdf1"
+          />
+        </div>
+        <p
+          className="titleKategoriProduct"
+        >
+          Tadano
+        </p>
+        <p
+          className="titleProduct"
+        >
+          Cartridge
+        </p>
+        <p
+          className="titlePrice"
+        />
+        <p
+          className="titlePriceDiscount"
+        />
+        <p
+          className="titleKategoriProduct"
+        >
+          <img
+            src="Star.png"
+            style={
+              Object {
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+           ( 
+           review )
+        </p>
+      </Col>
+    </div>
+    <div
+      className="cardList"
+    >
+      <Col
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="cardImage"
+        >
+          <img
+            className="imageList"
+            src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F116364fd-0839-4fef-9d2e-bc22d39cd3df%5C.png?alt=media&token=a1cc5faa-5c49-4da9-accc-ff2cfd48f041"
+          />
+        </div>
+        <p
+          className="titleKategoriProduct"
+        >
+          UD Trucks
+        </p>
+        <p
+          className="titleProduct"
+        >
+          Cartridge
+        </p>
+        <p
+          className="titlePrice"
+        />
+        <p
+          className="titlePriceDiscount"
+        />
+        <p
+          className="titleKategoriProduct"
+        >
+          <img
+            src="Star.png"
+            style={
+              Object {
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+           ( 
+           review )
+        </p>
+      </Col>
+    </div>
+  </Row>
+</div>
+`;

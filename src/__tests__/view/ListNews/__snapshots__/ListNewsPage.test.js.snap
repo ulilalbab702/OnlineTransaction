@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List News Component List News Component Should match to snapshot 1`] = `
+<div
+  className="paddingContentListNews"
+>
+  <div
+    className="gridNews"
+  >
+    <div
+      className="cardListNews"
+      key="daaa19b6-d0a6-460c-12c1-08d8d4877ae9"
+      onClick={[Function]}
+    >
+      <img
+        className="imageNews"
+        src="https://firebasestorage.googleapis.com/v0/b/customer-portal-dan-ut-portal.appspot.com/o/Images%2F307949f7-1787-4ff9-97a4-410c6687d037%2F.jpg?alt=media&token=368a6249-238f-4c67-8352-a800e29c415a"
+      />
+      <Row
+        className="contentNews"
+        style={
+          Object {
+            "flexGrow": "0",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="contentDescription"
+        >
+          <p
+            className="titleNews"
+          >
+            Aplikasi Perawatan Alat Berat UT Connect, Mudahkan Akses Informasi Produk United Tractors
+          </p>
+          <p
+            className="newsDescription"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ...
+          </p>
+        </div>
+      </Row>
+    </div>
+    <div
+      className="cardListNews"
+      key="cb678399-9d98-4b60-12c4-08d8d4877ae9"
+      onClick={[Function]}
+    >
+      <img
+        className="imageNews"
+        src="https://firebasestorage.googleapis.com/v0/b/customer-portal-dan-ut-portal.appspot.com/o/Images%2F307949f7-1787-4ff9-97a4-410c6687d037%2F.jpg?alt=media&token=368a6249-238f-4c67-8352-a800e29c415a"
+      />
+      <Row
+        className="contentNews"
+        style={
+          Object {
+            "flexGrow": "0",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="contentDescription"
+        >
+          <p
+            className="titleNews"
+          >
+            Aplikasi Perawatan Alat Berat UT Connect, Mudahkan Akses Informasi Produk United Tractors
+          </p>
+          <p
+            className="newsDescription"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ...
+          </p>
+        </div>
+      </Row>
+    </div>
+    <div
+      className="cardListNews"
+      key="9871434b-46ff-417d-12c2-08d8d4877ae9"
+      onClick={[Function]}
+    >
+      <img
+        className="imageNews"
+        src="https://firebasestorage.googleapis.com/v0/b/customer-portal-dan-ut-portal.appspot.com/o/Images%2F307949f7-1787-4ff9-97a4-410c6687d037%2F.jpg?alt=media&token=368a6249-238f-4c67-8352-a800e29c415a"
+      />
+      <Row
+        className="contentNews"
+        style={
+          Object {
+            "flexGrow": "0",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="contentDescription"
+        >
+          <p
+            className="titleNews"
+          >
+            Aplikasi UT Connect Telah hadir di IOS
+          </p>
+          <p
+            className="newsDescription"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ...
+          </p>
+        </div>
+      </Row>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  />
+</div>
+`;

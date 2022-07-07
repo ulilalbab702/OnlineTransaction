@@ -1,0 +1,88 @@
+.tncHeader1 {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+}
+.tncHeader2 {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2b2b2b;
+  margin-bottom: 0.5rem;
+}
+.contentParagraph {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #000000;
+  opacity: 0.6;
+}
+.paddingContent {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .bgTC {
+    background-color: #ffffff;
+    padding-top: 5rem;
+  }
+  .bgContainerTC {
+    margin-left: 8em;
+    background-color: #ffffff;
+    margin-top: 3vw;
+    margin-right: 8em;
+    color: #535258;
+  }
+  .whitespacejustify {
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP Printers */
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .bgTC {
+    background-color: #ffffff;
+    padding-top: 5rem;
+  }
+  .bgContainerTC {
+    margin-left: 6em;
+    background-color: #ffffff;
+    margin-top: 2em;
+    margin-right: 6em;
+    color: #535258;
+  }
+  .whitespacejustify {
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP Printers */
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    text-align: justify;
+  }
+}

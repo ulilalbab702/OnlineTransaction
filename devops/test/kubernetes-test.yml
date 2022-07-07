@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: web-pto-js
+  name: web-pto-js
+  namespace: testaksucp
+
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: web-pto-js
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: web-pto-js
+    spec:
+      containers:
+      - name: web-pto-js
+        image: utseadadk8sqaacr.azurecr.io/testaksucp/onlinetransactionweb:#{Build.BuildId}#
+        ports:
+        - containerPort: 8080
+          name: http
+        imagePullPolicy: IfNotPresent
+        name: web-pto-js
+        resources: {}
+        terminationMessagePath: /test/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      imagePullSecrets:
+      - name: utseadadk8sqaacr.azurecr.io/testaksucp 
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: web-pto-js
+spec:
+  ports:
+  - port: 8080
+  selector:
+    app: web-pto-js
+  type: NodePort
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: web-pto-js
+spec:
+  rules:
+  - host: onlinetransactionweb.test-aks.unitedtractors.com
+    http:
+      paths:
+      - backend:
+          serviceName: web-pto-js
+          servicePort: 8080

@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transfer Page Component Transfer Page Component Should match to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "4rem",
+    }
+  }
+>
+  <Row
+    style={
+      Object {
+        "marginRight": "0",
+      }
+    }
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="bgTP"
+      lg="8"
+      md="10"
+      sm="10"
+      style={
+        Object {
+          "paddingLeft": "0",
+        }
+      }
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xs="12"
+    >
+      <h3
+        className="styleTPBold"
+        style={
+          Object {
+            "marginTop": "2rem",
+          }
+        }
+      >
+        Pembayaran
+      </h3>
+      <Row
+        style={
+          Object {
+            "marginTop": "2.5rem",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          lg="6"
+          md="6"
+          sm="6"
+          style={
+            Object {
+              "paddingRight": "0",
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="6"
+        >
+          <h4
+            className="styleTPregular"
+          >
+            Total Pembayaran
+          </h4>
+        </Col>
+        <Col
+          lg="6"
+          md="6"
+          sm="6"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="6"
+        >
+          <h3
+            className="fontPriceTP"
+          >
+            RP 10.500.000
+          </h3>
+        </Col>
+      </Row>
+      <hr
+        className="mt-0"
+      />
+      <Col
+        lg="12"
+        md="12"
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <div
+          className="marginTP1"
+        >
+          <h3
+            className="styleTPregular"
+            style={
+              Object {
+                "fontWeight": "600",
+              }
+            }
+          >
+            Bank Mandiri (Dicek Otomatis)
+          </h3>
+        </div>
+        <div
+          className="marginTP1"
+          style={
+            Object {
+              "marginBottom": "0",
+            }
+          }
+        >
+          <h4
+            className="styleTPregular"
+            style={
+              Object {
+                "fontSize": "16px",
+              }
+            }
+          >
+            No. Rekening:
+          </h4>
+        </div>
+        <div
+          className="marginTP1"
+          style={
+            Object {
+              "marginBottom": "0.2rem",
+              "marginTop": "0",
+            }
+          }
+        >
+          <h3
+            className="fontRekTP"
+          >
+            600 0812 1831 0120
+          </h3>
+        </div>
+        <div
+          className="styleTPCek"
+        >
+          Dicek dalam 10 menit setelah pembayaran berhasil
+        </div>
+        <Col
+          className="styleTPKet"
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          Bayar pesanan ke Virtual Account di atas sebelum membuat pesanan kembali dengan Virtual Account agar nomor tetap sama. Hanya menerima dari Bank Mandiri
+        </Col>
+        <hr />
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            lg="12"
+            md="12"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="containerTP"
+              onClick={[Function]}
+            >
+              <div
+                className=" TPord flex-containerTP"
+              >
+                <h3
+                  className="styleTP"
+                >
+                  Petunjuk Transfer mBanking
+                </h3>
+              </div>
+              <div
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              >
+                <img
+                  className="dropIcon"
+                  src="dropIcon.png"
+                />
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <hr
+          style={
+            Object {
+              "marginTop": "1.5rem",
+            }
+          }
+        />
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            lg="12"
+            md="12"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="containerTP"
+              onClick={[Function]}
+            >
+              <div
+                className=" TPord flex-containerTP"
+              >
+                <h3
+                  className="styleTP"
+                >
+                  Petunjuk Transfer iBanking
+                </h3>
+              </div>
+              <div
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              >
+                <img
+                  className="dropIcon"
+                  src="dropIcon.png"
+                />
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <hr
+          style={
+            Object {
+              "marginTop": "1.5rem",
+            }
+          }
+        />
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            lg="12"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Button
+              className="btnOkTP"
+              color="secondary"
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#FFD500",
+                  "border": "none",
+                  "color": "#000000",
+                  "float": "right",
+                }
+              }
+              tag="button"
+            >
+              OK
+            </Button>
+          </Col>
+        </Row>
+      </Col>
+    </Col>
+  </Row>
+</div>
+`;

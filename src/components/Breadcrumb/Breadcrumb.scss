@@ -1,0 +1,30 @@
+@import "../../themes/colors.scss";
+@import "../../themes/fonts.scss";
+@import "../../themes/size.scss";
+
+.con-breadcrumps {
+  width: 100%;
+
+  .name {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    line-height: 1vw;
+    color: #4da1ff;
+    &:hover {
+      text-decoration: none;
+    }
+    span {
+      margin-left: 10px;
+    }
+  }
+  .typography {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    line-height: 1vw;
+    color: #323232;
+  }
+}

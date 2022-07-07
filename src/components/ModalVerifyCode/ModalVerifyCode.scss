@@ -1,0 +1,126 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.modal-verify {
+  .title-contact {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  .container-footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    img {
+      height: 10%;
+      margin: 0 1em;
+      padding: 0;
+    }
+    .marginIcon {
+      margin-top: 3px;
+    }
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+
+  .con-modal-verify {
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    width: 480px;
+    height: auto;
+    min-height: 550px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+    .iconVerify {
+      width: 86px;
+      height: 99px;
+    }
+
+    h3 {
+      font-family: "SFUIDisplay-Bold";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.01em;
+      color: #000000;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      font-family: "SFUIDisplay-Regular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      /* or 137% */
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: #636363;
+    }
+
+    .con-pin {
+      width: 100%;
+      // border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+
+      .btn-verify {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #ffd500;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.059);
+        border-radius: 8px;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+        p {
+          font-family: "SFUIDisplay-Regular";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 0.03em;
+          color: #1d1d1d;
+        }
+      }
+    }
+
+    span {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0.428563px;
+      color: #c2a100;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}

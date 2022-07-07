@@ -1,0 +1,249 @@
+@import "../../../themes/colors";
+@import "../../../themes/fonts";
+@import "../../../themes/size";
+
+.modal-confirmBL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 33%;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+}
+.container-modal-shippment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.confirm-modal-body {
+  background-color: white;
+  margin: auto;
+  border-radius: vw(15);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1vw 3vw;
+  .title-contact {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .container-footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    img {
+      height: 10%;
+      margin: 0 1em;
+      padding: 0;
+    }
+    .marginIcon {
+      margin-top: 3px;
+    }
+  }
+}
+.titleConfirm {
+  font-family: "SFProText-Bold";
+  font-size: vw(24);
+  color: #000000;
+  text-align: center;
+}
+.iconModal {
+  width: 35%;
+}
+.line-horizontal-shippment {
+  opacity: 0.15;
+  border: 0.7px solid #000000;
+  margin-bottom: vw(10);
+}
+.title-name-expedisi {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(18);
+  color: #404040;
+  margin-bottom: 0;
+}
+.title-date-expedisi {
+  font-style: normal;
+  font-weight: normal;
+  font-size: vw(14);
+  color: #000000;
+  opacity: 0.4;
+}
+.title-price-expedisi {
+  font-family: "SFUIDisplay-Bold";
+  font-size: vw(20);
+  color: #148f0f;
+  opacity: 0.75;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-left: vw(150);
+}
+.title-price-shipment {
+  font-family: "SFUIDisplay-Bold";
+  font-size: vw(20);
+  color: #148f0f;
+  opacity: 0.75;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-bottom: 0;
+}
+.titleConfirmNotAva {
+  font-family: "SFUIDisplay-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #636363;
+  margin: 20;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.container-shippment-row {
+  display: flex;
+  flex-direction: row;
+}
+.cardSave {
+  width: vw(200);
+  height: vw(50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd500;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-left: vw(10);
+}
+.cardCancel {
+  width: vw(200);
+  padding: 0 10px;
+  height: vw(50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8d8d8;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-right: vw(10);
+}
+.textSave {
+  font-family: "SFProText-Bold";
+  font-size: vw(20);
+  text-align: center;
+  margin-bottom: 0;
+}
+.container-shippment-kurir {
+  margin-left: vw(20);
+  margin-right: vw(20);
+  margin-top: vw(20);
+  margin-bottom: vw(20);
+  display: flex;
+  flex-direction: column;
+}
+.shippment-margin {
+  margin-left: vw(40);
+}
+.card-item-address {
+  background: #f9f9f9;
+  border-radius: vw(16);
+  padding-left: vw(10);
+  padding-right: vw(10);
+  padding-top: vw(10);
+  padding-bottom: vw(10);
+  margin-bottom: vw(20);
+}
+.border-price-shipment {
+  border: 2px solid #5acc4d;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: vw(10);
+  margin-bottom: vw(20);
+  flex: 1;
+  justify-content: center;
+  margin-left: vw(190);
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .shippment-modal-body {
+    background-color: white;
+    margin: auto;
+    width: vw-mobile(300);
+    height: vw-mobile(500);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 0;
+  }
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+//laptop
+@media only screen and (min-width: 1280px) {
+  .modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 0;
+  }
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .shippment-modal-body {
+    background-color: white;
+    margin: auto;
+    border-radius: vw(15);
+    display: flex;
+    flex-direction: column;
+    padding: vw(15) vw(24) vw(30) vw(24);
+  }
+}

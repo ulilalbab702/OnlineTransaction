@@ -1,0 +1,327 @@
+@import 'themes/colors';
+@import 'themes/fonts';
+@import 'themes/size';
+.card-header{
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #F8F8F8;
+    border-bottom: 0px;
+    // padding: vw(10) !important;
+    // padding-left: vw(20) !important;
+    div{
+        span{
+            font-family: 'Lato-Bold' !important;
+            font-size: vw(23);
+            font-weight: bold;
+            line-height: 28px;
+        }
+    }
+}
+.card-content{
+    .card-containers{
+       .left-side{
+           .achievement-container{
+               .achievement-value-0{
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    margin-top:vw(20);
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-70{
+                    color: #FFD500;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    margin-top:vw(20);
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-90{
+                    color: #61CB27;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    margin-top:vw(20);
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-text{
+                    font-size: vw(14);
+                    font-weight: bold;
+                    line-height: 17px;
+                    text-align: center;
+               }
+           }
+       }
+       
+       .right-side{
+           .detail-container{
+               .problemlog-total-container{
+                .problemlog-total{
+                    font-size: vw(16);
+                    font-weight: bold;
+                    .problemlog-text{
+                        font-size: 17px;
+                        line-height: 20px;
+                        color: map-get($colors,dark);
+                    }
+                    .problemlog-value{
+                        color: map-get($colors,gray);
+                    }
+                   }
+               }
+               
+               .problemlog-priority-container{
+                .problemlog-priority{
+                    //    margin-right: vw(1);
+                        .card-impact-type{
+                            .impact-type{
+                                margin:0.5vw 0 0.5vw 0;
+                                text-align: center;
+                                font-family: 'Lato-Bold' !important;
+                                font-style: normal;
+                                .impact-title{
+                                    font-weight: bold;
+                                    font-size: vw(10);
+                                    line-height: 10px;
+                                }
+                                .impact-value{
+                                    // font-weight: 900;
+                                    // line-height: 25px;
+                                    font-size: vw(18);
+                                }
+                            }
+                        }
+                   }
+               }
+
+           }
+       }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .card-header{
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #F8F8F8;
+    border-bottom: 0px;
+    // padding: vw(10) !important;
+    // padding-left: vw(20) !important;
+    div{
+        span{
+            font-family: 'Lato-Bold' !important;
+            font-size: vw(23);
+            font-weight: bold;
+            line-height: 28px;
+        }
+    }
+}
+.card-content{
+    .card-containers{
+       .left-side{
+           .achievement-container{
+               .achievement-value-0{
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    padding-top:vw-tab(12);
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-70{
+                    color: #FFD500;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    padding-top:vw-tab(12);
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-90{
+                    color: #61CB27;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    padding-top:vw-tab(12);
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-text{
+                    font-size: vw-tab(12);
+                    font-weight: bold;
+                    line-height: 17px;
+                    text-align: center;
+                    margin-top:vw-tab(8);
+               }
+           }
+       }
+       
+       .right-side{
+           .detail-container{
+               .problemlog-total-container{
+                   margin-top:vw-tab(8);
+                .problemlog-total{
+                    font-size: vw-tab(10);
+                    font-weight: bold;
+                    .problemlog-text{
+                        font-size: 17px;
+                        line-height: 20px;
+                        color: map-get($colors,dark);
+                    }
+                    .problemlog-value{
+                        color: map-get($colors,gray);
+                    }
+                   }
+               }
+               
+               .problemlog-priority-container{
+                .problemlog-priority{
+                    //    margin-right: vw(1);
+                        .card-impact-type{
+                            .impact-type{
+                                margin:0.5vw 0 0.5vw 0;
+                                text-align: center;
+                                font-family: 'Lato-Bold' !important;
+                                font-style: normal;
+                                .impact-title{
+                                    font-weight: bold;
+                                    font-size: vw-tab(8);
+                                    line-height: 10px;
+                                }
+                                .impact-value{
+                                    // font-weight: 900;
+                                    // line-height: 25px;
+                                    font-size: vw-tab(10);
+                                }
+                            }
+                        }
+                   }
+               }
+
+           }
+       }
+    }
+}
+}
+@media(max-width:599px){
+    .card-header{
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #F8F8F8;
+    border-bottom: 0px;
+    // padding: vw(10) !important;
+    // padding-left: vw(20) !important;
+    div{
+        span{
+            font-family: 'Lato-Bold' !important;
+            font-size: vw(23);
+            font-weight: bold;
+            line-height: 28px;
+        }
+    }
+}
+.card-content{
+    .card-containers{
+       .left-side{
+           .achievement-container{
+               .achievement-value-0{
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-70{
+                    color: #FFD500;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-90{
+                    color: #61CB27;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-text{
+                    font-size: vw-mobile(11);
+                    font-weight: bold;
+                    line-height: 17px;
+                    text-align: center;
+                    margin-top:vw-mobile(8);
+               }
+           }
+       }
+       
+       .right-side{
+           .detail-container{
+               .problemlog-total-container{
+                   margin-top:vw-mobile(8);
+                .problemlog-total{
+                    font-size: vw-mobile(10);
+                    font-weight: bold;
+                    .problemlog-text{
+                        font-size: 17px;
+                        line-height: 20px;
+                        color: map-get($colors,dark);
+                    }
+                    .problemlog-value{
+                        color: map-get($colors,gray);
+                    }
+                   }
+               }
+               
+               .problemlog-priority-container{
+                .problemlog-priority{
+                    //    margin-right: vw(1);
+                        .card-impact-type{
+                            .impact-type{
+                                margin:0.5vw 0 0.5vw 0;
+                                text-align: center;
+                                font-family: 'Lato-Bold' !important;
+                                font-style: normal;
+                                .impact-title{
+                                    font-weight: bold;
+                                    font-size: vw-mobile(8);
+                                    line-height: 10px;
+                                }
+                                .impact-value{
+                                    // font-weight: 900;
+                                    // line-height: 25px;
+                                    font-size: vw-mobile(10);
+                                }
+                            }
+                        }
+                   }
+               }
+
+           }
+       }
+    }
+}
+}

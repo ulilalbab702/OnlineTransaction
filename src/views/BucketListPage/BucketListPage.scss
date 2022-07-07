@@ -1,0 +1,1128 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+body {
+  background-color: #ffffff;
+}
+.container {
+  padding-top: 100px;
+}
+.modal-confirm-del {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 28%;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    .confirm-modal-body {
+      background-color: white;
+      margin: auto;
+      border-radius: vw(15);
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding: 1vw 3vw;
+      width: 100%;
+      .titleConfirm {
+        font-family: "SFProText-Bold";
+        font-size: vw(24);
+        color: #000000;
+        text-align: center;
+      }
+      .iconModal {
+        width: 35%;
+      }
+      .titleAvailable {
+        font-family: "SFUIDisplay-Regular";
+        font-style: normal;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-top: 25px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.cardLabel {
+  display: flex;
+  justify-content: end;
+  padding: 0;
+}
+.titleLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 0.9vw;
+  width: fit-content;
+  padding: 0 5px;
+  height: 20.48px;
+  border-radius: 4px;
+  margin: 0;
+}
+.titleSelect {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  flex: 1;
+  font-size: 1.5vw;
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
+}
+.titleNotif {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  flex: 1;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
+}
+.card-bullet {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #ffd500;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.containerPromo {
+  padding-top: 2vw;
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
+.containerBucket {
+  padding-left: 11vw;
+  padding-right: 1rem;
+  padding-top: 2vw !important;
+}
+.bucketList {
+  padding-left: 1rem;
+  width: 100%;
+}
+.btnSelectBranch {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-items: flex-end;
+  background-color: #ffd500;
+  border-radius: 0.8vw;
+  width: 15.6vw;
+  height: 3.75vw;
+  float: right;
+  position: relative;
+}
+.cardBranch {
+  background: #ffffff;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 1.25vw;
+  display: flex;
+  flex-direction: row;
+  padding: 1vw;
+  align-items: center;
+  height: 7.5vw;
+}
+
+.cardNotif {
+  background: rgba(255, 213, 0, 0.15);
+  border-radius: 16px;
+  width: 30.5vw;
+  height: fit-content;
+  flex-direction: row;
+  display: flex;
+  padding: 1rem;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.headerBucketList {
+  align-items: baseline;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.styleBLBold {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.card-item-titleBL {
+  background: #f9f9f9;
+  border-radius: 0.83333vw;
+  padding-left: 1.08333vw;
+  padding-right: 1.08333vw;
+  padding-top: 1.04167vw;
+  padding-bottom: 1.04167vw;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.title-id {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #050505;
+  margin-bottom: 0.5vw;
+  margin-top: 2px;
+}
+.title-name {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.4;
+  margin-bottom: 0;
+}
+.boxPONumber {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f3fbff;
+  height: 43px;
+  border-radius: 8px;
+  margin-top: 10px;
+  .imgIconInfo {
+    transform: scale(0.5) translateX(-36px) translateY(-10px);
+  }
+  .textPONumber {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 1.1vw;
+    line-height: 21px;
+    color: #444d4f;
+    margin: 0;
+  }
+}
+.partNumber {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80%;
+  line-height: 14px;
+  color: #231f20;
+  text-align: center;
+  width: 90%;
+  padding: 4px 0;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #ffd500;
+}
+.card-warehouseBL {
+  width: 35px;
+  height: 34px;
+  border-radius: 40px;
+  background-color: #ffd500;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-right: 1.04167vw;
+}
+.btnDownloadList {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #3da7de;
+  border-radius: 8px;
+  width: 149px;
+  height: 36px;
+  float: right;
+}
+.iconDownloadList {
+  width: 22px;
+  height: 22px;
+}
+.titleBtnDownloadList {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.productList {
+  border-top: 0.7px solid#e4e4e4;
+  padding-left: 0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.imageProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  width: 118px;
+  margin-bottom: 10px;
+  margin-left: 1rem;
+}
+.imageBL {
+  transform: scale(1) !important;
+  width: 90%;
+}
+.productType {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  text-align: center;
+  margin-top: 10px;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: #ffd500;
+  width: 90%;
+}
+.productDescription {
+  margin-left: 2rem;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.titleKategoriProductBL {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.4;
+}
+.titleProductBL {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin: 8px 0;
+}
+.titlePriceBL {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.75;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+}
+.titlePriceDiscountBL {
+  font-family: "SFUIText-Bold";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fa591d;
+  opacity: 0.75;
+}
+.cardMinPlusBL {
+  width: auto;
+  margin-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.btnMin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 33px;
+  height: 29px;
+  padding-bottom: 1px;
+  margin-right: 10px;
+}
+.totalOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 63px;
+  height: 29px;
+  margin-right: 10px;
+}
+.teksTotalOrder {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.btnPlus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 33px;
+  height: 29px;
+}
+.lineVertical {
+  opacity: 0.15;
+  width: 10%;
+  border-left: 0.7px solid #000000;
+  height: 25px;
+  width: 0px;
+  margin: 0px 15px;
+}
+.cardPromotion {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 2px 5px 15px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  padding: 0;
+  margin-left: 1.25vw;
+  margin-bottom: 2.5vw;
+  width: 30vw;
+  height: fit-content;
+  border-radius: 1.25vw;
+}
+.kontenCardPromotion {
+  padding: 1.25vw;
+}
+.textSelectAll {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-size: 1vw;
+  line-height: 21px;
+  color: #979797;
+  margin-top: 2px;
+}
+.rowDeleteBin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textDeleteBin {
+  font-family: "SFUIText-Bold";
+  font-style: normal;
+  font-size: 1.1vw;
+  color: #b91529;
+  margin: 0;
+  margin-left: 0.5vw;
+  cursor: pointer;
+}
+.rowSelectDelete {
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 3.5vw;
+  padding-right: 7px;
+}
+.teksSummary {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1.25vw;
+  line-height: 1.4vw;
+  color: #000000;
+  margin-bottom: 0.5vw;
+}
+.subTotalBL {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.5px;
+  margin-left: 1px;
+  padding-top: 1rem;
+  height: fit-content;
+}
+.teksSubTotalBL {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-size: 0.8vw;
+  line-height: 0.9vw;
+  color: #404040;
+}
+.hargaSubTotalBL {
+  align-items: flex-end;
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  color: #676767;
+}
+.hargaSubTotalBL1 {
+  align-items: flex-end;
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fa591d;
+}
+.teksCardPromotion {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.bgCheckoutBL {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 6vw;
+  margin-top: 1.25vw;
+  padding-left: 2.1vw;
+  padding-right: 1.5vw;
+  -webkit-box-shadow: 0px -4px 3px rgba(238, 238, 238, 0.75);
+  -moz-box-shadow: 0px -4px 3px rgba(238, 238, 238, 0.75);
+  box-shadow: 0px -2px 0.2px rgba(238, 238, 238, 0.75);
+}
+.btnCheckoutBL {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1.25vw 0;
+  background-color: #ffd500;
+  border-radius: 0.6vw;
+  width: 100%;
+  height: 3.75vw;
+  float: right;
+  cursor: pointer;
+  border: none;
+}
+.iconCoution {
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (min-width: 1920px) {
+  .imageBL {
+    width: 100%;
+  }
+  .iconCoution {
+    height: 90px;
+    width: 90px;
+  }
+  .titleNotif {
+    flex: 1;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0;
+    margin-left: 18px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+  .imageBL {
+    width: 100%;
+  }
+  .iconCoution {
+    height: 80px;
+    width: 80px;
+  }
+  .titleNotif {
+    flex: 1;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0;
+    margin-left: 14px;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1599px) {
+  .imageBL {
+    width: 100%;
+  }
+  .iconCoution {
+    height: 80px;
+    width: 80px;
+  }
+  .titleNotif {
+    flex: 1;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0;
+    margin-left: 14px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1535px) {
+  .imageBL {
+    width: 100%;
+  }
+  .iconCoution {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .container-content {
+    padding-top: 0;
+  }
+  .skTitleBL {
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  .skTitleSelect {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px !important;
+  }
+  .skProductBL {
+    width: 150px;
+  }
+  .skTitleProductBL {
+    width: 300px;
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  .skCardLabel {
+    width: 100px;
+  }
+  .cardLabel {
+    width: 74.62px;
+    height: 20.48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: end;
+  }
+  .titleSelect {
+    flex: 1;
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+  .titleNotif {
+    flex: 1;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .iconCoution {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .container-content {
+    padding-top: 0;
+  }
+  .skTitleBL {
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  .skTitleSelect {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px !important;
+  }
+  .skProductBL {
+    width: 150px;
+  }
+  .skTitleProductBL {
+    width: 300px;
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  .skCardLabel {
+    width: 100px;
+  }
+  .cardLabel {
+    width: 74.62px;
+    height: 20.48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: end;
+  }
+  .titleSelect {
+    flex: 1;
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+  .titleNotif {
+    flex: 1;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .container-content {
+    padding-top: 0;
+  }
+  .containerBucket {
+    padding-left: 4.5rem;
+    padding-right: 4vw;
+  }
+  .btnSelectBranch {
+    width: 150px;
+  }
+  .containerPromo {
+    padding-left: 2rem;
+  }
+  .cardPromotion {
+    width: 35vw;
+    margin-left: 0;
+  }
+  .cardNotif {
+    width: 35vw;
+    margin-left: 0;
+  }
+}
+//phone
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .card-warehouseBL {
+    width: 48px;
+    height: 33px;
+  }
+  .title-id {
+    line-height: 4.5vw !important;
+  }
+  .title-name {
+    line-height: 3vw !important;
+  }
+  .styleBLBold {
+    font-family: "SFUIText-Regular";
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+    width: 50%;
+  }
+  .titleSelect {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .titleNotif {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .titleCheckout {
+    font-size: 15px;
+  }
+  .containerBucket {
+    padding-left: 5rem;
+    padding-right: 8vw;
+  }
+  .btnSelectBranch {
+    width: 150px;
+  }
+  .containerPromo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3rem;
+  }
+  .btnSelectBranch {
+    width: 120px;
+  }
+  .cardPromotion {
+    width: 55vw;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .cardNotif {
+    width: 55vw;
+    margin-left: 0;
+    padding: 1rem;
+  }
+  .imageProduct {
+    margin-left: 1rem;
+  }
+  .productDescription {
+    margin-left: 2rem;
+  }
+  .cardMinPlusBL {
+    width: auto;
+  }
+  .btnMin {
+    width: 40px;
+  }
+  .btnPlus {
+    width: 40px;
+  }
+  .totalOrder {
+    width: 8vw;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 610px) {
+  .card-warehouseBL {
+    width: 48px;
+    height: 33px;
+  }
+  .title-id {
+    line-height: 4.5vw !important;
+  }
+  .title-name {
+    line-height: 3vw !important;
+  }
+  .card-item-titleBL {
+    background: #f9f9f9;
+    border-radius: 0.83333vw;
+    padding: 2vw 1vw;
+    width: 100%;
+  }
+  .cardPromotion {
+    width: 92%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .cardNotif {
+    width: 92%;
+    margin-left: 6vw;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .containerBucket {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2vw !important;
+  }
+  .card-bullet {
+    width: 45px;
+    height: 45px;
+  }
+  .titleSelect {
+    margin-left: 10px;
+  }
+  .btnSelectBranch {
+    width: 30vw;
+  }
+  .titleCheckout {
+    font-size: 15px;
+  }
+  .imageProduct {
+    margin-left: 0;
+  }
+  .productDescription {
+    margin-left: 0;
+    margin-right: 2rem;
+  }
+  .card-warehouseBL {
+    width: 48px;
+    height: 33px;
+  }
+  .title-id {
+    line-height: 4.5vw !important;
+  }
+  .title-name {
+    line-height: 3vw !important;
+  }
+  .card-item-titleBL {
+    background: #f9f9f9;
+    border-radius: 0.83333vw;
+    padding: 2vw 1vw;
+    width: 100%;
+  }
+  .cardMinPlusBL {
+    width: auto;
+  }
+  .btnMin {
+    width: 8vw;
+  }
+  .btnPlus {
+    width: 8vw;
+  }
+  .totalOrder {
+    width: 10vw;
+  }
+  .cardLabel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    padding-left: 13vw;
+    padding-top: 10px;
+  }
+  .containerPromo {
+    padding-top: 2vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cardPromotion {
+    width: 89vw;
+  }
+  .cardNotif {
+    width: 89vw;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .card-warehouseBL {
+    width: 48px;
+    height: 33px;
+  }
+  .title-id {
+    line-height: 4.5vw !important;
+  }
+  .title-name {
+    line-height: 3vw !important;
+  }
+  .card-item-titleBL {
+    background: #f9f9f9;
+    border-radius: 0.83333vw;
+    padding: 2vw 1vw;
+    width: 100%;
+  }
+  .styleBLBold {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .titleKategoriProductBL {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .titleProductBL {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .titlePriceDiscountBL {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .titleSelect {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .titleNotif {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .titleCheckout {
+    font-size: 15px;
+  }
+  .containerBucket {
+    padding-left: 2rem;
+    padding-right: 8vw;
+  }
+  .cardBranch {
+    padding: 0 5px;
+  }
+  .card-bullet {
+    width: 45px;
+    height: 45px;
+  }
+  .btnSelectBranch {
+    width: 110px;
+  }
+  .containerPromo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 12vw;
+  }
+  .btnSelectBranch {
+    width: 120px;
+    height: 40px;
+  }
+  .cardPromotion {
+    width: 92%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .cardNotif {
+    width: 91%;
+    margin-left: 9vw;
+    padding: 0.7rem;
+  }
+  .imageProduct {
+    margin-left: 0;
+    width: 95px;
+    height: 95px;
+  }
+  .productDescription {
+    margin-left: 10px;
+  }
+  .cardLabel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    padding-top: 3vw;
+    padding-left: 14vw;
+  }
+  .cardMinPlusBL {
+    width: auto;
+  }
+  .btnMin {
+    width: 8vw;
+  }
+  .btnPlus {
+    width: 8vw;
+  }
+  .totalOrder {
+    width: 12vw;
+  }
+  .bgCheckoutBL {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btnCheckoutBL {
+    width: 100%;
+    height: 45px;
+  }
+}
+//phone
+@media (max-width: 599px) {
+  .titlePriceBL {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+  }
+  .container-content {
+    padding-top: 0;
+  }
+  .titleNotif {
+    flex: 1;
+    font-size: 14px;
+    text-align: justify;
+    margin-right: 10px;
+    line-height: 19px;
+  }
+}
+@media only screen and (max-width: 319px) {
+}
+
+//tablet
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container-content {
+    padding-top: 0;
+  }
+  .containerBucket {
+    padding-left: 5.5rem;
+  }
+  .card-warehouseBL {
+    width: 70px;
+    height: 36px;
+  }
+  .title-name {
+    line-height: 2vw;
+  }
+  .titleSelect {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .titleNotif {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .titleCheckout {
+    font-size: 15px;
+  }
+  .productList {
+    border-top: 0.7px solid#e4e4e4;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+  }
+  .styleBLBold {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .titleSelect {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .card-bullet {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ffd500;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .containerPromo {
+    padding-left: 2rem;
+  }
+  .btnSelectBranch {
+    width: 120px;
+    height: 40px;
+    float: right;
+    position: relative;
+  }
+  .cardBranch {
+    background: #ffffff;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    flex-direction: row;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .cardPromotion {
+    width: 35vw;
+    margin-left: 0;
+  }
+  .cardNotif {
+    width: 35vw;
+    margin-left: 0;
+    padding: 0.7rem;
+  }
+  .imageProduct {
+    margin-left: 0;
+  }
+  .productDescription {
+    margin-left: 0.5rem;
+  }
+  .cardMinPlusBL {
+    width: auto;
+  }
+  .totalOrder {
+    width: 6vw;
+  }
+}

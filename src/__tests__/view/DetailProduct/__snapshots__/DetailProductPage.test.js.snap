@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Product Report renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "4rem",
+    }
+  }
+>
+  <div
+    className="defaultFlexProduct row"
+  />
+  <hr
+    className="mt-0"
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": "1rem",
+        }
+      }
+    >
+      <p
+        className="descriptionProductActive"
+        onClick={[Function]}
+      >
+        Description
+      </p>
+      <p
+        className="descriptionProduct"
+        onClick={[Function]}
+      >
+        Review (2)
+      </p>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "marginRight": "4rem",
+        }
+      }
+    >
+      <p
+        className="descriptionFavourite"
+      >
+        Favourite
+      </p>
+      <img
+        className="iconFavourite"
+        src="heart.png"
+      />
+      <p
+        className="descriptionFavourite"
+      >
+        Share
+      </p>
+      <img
+        className="iconFavourite"
+        src="share.png"
+      />
+    </div>
+  </div>
+  <hr
+    className="mt-0"
+  />
+  <div>
+    <div
+      className="row"
+      style={
+        Object {
+          "marginTop": "2rem",
+        }
+      }
+    >
+      <img
+        className="iconAva"
+        src="avatar.png"
+      />
+      <div
+        className="col"
+      >
+        <p
+          className="titleName"
+        >
+          Setiadi
+        </p>
+        <div
+          className="row"
+          style={
+            Object {
+              "marginLeft": "-5px",
+              "marginTop": "-10px",
+            }
+          }
+        >
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+        </div>
+        <p
+          className="dateRating"
+        >
+          12 Juni 2020
+        </p>
+        <p
+          className="reviewDesc"
+        >
+          Terima kasih UT Connect saya bisa berbelanja dengan cepat dan aman. battery berfungsi dengan baik. next bakal belanja lagiii.
+           
+        </p>
+      </div>
+    </div>
+    <hr
+      className="mt-0"
+    />
+    <div
+      className="row"
+      style={
+        Object {
+          "marginTop": "2rem",
+        }
+      }
+    >
+      <img
+        className="iconAva"
+        src="avatar2.png"
+      />
+      <div
+        className="col"
+      >
+        <p
+          className="titleName"
+        >
+          Setiadi
+        </p>
+        <div
+          className="row"
+          style={
+            Object {
+              "marginLeft": "-5px",
+              "marginTop": "-10px",
+            }
+          }
+        >
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+          <img
+            className="ratingReview"
+            src="Star.png"
+          />
+        </div>
+        <p
+          className="dateRating"
+        >
+          12 Juni 2020
+        </p>
+        <p
+          className="reviewDesc"
+        >
+          Pengiriman cepattt dan packingnya aman, senang bisa berbelanjaa di website ini. Terima kasih.
+           
+        </p>
+      </div>
+    </div>
+  </div>
+  <p
+    className="relateProduct"
+  >
+    Related Product
+  </p>
+</div>
+`;

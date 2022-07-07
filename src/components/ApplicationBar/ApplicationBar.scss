@@ -1,0 +1,85 @@
+@import '../../themes/colors';
+@import '../../themes/size';
+@import '../../themes/fonts';
+
+.app-bar{
+    background-color:map-get($colors,page-background) !important;
+    color:map-get($colors,dark) !important;
+    box-shadow: none !important;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    padding-right:vw(70.2);
+    height:vw(88)!important;
+    .tool-bar{
+        padding:0 !important
+    }
+    .sub-app-bar{
+        flex: 1;
+        height:2vw;
+        background:map-get($colors,page-background);
+    }
+    p{
+        font-family:'Lato-Bold';
+        font-size:vw(20);
+        line-height:vw(24);
+        color:map-get($colors,dark);
+        margin-right:vw(18);
+    }
+    .account-pic{
+        height:vw(48)!important;
+    }
+}
+
+.app-bar-tab{
+    color: #000000 !important;
+    background-color: #FFFFFF !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: vw-tab(30);
+    height: vw-tab(88) !important;
+    box-shadow: 0px vw-tab(4) vw-tab(10) rgba(0, 0, 0, 0.04) !important;
+    .logo-dca{
+        width: vw-tab(164);
+        height: vw-tab(41);
+    }
+    .menu-toggle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: vw-tab(33);
+        height: vw-tab(33);
+        top: vw-tab(28);
+        left: vw-tab(30);
+    }
+}
+
+//Display mode for responsive 
+@media (max-width: 599px) {
+    .app-bar-tab{
+        color: #000000 !important;
+        background-color: #FFFFFF !important;
+        box-shadow: none !important;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-right: vw-mobile(20);
+        height: vw-mobile(73) !important;
+        box-shadow: 0px vw-mobile(4) vw-mobile(10) rgba(0, 0, 0, 0.04) !important;
+        .logo-dca{
+            width: vw-mobile(119);
+            height: vw-mobile(29);
+        }
+        .menu-toggle{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: vw-mobile(23);
+            height: vw-mobile(23);
+            top: vw-mobile(25);
+            left: vw-mobile(20);
+        }
+    }
+}

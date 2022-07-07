@@ -1,0 +1,1127 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.cardOrderDetail {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 2px 5px 15px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 0;
+  margin-bottom: 2rem;
+  width: 400px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.kontenOrderDetail {
+  padding: 1rem 1.5rem;
+}
+.teksCardOrderDetail {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.headerCardOrderDetail {
+  width: 100%;
+  display: inline-flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+.lineHeader {
+  border-top: 0.7px dashed #000000;
+  color: #fff;
+  background-color: #fff;
+  opacity: 0.15;
+  margin-top: 0.6rem;
+  width: 100%;
+}
+.dropIconOrderDetail {
+  margin-top: 6.5px;
+  float: right;
+  width: 15px;
+  height: 10px;
+  transform: rotate(180deg);
+}
+.cardImageOrderDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  height: 120px;
+}
+.cardListOrderDetail {
+  margin-top: 17px;
+}
+.titleKategoriProductOD {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.4;
+}
+.titleProductOD {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.titlePriceOD {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  opacity: 0.75;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+}
+.titlePriceDiscountOD {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #148f0f;
+  opacity: 0.75;
+}
+.cardMinPlusOD {
+  width: 70%;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.btnMin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 27px;
+  height: 25px;
+  padding-bottom: 1px;
+}
+.totalOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 53px;
+  height: 25px;
+}
+.teksTotalOrder {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.btnPlus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 27px;
+  height: 25px;
+}
+.inputPromoOD {
+  margin-top: 12px;
+}
+.inputPromoCode {
+  width: 100%;
+  position: relative;
+  background-color: #ffffff !important;
+  border-radius: vw(10) !important;
+  margin-bottom: vw(10) !important;
+  margin-right: vw(10) !important;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding-left: vw(20) !important;
+  box-shadow: 0px 1px 1px 1px rgba(48, 48, 48, 0.08) !important;
+
+  .promoCode-text {
+    font-family: "SFUIText-Regular";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    flex: 1;
+    color: #404040;
+  }
+  input {
+    width: 200px;
+  }
+  .btnApply {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ffd500;
+    border-radius: 4px;
+    width: 87px;
+    height: 33px;
+    float: right;
+  }
+  .teksApply {
+    font-size: 12px;
+    font-family: "AvenirNextLTPro-Regular";
+    line-height: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+  }
+}
+
+.subTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.5px;
+  margin-left: 1px;
+}
+
+.teksSubTotal {
+  align-items: flex-start;
+  font-family: "NunitoSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #404040;
+  margin-top: 1rem;
+}
+.hargaSubTotal {
+  align-items: flex-end;
+  font-family: "NunitoSans-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #676767;
+  margin-top: 1rem;
+}
+.hargaSubTotal1 {
+  align-items: flex-end;
+  font-family: "NunitoSans-Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  color: #148f0f;
+  margin-top: 1rem;
+}
+
+.titleCheckout {
+  font-size: 1.2vw;
+  font-family: "SFUIText-Regular";
+  line-height: 1.3vw;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+  color: #000000;
+  opacity: 1;
+  width: 90%;
+}
+.lineCheckout {
+  margin: 0 -25px;
+  margin-top: 16px;
+}
+.btnCheckout {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1.1rem;
+  background-color: #ffd500;
+  border-radius: 8px;
+  width: 100%;
+  height: 48px;
+  float: right;
+  opacity: 0.4;
+}
+
+@media only screen and (min-width: 1280px) {
+  .cardOrderDetail {
+    margin-left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .cardOrderDetail {
+    margin-left: 0;
+  }
+}
+
+//mobile
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .containerOrderDetail {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: -2rem;
+  }
+  .cardOrderDetail {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 2px 5px 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 0;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    width: 84%;
+    height: auto;
+    border-radius: 16px;
+  }
+  .kontenOrderDetail {
+    padding: 1rem 2rem;
+  }
+  .teksCardOrderDetail {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .headerCardOrderDetail {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lineHeader {
+    border-top: 0.7px dashed #000000;
+    color: #fff;
+    background-color: #fff;
+    opacity: 0.15;
+    margin-top: 0.6rem;
+    width: 100%;
+    margin-left: -1rem;
+  }
+  .dropIconOrderDetail {
+    margin-top: 4px;
+    float: right;
+    width: 23px;
+    height: 13px;
+    transform: rotate(180deg);
+  }
+  .cardImageOrderDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+  }
+  .cardListOrderDetail {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .titleKategoriProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.4;
+  }
+  .titleProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 5px;
+    width: 80%;
+  }
+  .titlePriceOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-top: 5px;
+  }
+
+  .titlePriceDiscountOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #148f0f;
+    opacity: 0.75;
+  }
+  .teksTotalOrder {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+  .btnPlus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 27px;
+    height: 25px;
+  }
+  .inputPromoOD {
+    margin-top: 12px;
+  }
+  .subTotal {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5px;
+    margin-left: 1px;
+  }
+  .teksSubTotal {
+    align-items: flex-start;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal {
+    align-items: flex-end;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #676767;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal1 {
+    align-items: flex-end;
+    font-family: "NunitoSans-Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: #148f0f;
+    margin-top: 1rem;
+  }
+  .titleCheckout {
+    font-family: "SFUIText-Regular";
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+    opacity: 1;
+  }
+  .lineCheckout {
+    margin: 0 -32px;
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .containerOrderDetail {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0rem;
+  }
+  .cardOrderDetail {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 2px 5px 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 0;
+    margin-bottom: 2rem;
+    width: 91vw;
+    height: auto;
+    border-radius: 16px;
+    margin-left: 0;
+  }
+  .kontenOrderDetail {
+    padding: 1rem 1rem;
+  }
+  .teksCardOrderDetail {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .headerCardOrderDetail {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lineHeader {
+    border-top: 0.7px dashed #000000;
+    color: #fff;
+    background-color: #fff;
+    opacity: 0.15;
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .dropIconOrderDetail {
+    margin-top: 4px;
+    float: right;
+    width: 21px;
+    height: 12px;
+    transform: rotate(180deg);
+  }
+  .cardImageOrderDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 110px;
+    width: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+  }
+  .cardListOrderDetail {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .titleKategoriProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.4;
+  }
+  .titleProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 80%;
+  }
+  .titlePriceOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+  }
+  .titlePriceDiscountOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #148f0f;
+    opacity: 0.75;
+  }
+  .teksTotalOrder {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+  .btnMin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 24px;
+    height: 22px;
+    padding-bottom: 1px;
+  }
+  .totalOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 48px;
+    height: 22px;
+  }
+  .btnPlus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 24px;
+    height: 22px;
+  }
+  .inputPromoOD {
+    margin-top: 12px;
+  }
+  .inputPromoCode {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff !important;
+    border-radius: vw(10) !important;
+    margin-bottom: vw(10) !important;
+    margin-right: vw(10) !important;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding-left: vw(20) !important;
+    box-shadow: 0px 1px 1px 1px rgba(48, 48, 48, 0.08) !important;
+
+    .promoCode-text {
+      font-family: "SFUIText-Regular";
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      flex: 1;
+      color: #404040;
+    }
+
+    input {
+      width: 200px;
+    }
+    .marginApply {
+      padding-left: 6px;
+    }
+    .btnApply {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-color: #ffd500;
+      border-radius: 7px;
+      width: 70px;
+      height: 30px;
+      float: right;
+    }
+    .teksApply {
+      font-size: 12px;
+      font-family: "AvenirNextLTPro-Regular";
+      line-height: 14px;
+      font-style: normal;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 0;
+      color: #000000;
+    }
+  }
+  .subTotal {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5px;
+    margin-left: 1px;
+  }
+  .teksSubTotal {
+    align-items: flex-start;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #404040;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal {
+    align-items: flex-end;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #676767;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal1 {
+    align-items: flex-end;
+    font-family: "NunitoSans-Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: #148f0f;
+    margin-top: 1rem;
+  }
+  .titleCheckout {
+    font-family: "SFUIText-Regular";
+    font-size: 10px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+    opacity: 1;
+  }
+  .lineCheckout {
+    margin: 0 -16px;
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .containerOrderDetail {
+    margin-left: 0;
+  }
+  .cardOrderDetail {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 2px 5px 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 0;
+    margin-bottom: 2rem;
+    width: 90vw;
+    height: auto;
+    border-radius: 16px;
+    margin-left: 0;
+  }
+  .kontenOrderDetail {
+    padding: 1rem 0.5rem;
+  }
+  .teksCardOrderDetail {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .cardImageOrderDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+  }
+  .cardListOrderDetail {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .titleKategoriProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.4;
+  }
+  .titleProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 80%;
+  }
+  .inputPromoCode {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff !important;
+    border-radius: vw(10) !important;
+    margin-bottom: vw(10) !important;
+    margin-right: vw(10) !important;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding-left: vw(20) !important;
+    box-shadow: 0px 1px 1px 1px rgba(48, 48, 48, 0.08) !important;
+
+    .promoCode-text {
+      font-family: "SFUIText-Regular";
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      flex: 1;
+      color: #404040;
+    }
+
+    input {
+      width: 200px;
+    }
+    .marginApply {
+      padding-left: 0;
+    }
+    .btnApply {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-color: #ffd500;
+      border-radius: 7px;
+      width: 60px;
+      height: 30px;
+      float: right;
+    }
+    .teksApply {
+      font-size: 12px;
+      font-family: "AvenirNextLTPro-Regular";
+      line-height: 14px;
+      font-style: normal;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 0;
+      color: #000000;
+    }
+  }
+  .subTotal {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5px;
+    margin-left: 1px;
+  }
+  .teksSubTotal {
+    align-items: flex-start;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #404040;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal {
+    align-items: flex-end;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #676767;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal1 {
+    align-items: flex-end;
+    font-family: "NunitoSans-Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 17px;
+    color: #148f0f;
+    margin-top: 1rem;
+  }
+  .titleCheckout {
+    font-family: "SFUIText-Regular";
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+    opacity: 1;
+  }
+  .lineCheckout {
+    margin: 0 -8px;
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+}
+
+//tablet
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .containerOrderDetail {
+    margin-top: 0rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cardOrderDetail {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 2px 5px 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 0;
+    margin-bottom: 2rem;
+    width: 80%;
+    height: auto;
+    border-radius: 16px;
+  }
+  .kontenOrderDetail {
+    padding: 1rem 2rem;
+  }
+  .teksCardOrderDetail {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .headerCardOrderDetail {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lineHeader {
+    border-top: 0.7px dashed #000000;
+    color: #fff;
+    background-color: #fff;
+    opacity: 0.15;
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  .dropIconOrderDetail {
+    margin-top: 4px;
+    float: right;
+    width: 25px;
+    height: 15px;
+    transform: rotate(180deg);
+  }
+
+  .cardImageOrderDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+  }
+
+  .cardListOrderDetail {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .titleKategoriProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.4;
+  }
+
+  .titleProductOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 5px;
+  }
+
+  .titlePriceOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-top: 5px;
+  }
+
+  .titlePriceDiscountOD {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #148f0f;
+    opacity: 0.75;
+  }
+
+  .cardMinPlusOD {
+    width: 40%;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .btnMin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 27px;
+    height: 25px;
+    padding-bottom: 1px;
+  }
+
+  .totalOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 53px;
+    height: 25px;
+  }
+
+  .teksTotalOrder {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  .btnPlus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 27px;
+    height: 25px;
+  }
+
+  .inputPromoOD {
+    margin-top: 12px;
+  }
+
+  .subTotal {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5px;
+    margin-left: 1px;
+  }
+
+  .teksSubTotal {
+    align-items: flex-start;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+    margin-top: 1rem;
+  }
+  .hargaSubTotal {
+    align-items: flex-end;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #676767;
+    margin-top: 1rem;
+  }
+
+  .hargaSubTotal1 {
+    align-items: flex-end;
+    font-family: "NunitoSans-Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: #148f0f;
+    margin-top: 1rem;
+  }
+
+  .titleCheckout {
+    font-family: "SFUIText-Regular";
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: #000000;
+    opacity: 1;
+  }
+  .lineCheckout {
+    margin: 0 -33px;
+    margin-top: 16px;
+  }
+}

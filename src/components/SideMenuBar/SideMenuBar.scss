@@ -1,0 +1,350 @@
+@import '../../themes/colors';
+@import '../../themes/fonts';
+@import '../../themes/size';
+
+@media (min-width: 1025px){
+    .menu{
+        flex-shrink: 0;
+        .drawer-paper{
+            border: none;
+            box-shadow: 0 vw(15) vw(30) map-get($colors,shadow);
+            width: vw(241) !important;
+            .dca-logo{
+                width: vw(184);
+                left: vw(30);
+                margin: vw(24) auto vw(35) auto;
+            }
+            .menu-item{
+                height: vw(37);
+                margin-bottom: vw(10);
+                margin-left: vw(22);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-style: normal;
+                    font-size: vw(15);
+                    line-height: vw(18);
+                    padding: 0 !important;
+                }
+                .item-icon{
+                    height: vw(16.31);
+                }
+            }
+            .menu-item:hover{
+                background-color: map-get($colors , primary);
+            }
+            .icon-root{
+                min-width: vw(10);
+                margin-right: vw(10);
+            }
+            .menu-item-selected{
+                height: vw(37);
+                margin-bottom: vw(10);
+                margin-left: vw(22);
+                background-color: map-get($colors , primary);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-style: normal;
+                    font-size: vw(15);
+                    line-height: vw(18);
+                    padding: 0 !important;
+                }
+                .item-icon{
+                    height: vw(16.31);
+                }
+            };
+            .sub-menu{
+                margin-left: vw(50);
+                height: vw(37);
+                margin-bottom: vw(10);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-style: normal;
+                    font-size: vw(15);
+                    line-height: vw(18);
+                    padding: 0 !important;
+                }
+                .item-icon{
+                    height: vw(16.31);
+                }
+            }
+            .sub-menu-selected{
+                margin-left: vw(50);
+                height: vw(37);
+                margin-bottom: vw(10);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-size: vw(15);
+                    line-height: vw(18);
+                    padding: 0 !important;
+                    color: map-get($colors , primary);
+                }
+                .item-icon{
+                    height: vw(16.31);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    .menu{
+        flex-shrink: 0;
+        .drawer-paper{
+            width: vw-tab(310) !important;
+            border: none;
+            .dca-logo{
+                width: vw-tab(184);
+                height: vw-tab(45);
+                margin: vw-tab(24) auto vw-tab(50) auto;
+            }
+            .menu-item{
+                height: vw-tab(37);
+                margin-bottom: vw-tab(10);
+                padding-left: vw-tab(63);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-style: normal;
+                    font-size: vw-tab(15);
+                    line-height: vw-tab(18);
+                    padding: 0 !important;
+                }
+                .item-icon{
+                    height: vw-tab(16.31);
+                }
+            }
+            .menu-item:hover{
+                background-color: map-get($colors , primary);
+            }
+            .icon-root{
+                min-width: 1vw;
+                margin-right: vw-tab(10);
+            }
+            .menu-item-selected{
+                height: vw-tab(37);
+                margin-bottom: vw-tab(10);
+                background-color: map-get($colors , primary);
+                padding-left: vw-tab(63);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-style: normal;
+                    font-size: vw-tab(15);
+                    line-height: vw-tab(18);
+                    padding: 0 !important;
+                }
+                .item-icon{
+                    height: vw-tab(16.31);
+                }
+            };
+            .sub-menu{
+                padding-left: vw-tab(99);
+                height: vw-tab(37);
+                margin-bottom: vw-tab(10);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-style: normal;
+                    font-size: vw-tab(15);
+                    line-height: vw-tab(18);
+                    padding: 0 !important;
+                }
+                .item-icon{
+                    height: vw-tab(16.31);
+                }
+            }
+            .sub-menu-selected{
+                padding-left: vw-tab(99);
+                height: vw-tab(37);
+                margin-bottom: vw-tab(10);
+                .item-text{
+                    font-family: 'Lato-Bold' !important;
+                    font-size: vw-tab(15);
+                    line-height: vw-tab(18);
+                    padding: 0 !important;
+                    color: map-get($colors , primary);
+                }
+                .item-icon{
+                    height: vw-tab(16.31);
+                }
+            }
+        }
+    }
+}
+//Style For Menu LogOut
+
+@media (min-width: 1026px) {
+    .logout-modal {
+        width: vw(375);
+        height: vw(175);
+        background-color: white;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: vw(5);
+        padding: vw(65) vw(105) vw(80) vw(105);
+        .title {
+            font-family: "Lato-Medium" !important;
+            font-size: vw(18);
+            color: black;
+            opacity: .75;
+        }
+        .btn-container{  
+            width: vw(375);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .btn-yes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: vw(164.22) !important;
+                height: vw(33.07) !important;
+                font-size: vw(13) !important;
+                line-height: vw(16) !important;
+                font-family: 'Lato-Regular';
+                background-color: map-get($colors , primary);
+                text-transform: none;
+                box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw(5);
+                cursor: pointer;
+            }        
+            .btn-no{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: vw(164.22) !important;
+                height: vw(33.07) !important;
+                font-size: vw(13) !important;
+                line-height: vw(16) !important;
+                font-family: 'Lato-Regular';
+                text-transform: none;
+                box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw(5);
+                background: #E6E6E6;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// mobile
+@media (max-width: 599px) {
+    .logout-modal {
+        width: vw-mobile(228); 
+        height: vw-mobile(100);
+        background-color: white;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: vw-mobile(10);
+        padding: vw-mobile(40) vw-mobile(46) vw-mobile(49) vw-mobile(46);
+        .title {
+            font-family: "Lato-Medium" !important;
+            font-size: vw-mobile(14);
+            color: #3C3B3B;
+            opacity: .75;
+            line-height: vw-mobile(16.8);
+            text-align: center;
+            flex-wrap: wrap
+        }
+        .btn-container{  
+            width: vw-mobile(222);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .btn-yes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: vw-mobile(101) !important;
+                height: vw-mobile(37) !important;
+                font-size: vw-mobile(13) !important;
+                line-height: vw-mobile(16) !important;
+                font-family: 'Lato-Medium';
+                background-color: map-get($colors , primary);
+                text-transform: none;
+                box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-mobile(5);
+                cursor: pointer;
+            }        
+            .btn-no{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: vw-mobile(101) !important;
+                height: vw-mobile(37) !important;
+                font-size: vw-mobile(13) !important;
+                line-height: vw-mobile(16) !important;
+                font-family: 'Lato-Medium';
+                text-transform: none;
+                box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-mobile(5);
+                background: #F2F2F4;
+                cursor: pointer;
+            }
+        }
+    }   
+}
+
+// tab
+@media (min-width: 600px) and (max-width: 1025px) {
+    .logout-modal {
+        width: vw-tab(359); 
+        height: vw-tab(119);
+        background-color: white;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: vw-tab(10);
+        padding: vw-tab(63) vw-tab(104) vw-tab(80) vw-tab(104);
+        .title {
+            font-family: "Lato-Medium" !important;
+            font-size: vw-tab(18);
+            color: black;
+            opacity: .5;
+            line-height: vw-tab(22);
+            text-align: center;
+            flex-wrap: wrap
+        }
+        .btn-container{  
+            width: vw-tab(358);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .btn-yes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: vw-tab(164) !important;
+                height: vw-tab(33) !important;
+                font-size: vw-tab(13) !important;
+                line-height: vw-tab(16) !important;
+                font-family: 'Lato-Regular';
+                background-color: map-get($colors , primary);
+                text-transform: none;
+                box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-tab(5);
+                cursor: pointer;
+            }        
+            .btn-no{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: vw-tab(164) !important;
+                height: vw-tab(33) !important;
+                font-size: vw-tab(13) !important;
+                line-height: vw-tab(16) !important;
+                font-family: 'Lato-Regular';
+                text-transform: none;
+                box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-tab(5);
+                background: #C4C4C4;
+                cursor: pointer;
+            }
+        }
+    }   
+}

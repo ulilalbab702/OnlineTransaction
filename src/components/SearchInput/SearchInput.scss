@@ -1,0 +1,114 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.search-input {
+  width: 35vw;
+  position: relative;
+  background-color: #f9f9f9 !important;
+  border-radius: vw(10) !important;
+  margin-right: vw(10) !important;
+  display: flex;
+  align-items: center;
+  height: vw(50);
+  padding-left: vw(20) !important;
+  box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161) !important;
+  .search-icon {
+    color: #dfdfe0;
+    height: vw(15.93) !important;
+  }
+  .search-icon:hover {
+    background: none;
+    color: #3c3b3b;
+  }
+  .search-text {
+    font-family: "Lato-Regular";
+    font-size: vw(16);
+    line-height: vw(19);
+    flex: 1;
+  }
+  .search-card {
+    background-color: #ffd500 !important;
+    width: vw(30);
+    height: vw(30);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: vw(15);
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+  .search-input {
+    width: vw(700);
+    position: relative;
+    background-color: #f9f9f9 !important;
+    display: flex;
+    align-items: center;
+    border-radius: vw-tab(10) !important;
+    margin-bottom: vw-tab(10) !important;
+    margin-right: vw-tab(10) !important;
+    height: vw-tab(40);
+    box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161) !important;
+    .search-icon {
+      height: vw-tab(15) !important;
+    }
+    .search-icon:hover {
+      background: none;
+      color: #3c3b3b;
+    }
+    .search-text {
+      font-family: "Lato-Regular";
+      font-size: vw-tab(12);
+      line-height: vw-tab(20);
+      flex: 1;
+    }
+    .search-card {
+      background-color: #ffd500 !important;
+      width: vw-tab(25);
+      height: vw-tab(25);
+      margin-right: vw-tab(10);
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .search-input {
+    width: vw-mobile(250);
+    position: relative;
+    background-color: #f9f9f9 !important;
+    border-radius: vw-mobile(10) !important;
+    margin-bottom: vw-mobile(10) !important;
+    margin-right: vw-mobile(10) !important;
+    display: flex;
+    align-items: center;
+    height: vw-mobile(38);
+    padding-left: vw-mobile(10) !important;
+    box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161) !important;
+    .search-icon {
+      height: vw-mobile(10) !important;
+    }
+    .search-icon:hover {
+      background: none;
+      color: #3c3b3b;
+    }
+    .search-text {
+      font-family: "Lato-Regular";
+      font-size: vw-mobile(14);
+      line-height: vw-mobile(20);
+      flex: 1;
+    }
+    .search-card {
+      background-color: #ffd500 !important;
+      width: vw-mobile(25);
+      height: vw-mobile(20);
+      margin-right: vw-mobile(10);
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

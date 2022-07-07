@@ -1,0 +1,122 @@
+@import "../../themes/colors.scss";
+@import "../../themes/fonts.scss";
+@import "../../themes/size.scss";
+
+body {
+  background-color: #ffffff;
+}
+
+.container-detailVideo {
+  margin-top: 5rem;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  min-height: 40vh;
+  height: fit-content;
+  width: 100%;
+
+  .con-image-video {
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: auto;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+    .play-btn {
+      height: 120px;
+      width: auto;
+      transform: scale(1);
+      position: relative;
+      margin-left: -55%;
+    }
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    flex: 0.9;
+
+    .title-video {
+      font-family: "SFProText-Bold";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0.01em;
+      color: #231f20;
+      margin-bottom: 0;
+    }
+
+    .viewer {
+      font-family: "SFProText-Regular";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.01em;
+      color: #000000;
+      opacity: 0.6;
+      display: flex;
+      flex-direction: row;
+      .dot {
+        width: 6.5px;
+        height: 6.5px;
+        background-color: #000000;
+        border-radius: 50%;
+        margin: auto 15px;
+        opacity: 0.6;
+      }
+    }
+    .title-desc {
+      font-family: "SFProText-Bold";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000000;
+      margin-top: 1.5rem;
+    }
+    .desc {
+      font-family: "SFUIText-Regular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #000000;
+      opacity: 0.7;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    justify-content: flex-end;
+    .share {
+      font-family: "SFProText-Regular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 36px;
+      color: #404040;
+      opacity: 0.8;
+      cursor: pointer;
+    }
+    .icon-share {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.7);
+      margin-top: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.selecticonCreateTicketReq {
+    position: absolute;
+    width: 15px;
+    bottom: 6px;
+    height: 15px;
+    right: 37px;
+  }
+  .borderSelectCreateReq {
+    border-bottom: 1px solid #c8c8c8;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    padding: 0;
+    border-radius: 0;
+  }
+  .submitFormConfirmReq {
+    height: 300px;
+    margin-top: -0.5vw;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+  .bodyluarConfirmReq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+    max-width: 400px;
+  }
+  .iconXstyleReq {
+    padding: 0 10px 0 0;
+    border: unset;
+    justify-content: flex-end;
+  }
+  

@@ -1,0 +1,398 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.modal-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  width: 40%;
+  .container-modal-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    max-height: 90vh;
+    .login-modal-body {
+      background-color: white;
+      margin: auto;
+      border-radius: vw(15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: vw(15) vw(24) vw(50) vw(24);
+    }
+    .titleInput {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 10px;
+      letter-spacing: 0.0928571px;
+      color: #8e8e8e;
+      margin-bottom: 0;
+    }
+    .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #f3d641;
+      cursor: pointer;
+    }
+    .errorMessage {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: red;
+    }
+    .titleDont {
+      font-family: "SFUIDisplay-Regular";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #000000;
+      margin-top: 15px !important;
+    }
+    .btn-login {
+      width: 400px;
+      height: 50px;
+      background: #ffd500;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      .titleButtonLogin {
+        font-family: "SFUIDisplay-Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        margin: auto;
+        letter-spacing: 0.03em;
+        color: #1d1d1d;
+      }
+    }
+    .btn-goggle {
+      width: 400px;
+      height: 50px;
+      background: #ffffff;
+      box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.08);
+      border-radius: 12px;
+      display: flex;
+      justify-content: flex-start !important;
+      padding: 0 20px;
+      margin-bottom: 10px !important;
+
+      .titleGoogle {
+        font-family: "SFProText-Regular";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1e1e1e;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+    .horizontal-line-input {
+      width: 400px;
+      height: 0px;
+      border: 1px solid #d3d3d3;
+      margin-bottom: 10px;
+    }
+    .horizontal-line {
+      width: 180px;
+      height: 0px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    .vertical-line {
+      width: 0.5px;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .container-title-input {
+      width: 400px;
+    }
+    .imageLogin {
+      max-width: 50%;
+      max-height: 50%;
+    }
+    .con-more-info {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      span {
+        font-family: "SFUIDisplay-Regular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #000000;
+        margin-top: 20px;
+        margin-bottom: 14px;
+      }
+      .con-more-info-image {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        .marginIcon {
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+}
+.containerHeader {
+  background-color: #ffffff;
+}
+.containerHeaderTab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.categoryHeader {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input {
+  margin-left: 30px;
+  margin-right: 50px;
+  width: 600px;
+  border-radius: 10px;
+}
+.headerInput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.iconButton {
+  max-width: 50%;
+  max-height: 50%;
+  flex: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.iconLeft {
+  max-width: 30%;
+  max-height: 20%;
+  flex: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.iconLeftFB {
+  width: 5px;
+  height: 10px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 360px;
+}
+.titleButton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0.0928571px;
+  color: #000000;
+  margin-bottom: 0;
+  flex: 1;
+  margin-left: 20px;
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .modal-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-modal-login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      .login-modal-body {
+        background-color: white;
+        margin: auto;
+        width: 300px;
+        height: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .titleInput {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #8e8e8e;
+        margin-bottom: 0;
+      }
+      .titleButton {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #000000;
+        margin-bottom: 0;
+        flex: 1;
+        margin-left: 0;
+      }
+      .titleButtonLogin {
+        font-family: "SFUIDisplay-Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #1d1d1d;
+      }
+      .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        color: #f3d641;
+      }
+      .titleDont {
+        font-family: "SFUIDisplay-Regular";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        margin-right: 5px;
+      }
+      .btn-login {
+        width: 180px;
+        height: 30px;
+        background: #ffd500;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .btn-goggle {
+        width: 180px;
+        height: 30px;
+        background: #ffffff;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .horizontal-line-input {
+        width: 180px;
+        height: 0px;
+        border: 1px solid #d3d3d3;
+        margin-bottom: 10px;
+      }
+      .horizontal-line {
+        width: 150px;
+        height: 0px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      .container-title-input {
+        width: 180px;
+      }
+      .imageLogin {
+        max-width: 40%;
+        max-height: 25%;
+      }
+      .iconButton {
+        max-width: 50%;
+        max-height: 50%;
+        flex: 0;
+        margin-left: 20px;
+      }
+      .iconLeft {
+        max-width: 30%;
+        max-height: 20%;
+        flex: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .containerHeader {
+    background-color: #ffffff;
+  }
+  .containerHeaderTab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .containerHeader {
+    background-color: #ffffff;
+  }
+  .containerHeaderTab {
+    display: flex;
+    flex-direction: row;
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-right: 20px;
+    width: 250px;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

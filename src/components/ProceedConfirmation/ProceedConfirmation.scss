@@ -1,0 +1,227 @@
+@import "../../themes/colors.scss";
+@import "../../themes/fonts.scss";
+@import "../../themes/size.scss";
+
+.modal-container {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  width: 35%;
+  .confirmation-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    .proceed-confirmation-modal {
+      width: vw(519);
+      height: vw(230);
+      background-color: white;
+      margin: auto;
+      border-radius: vw(15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: vw(15) vw(24) vw(30) vw(24);
+      .confirmation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 1;
+        width: 100%;
+        .confirmation-title {
+          margin: 0;
+          margin-bottom: vw(70);
+          font-size: vw(33);
+          font-family: "SFUIDisplay-Bold";
+          color: #3c3b3b;
+        }
+        .btn-confirmation {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          .btn-yes {
+            background-color: #ffd500;
+            justify-self: flex-start;
+            margin-right: vw(10);
+            text-align: center;
+            width: vw(165);
+            padding: vw(15) 0;
+            text-transform: none;
+            font-size: vw(20);
+            font-family: "SFUIDisplay-Regular";
+            border-radius: vw(5);
+            font-weight: 600;
+            margin-left: vw(30);
+            cursor: pointer;
+          }
+          .btn-no {
+            border: vw(2) solid #707070;
+            justify-self: flex-end;
+            margin-right: vw(10);
+            text-align: center;
+            width: vw(165);
+            padding: vw(15) 0;
+            text-transform: none;
+            font-size: vw(20);
+            font-family: "SFUIDisplay-Regular";
+            border-radius: vw(5);
+            font-weight: 600;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+  .modal-container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    width: 33%;
+    .confirmation-modal-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      .proceed-confirmation-modal {
+        width: vw-tab(315);
+        height: vw-tab(170);
+        background-color: white;
+        margin: auto;
+        border-radius: vw-tab(5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: vw-tab(25);
+        .confirmation-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          flex: 1;
+          margin-top: vw-tab(15);
+          width: 100%;
+          .confirmation-title {
+            margin: 0;
+            font-size: vw-tab(23);
+            font-family: "SFUIDisplay-Bold";
+            color: #3c3b3b;
+          }
+          .btn-confirmation {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            .btn-yes {
+              justify-self: flex-start;
+              background-color: #ffd500;
+              text-align: center;
+              width: vw-tab(165);
+              padding: vw-tab(15) 0;
+              text-transform: none;
+              font-size: vw-tab(20);
+              font-family: "SFUIDisplay-Regular";
+              border-radius: vw-tab(5);
+              font-weight: 600;
+              margin-left: vw-tab(10);
+              cursor: pointer;
+            }
+            .btn-no {
+              border: vw-tab(2) solid #707070;
+              justify-self: flex-end;
+              text-align: center;
+              width: vw-tab(165);
+              padding: vw-tab(15) 0;
+              text-transform: none;
+              font-size: vw-tab(20);
+              font-family: "SFUIDisplay-Regular";
+              border-radius: vw-tab(5);
+              font-weight: 600;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .modal-container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    .confirmation-modal-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      .proceed-confirmation-modal {
+        width: vw-mobile(200);
+        height: vw-mobile(130);
+        background-color: white;
+        margin: 0;
+        border-radius: vw-mobile(5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: vw-mobile(25);
+        .confirmation-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          flex: 1;
+          margin-top: vw-mobile(15);
+          width: 100%;
+          .confirmation-title {
+            margin: 0;
+            font-size: vw-mobile(15);
+            font-family: "SFUIDisplay-Bold";
+            color: #3c3b3b;
+          }
+          .btn-confirmation {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            .btn-yes {
+              background-color: #ffd500;
+              justify-self: flex-start;
+              text-align: center;
+              width: vw-mobile(165);
+              padding: vw-mobile(15) 0;
+              text-transform: none;
+              font-size: vw-mobile(13);
+              font-family: "SFUIDisplay-Regular";
+              border-radius: vw-mobile(5);
+              font-weight: 600;
+              margin-left: vw-mobile(5);
+              cursor: pointer;
+            }
+            .btn-no {
+              border: vw-mobile(2) solid #707070;
+              justify-self: flex-end;
+              text-align: center;
+              width: vw-mobile(165);
+              padding: vw-mobile(15) 0;
+              text-transform: none;
+              font-size: vw-mobile(13);
+              font-family: "SFUIDisplay-Regular";
+              border-radius: vw-mobile(5);
+              font-weight: 600;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

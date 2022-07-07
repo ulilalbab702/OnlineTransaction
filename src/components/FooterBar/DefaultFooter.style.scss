@@ -1,0 +1,278 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .footerStyle {
+    color: #ffffff;
+    background-color: black;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .marginleftfootercopy {
+    margin-left: 4rem;
+  }
+  .marginprivacyfooter {
+    margin-right: 3rem;
+  }
+  .widthfooter {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+  }
+  .footerahref {
+    color: black !important;
+  }
+  .footterm {
+    color: white !important;
+  }
+  .firstfooter {
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+  }
+  .spanfirstfooter {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .fontfooter {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .paddingimagefooter {
+    margin-right: 15px;
+  }
+  .spansecondfooter {
+    margin-left: 1.5rem;
+  }
+  .marginfooter {
+    margin-left: 1rem;
+  }
+  .margincolumntiga {
+    margin-left: 0rem;
+  }
+  .marginsecondfooter {
+    padding-left: 25rem;
+  }
+  .spanprivacyfooter {
+    padding-right: 5em;
+  }
+  .textalign {
+    text-align: right;
+  }
+  @media screen and (max-width: 800px) {
+    .marginfooter {
+      margin-left: 1rem;
+    }
+  }
+  .myCol {
+    width: 200px !important;
+  }
+  .downloadIcon {
+    width: 8vw;
+    height: 2.53vw;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footerStyle {
+    color: #ffffff;
+    background-color: black;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .marginleftfootercopy {
+    margin-left: 4rem;
+  }
+  .marginprivacyfooter {
+    margin-right: 3rem;
+  }
+  .widthfooter {
+    width: 100%;
+    margin-top: 15vh;
+    margin-left: auto;
+  }
+  .footerahref {
+    color: black !important;
+  }
+  .footterm {
+    color: white !important;
+  }
+  .firstfooter {
+    margin-left: 3.5rem;
+    margin-right: 3.2rem;
+  }
+  .spanfirstfooter {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .fontfooter {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .paddingimagefooter {
+    margin-right: 15px;
+  }
+  .spansecondfooter {
+    margin-left: 1.5rem;
+  }
+  .marginfooter {
+    margin-left: 1rem;
+  }
+  .margincolumntiga {
+    margin-left: 0rem;
+  }
+  .marginsecondfooter {
+    padding-left: 25rem;
+  }
+  .spanprivacyfooter {
+    padding-right: 5em;
+  }
+  .textalign {
+    text-align: right;
+  }
+  .downloadIcon {
+    width: 8vw;
+    height: 2.53vw;
+  }
+  @media screen and (max-width: 800px) {
+    .marginfooter {
+      margin-left: 1rem;
+    }
+  }
+  .downloadIcon {
+    width: 120px;
+    height: 38px;
+  }
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .footerStyle {
+    color: #ffffff;
+    background-color: black;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  .downloadIcon {
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .marginfooter {
+    margin-left: 30px;
+  }
+  .marginFooterTitle {
+    margin-left: 10px;
+  }
+  .fontfooter {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+  }
+  .paddingimagefooter {
+    margin-right: 10px;
+  }
+  .fontfooterDownload {
+    font-size: 12px;
+  }
+  .defaultIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: vw-mobile(0);
+    margin-bottom: vw-mobile(20);
+  }
+  .spanfirstfooter {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .footerStyle {
+    color: #ffffff;
+    background-color: black;
+    margin-top: vw-tab(10);
+    padding-top: vw-tab(10);
+    padding-bottom: vw-tab(10);
+    font-size: vw-tab(12);
+  }
+  .paddingimagefooter {
+    margin-right: vw-tab(10);
+  }
+  .fontfooter {
+    font-size: vw-tab(14);
+    margin-bottom: vw-tab(10);
+  }
+  .margincolumntiga {
+    margin-left: vw-tab(20);
+  }
+  .spanfirstfooter {
+    margin-bottom: vw-tab(20);
+    font-weight: bold;
+    font-size: vw-tab(18);
+  }
+  .marginfooter {
+    margin-left: vw-tab(20);
+  }
+  .widthfooter {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+  }
+  .downloadIcon {
+    width: vw-tab(150);
+    height: vw-tab(50);
+  }
+  .defaultIcon {
+    display: flex;
+    align-items: center;
+    margin-left: vw-tab(20);
+    margin-bottom: vw-tab(20);
+  }
+  .containerHeader {
+    background-color: #ffffff;
+  }
+  .containerHeaderTab {
+    display: flex;
+    flex-direction: row;
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-right: 20px;
+    width: 250px;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .defaultIcon {
+    display: flex;
+    align-items: center;
+    margin-left: vw(20);
+    margin-bottom: vw(20);
+  }
+}

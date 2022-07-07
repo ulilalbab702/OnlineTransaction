@@ -1,0 +1,299 @@
+@import 'themes/fonts';
+@import 'themes/colors';
+@import 'themes/size';
+
+.card-header{
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #F8F8F8;
+    border-bottom: 0px;
+    // padding: vw(10) !important;
+    // padding-left: vw(20) !important;
+    div{
+        span{
+            font-family: 'Lato-Bold' !important;
+            font-size: vw(23);
+            font-weight: 900;
+            line-height: 28px;
+        }
+    }
+}
+.card-content{
+    .card-containers{
+       .left-side{
+           .achievement-container{
+               .achievement-value-0{
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-70{
+                    color: #FFD500;
+                    @extend .achievement-value-0;
+               }
+               .achievement-value-90{
+                    color: #61CB27;
+                    @extend .achievement-value-0;
+               }
+               .achievement-text{
+                    font-size: vw(14);
+                    font-weight: bold;
+                    line-height: 17px;
+                    text-align: center;
+               }
+           }
+       }
+       
+       .right-side{
+           .detail-container{
+               .backlog-total-container{
+                .backlog-total{
+                    font-size: vw(18);
+                    font-weight: bold;
+                    .backlog-value{
+                        color: #C15F92;
+                    }
+                   }
+               }
+               
+               .backlog-priority-container{
+                .backlog-priority{
+                    //    margin-right: vw(1);
+                        .card-priority{
+                            .first-priority, .second-priority,
+                            .third-priority, .forth-priority{
+                                text-align: center;
+                                font-family: 'Lato-Bold' !important;
+                                font-style: normal;
+                                .priority-title{
+                                    font-weight: bold;
+                                    font-size: vw(8);
+                                    line-height: 10px;
+                                }
+                                .priority-value{
+                                    font-weight: 900;
+                                    line-height: 25px;
+                                    font-size: vw(21);
+                                }
+                            }
+                        }
+                   }
+               }
+
+           }
+       }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .card-header{
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #F8F8F8;
+    border-bottom: 0px;
+    // padding: vw(10) !important;
+    // padding-left: vw(20) !important;
+    div{
+        span{
+            font-family: 'Lato-Bold' !important;
+            font-size: vw(40);
+            font-weight: 900;
+            line-height: 28px;
+        }
+    }
+}
+.card-content{
+    .card-containers{
+       .left-side{
+           .achievement-container{
+               .achievement-value-0{
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-70{
+                    color: #FFD500;
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-90{
+                    color: #61CB27;
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-text{
+                    font-size: vw(34);
+                    font-weight: bold;
+                    line-height: 17px;
+                    text-align: center;
+               }
+           }
+       }
+       
+       .right-side{
+           .detail-container{
+               .backlog-total-container{
+                .backlog-total{
+                    margin-bottom: vw(10);
+                    font-size: vw(25);
+                    font-weight: bold;
+                    .backlog-value{
+                        color: #C15F92;
+                    }
+                   }
+               }
+               
+               .backlog-priority-container{
+                .backlog-priority{
+                    //    margin-right: vw(1);
+                        .card-priority{
+                            .first-priority, .second-priority,
+                            .third-priority, .forth-priority{
+                                text-align: center;
+                                font-family: 'Lato-Bold' !important;
+                                font-style: normal;
+                                .priority-title{
+                                    font-weight: bold;
+                                    font-size: vw(24);
+                                    line-height: 10px;
+                                }
+                                .priority-value{
+                                    font-weight: 900;
+                                    line-height: 25px;
+                                    font-size: vw(21);
+                                }
+                            }
+                        }
+                   }
+               }
+
+           }
+       }
+    }
+}
+}
+
+@media (max-width: 599px) {
+    .card-header{
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #F8F8F8;
+    border-bottom: 0px;
+    // padding: vw(10) !important;
+    // padding-left: vw(20) !important;
+    div{
+        span{
+            font-family: 'Lato-Bold' !important;
+            font-size: vw-mobile(14);
+            font-weight: 900;
+            line-height: 28px;
+        }
+    }
+}
+.card-content{
+    .card-containers{
+       .left-side{
+           .achievement-container{
+               .achievement-value-0{
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-70{
+                    color: #FFD500;
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-value-90{
+                    color: #61CB27;
+                    color: #FF5656;
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: bold;
+                    font-family: 'Lato-Bold' !important;
+                    span{
+                        font-size: 30px;
+                    }
+               }
+               .achievement-text{
+                    font-size: vw-mobile(12);
+                    font-weight: bold;
+                    line-height: 17px;
+                    text-align: center;
+               }
+           }
+       }
+       
+       .right-side{
+           .detail-container{
+               .backlog-total-container{
+                .backlog-total{
+                    margin-bottom: vw(10);
+                    font-size: vw-mobile(10);
+                    font-weight: bold;
+                    .backlog-value{
+                        color: #C15F92;
+                    }
+                   }
+               }
+               
+               .backlog-priority-container{
+                .backlog-priority{
+                    //    margin-right: vw(1);
+                        .card-priority{
+                            .first-priority, .second-priority,
+                            .third-priority, .forth-priority{
+                                text-align: center;
+                                font-family: 'Lato-Bold' !important;
+                                font-style: normal;
+                                .priority-title{
+                                    font-weight: bold;
+                                    font-size: vw-mobile(8);
+                                    line-height: 10px;
+                                }
+                                .priority-value{
+                                    font-weight: 900;
+                                    line-height: 25px;
+                                    font-size: vw-mobile(10);
+                                }
+                            }
+                        }
+                   }
+               }
+
+           }
+       }
+    }
+}
+
+}

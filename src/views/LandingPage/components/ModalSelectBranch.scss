@@ -1,0 +1,285 @@
+@import "../../../themes/colors";
+@import "../../../themes/fonts";
+@import "../../../themes/size";
+
+.radio-border-null {
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  width: vw(30);
+  height: vw(30);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-right: vw(10);
+}
+.radio-border-branch {
+  border: 2px solid #5acc4d;
+  box-sizing: border-box;
+  width: 1.9vw;
+  height: 1.9vw;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-grow: 0;
+}
+.radio-button-branch {
+  background: #5acc4d;
+  width: vw(23);
+  height: vw(23);
+  border-radius: 1vw;
+}
+.modal-confirmBL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 33%;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+}
+.container-modal-shippment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.confirm-modal-body {
+  background-color: white;
+  margin: auto;
+  border-radius: vw(15);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1vw 3vw;
+  .title-contact {
+    font-weight: 400 !important;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .container-footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    img {
+      height: 10%;
+      margin: 0 1em;
+      padding: 0;
+    }
+    .marginIcon {
+      margin-top: 3px;
+    }
+  }
+}
+.titleConfirm {
+  font-family: "SFProText-Bold";
+  font-size: vw(24);
+  color: #000000;
+  text-align: center;
+}
+.line-horizontal-shippment {
+  opacity: 0.15;
+  border: 0.7px solid #000000;
+  margin-bottom: vw(10);
+}
+.title-name-expedisi-branch {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1.2vw;
+  color: #404040;
+  margin-bottom: 0;
+  line-height: 1.6vw;
+}
+.title-date-expedisi-branch {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-size: 1vw;
+  color: #000000;
+  opacity: 0.4;
+  line-height: 1.5vw;
+}
+.title-price-expedisi {
+  font-family: "SFUIDisplay-Bold";
+  font-size: vw(20);
+  color: #148f0f;
+  opacity: 0.75;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-left: vw(150);
+}
+.title-price-shipment {
+  font-family: "SFUIDisplay-Bold";
+  font-size: vw(20);
+  color: #148f0f;
+  opacity: 0.75;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-bottom: 0;
+}
+.container-shippment-row-branch {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.cardSave {
+  width: vw(200);
+  height: vw(50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd500;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-left: vw(10);
+}
+.cardCancel {
+  width: vw(200);
+  padding: 0 10px;
+  height: vw(50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8d8d8;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-right: vw(10);
+}
+.textSave {
+  font-family: "SFProText-Bold";
+  font-size: vw(20);
+  text-align: center;
+  margin-bottom: 0;
+}
+.container-shippment-kurir {
+  margin-left: vw(20);
+  margin-right: vw(20);
+  margin-top: vw(20);
+  margin-bottom: vw(20);
+  display: flex;
+  flex-direction: column;
+}
+.shippment-margin {
+  margin-left: vw(40);
+}
+.margin-nol {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.card-item-address-branch {
+  background: #f9f9f9;
+  border-radius: vw(16);
+  padding-left: vw(10);
+  padding-right: vw(10);
+  padding-top: vw(10);
+  padding-bottom: vw(10);
+  margin-bottom: vw(20);
+  margin-left: 1.2vw;
+  width: 30vw;
+  cursor: pointer;
+}
+.border-price-shipment {
+  border: 2px solid #5acc4d;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: vw(10);
+  margin-bottom: vw(20);
+  flex: 1;
+  justify-content: center;
+  margin-left: vw(190);
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .shippment-modal-body-branch {
+    background-color: white;
+    margin: auto;
+    width: vw-mobile(300);
+    height: vw-mobile(500);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 0;
+  }
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+//laptop
+@media only screen and (min-width: 1280px) {
+  .modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 0;
+  }
+  .container-modal-shippment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .shippment-modal-body-branch {
+    background-color: white;
+    margin: auto;
+    border-radius: vw(15);
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    padding: vw(15) vw(40) vw(30) vw(40);
+  }
+  .titleShippment-branch {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #000000;
+    margin-top: vw(20);
+    @media (max-width: 599px) {
+      font-size: 4vw;
+    }
+  }
+}

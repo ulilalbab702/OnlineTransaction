@@ -1,0 +1,1312 @@
+body {
+  background-color: #ffffff;
+}
+.cardnewSubMenu{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-left: 0.2rem;
+  padding-top: 0.4rem;
+}
+.bgTP {
+  margin-left: 150px;
+}
+.con-promo-notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 1rem;
+}
+.img-promo-notfound {
+  width: 50%;
+  height: auto;
+  transform: scale(1);
+}
+.teks-promo-notfound {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 30px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .imageCalendar {
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+    margin: 10px 0;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+    font-size: 20px !important;
+    margin: 10px 0;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 14px;
+    color: #000000;
+    margin-left: 5px;
+    margin: 10px 0;
+  }
+
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  .seeDetailPromotion {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .promotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+    justify-content: center;
+  }
+
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 400px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gridListPromo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .titleProduct {
+    font-size: 18px !important;
+  }
+
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .imageCalendar {
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+    font-size: 13px !important;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  .seeDetailPromotion {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .promotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+    justify-content: center;
+  }
+
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 341px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gridListPromo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .titleProduct {
+    font-size: 15px !important;
+  }
+
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1599px) {
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .imageCalendar {
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+    font-size: 13px !important;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  .seeDetailPromotion {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .promotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+    justify-content: center;
+  }
+
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 341px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gridListPromo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .titleProduct {
+    font-size: 15px !important;
+  }
+
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1535px) {
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .imageCalendar {
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+    font-size: 13px !important;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  .seeDetailPromotion {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .promotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+    justify-content: center;
+  }
+
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 341px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gridListPromo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .titleProduct {
+    font-size: 15px !important;
+  }
+
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .imageCalendar {
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+    font-size: 13px !important;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  .seeDetailPromotion {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .promotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+    justify-content: center;
+  }
+
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 341px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gridListPromo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .titleProduct {
+    font-size: 15px !important;
+  }
+
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .imageCalendar {
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  .seeDetailPromotion {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .promotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+    justify-content: center;
+  }
+
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 341px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gridListPromo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .defaultMargin {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .imageShort {
+    width: 25px;
+    height: 20px;
+  }
+  .boldPeriode {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5px;
+  }
+  .titleKategoriProduct {
+    opacity: 1 !important;
+  }
+  .search-textPromotion {
+    font-size: 10px;
+    flex: 1;
+    margin-left: 30px;
+  }
+  .reedemVoucher {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+  }
+  .cardListPromotion {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 300px;
+    height: fit-content;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .imageListPromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1);
+  }
+  .containerMargin {
+    margin-left: 9vw;
+    margin-right: 15vw;
+  }
+  .containerPromotion {
+    margin-bottom: 4rem;
+    padding-top: 11vw;
+  }
+  .bgTP {
+    margin-left: 150px;
+  }
+  .styleTitlePromotion {
+    font-family: "SFUIDisplay-Bold";
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+  }
+  .conTitlePromotion {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffffff;
+    cursor: pointer;
+  }
+  .conTitlePromotionActive {
+    margin-right: 40px;
+    border-bottom: 4px solid #ffd500;
+  }
+  .rowTab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vw;
+  }
+  .tabPromotion {
+    margin-right: 2vw;
+    padding: 5px 0;
+  }
+  .textTab {
+    font-family: "SFProText-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c1c1c;
+  }
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}

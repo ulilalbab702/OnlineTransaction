@@ -1,0 +1,207 @@
+@import 'themes/colors';
+@import 'themes/size';
+@import 'themes/fonts';
+
+.condition-detail-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 75%;
+    margin-left: vw(25);
+    .condition-row{
+        margin-top: vw(20);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        .comment-container{
+            flex: 2;
+            .btn-label{
+                font-size: vw(16);
+                font-family: 'SFUIDisplay-Regular';
+                margin: 0;
+                margin-bottom: vw(10);
+                color: #1C1A1A;
+            }
+            .comment-input-form{
+                width: 90%;
+            }
+        }
+    }
+    .backlog-container{
+        .btn-label{
+            font-size: vw(16);
+            font-family: 'SFUIDisplay-Regular';
+            margin: 0;
+            margin-bottom: vw(10);
+            color: #1C1A1A;
+        }
+        .btn-backlog-problems{
+            width: vw(150);
+            height: vw(32);
+            padding-top: vw(5);
+            background-color: #FFD500;
+            text-align: center;
+            box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+            border-radius: vw(5);
+            font-family: 'Lato-Bold';
+            font-size: vw(18);
+            color: #1D1D1D;            
+            cursor: pointer;
+        }
+        .btn-backlog-null{
+            width: vw(150);
+            height: vw(32);
+            padding-top: vw(5);
+            background-color: #F2F2F4;
+            text-align: center;
+            box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+            border-radius: vw(5);
+            font-family: 'Lato-Bold';
+            font-size: vw(18);
+            color: #1D1D1D;            
+            cursor: pointer;
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {    
+    .condition-detail-container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 90%;
+        margin-left: vw-tab(25);
+        margin-bottom: vw-tab(25);
+        .condition-row{
+            margin-top: vw-tab(20);
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            .comment-container{
+                flex: 2;
+                .btn-label{
+                    font-size: vw-tab(10);
+                    font-family: 'SFUIDisplay-Regular';
+                    margin: 0;
+                    margin-bottom: vw-tab(10);
+                    color: #1C1A1A;
+                }
+                .comment-input-form{
+                    width: 90%;
+                    font-size: vw-tab(11);
+                    height: vw-tab(35);
+                    font-family: 'SFUIDisplay-Regular';
+                }
+            }
+        }
+        .backlog-container{
+            .btn-label{
+                font-size: vw-tab(10);
+                font-family: 'SFUIDisplay-Regular';
+                margin: 0;
+                margin-bottom: vw-tab(10);
+                color: #1C1A1A;
+            }
+            .btn-backlog-problems{
+                width: vw-tab(125);
+                height: vw-tab(32);
+                padding-top: vw-tab(5);
+                background-color: #FFD500;
+                text-align: center;
+                box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-tab(5);
+                font-family: 'Lato-Bold';
+                font-size: vw-tab(18);
+                color: #1D1D1D;            
+                cursor: pointer;
+            }
+            .btn-backlog-null{
+                width: vw-tab(125);
+                height: vw-tab(32);
+                padding-top: vw-tab(5);
+                background-color: #F2F2F4;
+                text-align: center;
+                box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-tab(5);
+                font-family: 'Lato-Bold';
+                font-size: vw-tab(18);
+                color: #1D1D1D;            
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 599px) {    
+    .condition-detail-container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 90%;
+        margin-left: vw-mobile(12);
+        margin-bottom: vw-mobile(12);
+        .condition-row{
+            margin-top: vw-mobile(12);
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            .comment-container{
+                flex: 2;
+                .btn-label{
+                    font-size: vw-mobile(8);
+                    font-family: 'SFUIDisplay-Regular';
+                    margin: 0;
+                    margin-bottom: vw-mobile(5);
+                    color: #1C1A1A;
+                }
+                .comment-input-form{
+                    width: 95%;
+                    font-size: vw-mobile(9);
+                    height: vw-mobile(25);
+                    font-family: 'SFUIDisplay-Regular';
+                }
+            }
+        }
+        .backlog-container{
+            .btn-label{
+                font-size: vw-mobile(8);
+                font-family: 'SFUIDisplay-Regular';
+                margin: 0;
+                margin-bottom: vw-mobile(5);
+                color: #1C1A1A;
+            }
+            .btn-backlog-problems{
+                width: vw-mobile(70);
+                height: vw-mobile(18);
+                padding-top: vw-mobile(7);
+                background-color: #FFD500;
+                text-align: center;
+                box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-mobile(5);
+                font-family: 'Lato-Bold';
+                font-size: vw-mobile(9);
+                color: #1D1D1D;            
+                cursor: pointer;
+            }
+            .btn-backlog-null{
+                width: vw-mobile(70);
+                height: vw-mobile(18);
+                padding-top: vw-mobile(7);
+                background-color: #F2F2F4;
+                text-align: center;
+                box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161);
+                border-radius: vw-mobile(5);
+                font-family: 'Lato-Bold';
+                font-size: vw-mobile(9);
+                color: #1D1D1D;            
+                cursor: pointer;
+            }
+        }
+    }
+}

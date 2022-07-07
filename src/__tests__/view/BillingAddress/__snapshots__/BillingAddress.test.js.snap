@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Change Address Component Change Address Component Component Should match to snapshot 1`] = `
+<div>
+  <Row
+    style={
+      Object {
+        "marginBottom": "5rem",
+        "marginRight": "0",
+      }
+    }
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="contactInformation"
+      lg="7"
+      md="12"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xl="7"
+    >
+      <h3
+        className="styleCIBold"
+      >
+        Contact Information
+      </h3>
+      <Col
+        className="formAddress"
+        lg="10"
+        md="10"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Form
+          tag="form"
+        >
+          <FormGroup
+            className="mb-3"
+            tag="div"
+          >
+            <Label
+              for="phoneNumber"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Phone Number
+            </Label>
+            <Input
+              className="styleIsiForm"
+              defaultValue="081218310111"
+              id="phoneNumber"
+              maxLength="100"
+              name="contactNumber"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              type="tel"
+              value=""
+            />
+          </FormGroup>
+          <FormGroup
+            className="mb-1"
+            tag="div"
+          >
+            <Label
+              for="email"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Email
+            </Label>
+            <Input
+              className="styleIsiForm"
+              defaultValue="yohanesKurniawan@mitralestari.com"
+              id="contactEmail"
+              maxLength="100"
+              name="email"
+              onChange={[Function]}
+              type="email"
+              value=""
+            />
+          </FormGroup>
+          <Form
+            inline={true}
+            style={
+              Object {
+                "marginBottom": 15,
+                "marginTop": 10,
+              }
+            }
+            tag="form"
+          >
+            <FormGroup
+              check={true}
+              tag="div"
+            >
+              <Label
+                check={true}
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Input
+                  defaultChecked="checked"
+                  type="checkbox"
+                />
+                 
+                Get promo information and updates
+              </Label>
+            </FormGroup>
+          </Form>
+          <FormGroup
+            className="mb-3"
+            tag="div"
+          >
+            <Label
+              for="selectRole"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Role
+            </Label>
+            <Input
+              className="styleIsiForm"
+              id="selectRole"
+              name="position"
+              onChange={[Function]}
+              type="select"
+              value=""
+            >
+              <option>
+                Owner
+              </option>
+              <option>
+                CEO
+              </option>
+            </Input>
+          </FormGroup>
+          <hr
+            style={
+              Object {
+                "marginTop": "2.5rem",
+                "width": "100%",
+              }
+            }
+          />
+          <h3
+            className="styleBABold"
+          >
+            Billing Address
+          </h3>
+          <FormGroup
+            className="mb-3"
+            tag="div"
+          >
+            <Label
+              for="fullName"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Full Name
+            </Label>
+            <Input
+              className="styleIsiForm"
+              defaultValue="Yohanes Kurniawan"
+              id="fullName"
+              maxLength="100"
+              name="fullName"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </FormGroup>
+          <FormGroup
+            className="mb-3"
+            tag="div"
+          >
+            <Label
+              for="labelAlamat"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Label Alamat
+            </Label>
+            <Input
+              className="styleIsiForm"
+              defaultValue="Kantor"
+              id="kantor"
+              maxLength="100"
+              name="addressLabel"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </FormGroup>
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              md={9}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <FormGroup
+                className="mb-3"
+                tag="div"
+              >
+                <Label
+                  for="kotaKecamatan"
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  Kota atau Kecamatan
+                </Label>
+                <Input
+                  className="styleIsiForm"
+                  defaultValue="Perwira, Bekasi Utara, Kota Bekasi"
+                  id="kota"
+                  maxLength="100"
+                  name="city"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </FormGroup>
+            </Col>
+            <Col
+              md={3}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <FormGroup
+                className="mb-3"
+                tag="div"
+              >
+                <Label
+                  for="kodePos"
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  Kode Pos
+                </Label>
+                <Input
+                  className="styleIsiForm"
+                  defaultValue="171222"
+                  id="kodePos"
+                  maxLength="100"
+                  name="postalCode"
+                  onChange={[Function]}
+                  onKeyPress={[Function]}
+                  type="text"
+                  value=""
+                />
+              </FormGroup>
+            </Col>
+          </Row>
+          <FormGroup
+            className="mb-3"
+            tag="div"
+          >
+            <Label
+              for="alamatDetail"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Alamat Detail
+            </Label>
+            <textarea
+              class="styleIsiAlamat"
+              defaultValue="Jl Raya kaliabang Tengah, Ruko San Jaya,  Blok A5 No 9, Sebelah Indomaret"
+              maxLength="500"
+              name="address"
+              onChange={[Function]}
+              value=""
+            />
+          </FormGroup>
+          <Col
+            className="mb-2 p-0"
+            lg="12"
+            md="12"
+            sm="12"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xl="12"
+          >
+            <Label
+              for="alamatDetail"
+              tag="label"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Tandai Lokasi (Opsional)
+            </Label>
+            <Row
+              className="ml-0 boxLokasi"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="p-0 iconLokasi"
+                lg="1"
+                md="2"
+                sm="2"
+                xl="2"
+              >
+                <img
+                  src="iconLoc.png"
+                  style={
+                    Object {
+                      "height": "51px",
+                      "width": "51px",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="p-0 teksLokasi"
+                lg="7"
+                md="6"
+                sm="6"
+                xl="6"
+              >
+                <div
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                >
+                  Jl. Raya Bekasi No.KM.22, RT.7/RW.1, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910
+                </div>
+              </div>
+              <div
+                className="p-0"
+                lg="4"
+                md="4"
+                sm="4"
+                xl="4"
+              >
+                <div
+                  className="btnChangePinpoint"
+                  onClick={[Function]}
+                >
+                  <p
+                    className="titleBtn"
+                  >
+                    Change Pinpoint
+                  </p>
+                </div>
+                <ForwardRef(Modal)
+                  className="modal-login"
+                  onClose={[Function]}
+                  open={false}
+                >
+                  <WithStyles(ForwardRef(DialogContent))
+                    className="container-modal-login"
+                  >
+                    <div
+                      className="login-modal-body"
+                    >
+                      <div
+                        className="App"
+                      >
+                        <LoadScript
+                          googleMapsApiKey="AIzaSyBfxiEXIWGI0qyaQ9QMKIjSyYdZ_71e70A"
+                          id="script-loader"
+                          version="weekly"
+                        >
+                          <GoogleMap
+                            center={
+                              Object {
+                                "lat": -6.183758441950028,
+                                "lng": 106.9311030934085,
+                              }
+                            }
+                            mapContainerStyle={
+                              Object {
+                                "height": "400px",
+                                "width": "400px",
+                              }
+                            }
+                            zoom={10}
+                          >
+                            <Marker
+                              position={
+                                Object {
+                                  "lat": -6.183758441950028,
+                                  "lng": 106.9311030934085,
+                                }
+                              }
+                            />
+                          </GoogleMap>
+                        </LoadScript>
+                      </div>
+                    </div>
+                  </WithStyles(ForwardRef(DialogContent))>
+                </ForwardRef(Modal)>
+              </div>
+            </Row>
+          </Col>
+          <hr
+            style={
+              Object {
+                "marginTop": "1.5rem",
+                "width": "100%",
+              }
+            }
+          />
+          <Col
+            className="pr-0"
+            lg="12"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="btnContinue"
+              onClick={[Function]}
+            >
+              <p
+                className="titleBtn"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#000000",
+                  }
+                }
+              >
+                Continue to Delivery
+              </p>
+            </div>
+          </Col>
+        </Form>
+      </Col>
+    </Col>
+    <CardInputPromo />
+  </Row>
+</div>
+`;

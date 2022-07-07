@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail News Component Detail News Component Should match to snapshot 1`] = `
+<div
+  className="defaultMargin"
+>
+  <p
+    className="title-promotion-list"
+  />
+  <p
+    className="title-promotion-date"
+  >
+    12 April 2021
+  </p>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyItems": "center",
+        "marginBottom": 20,
+      }
+    }
+  >
+    <img
+      height="20"
+      src="likes.png"
+      width="20"
+    />
+    <p
+      className="title-icon"
+    >
+      20
+    </p>
+    <div
+      className="line-vertical-comment "
+    />
+    <img
+      height="20"
+      src="chat.png"
+      width="20"
+    />
+    <p
+      className="title-icon"
+    >
+      129
+    </p>
+    <div
+      className="line-vertical-comment "
+    />
+    <img
+      height="20"
+      src="share.png"
+      width="20"
+    />
+    <p
+      className="title-icon"
+    >
+      Share
+    </p>
+  </div>
+  <div
+    className="container-flex"
+  >
+    <div>
+      <img
+        className="image-promotion-list"
+      />
+      <p
+        className="title-promotion-description"
+      />
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "marginBottom": 20,
+          }
+        }
+      >
+        <img
+          height="20"
+          src="chat.png"
+          width="20"
+        />
+        <p
+          className="title-komentar"
+        >
+          Komentar
+        </p>
+      </div>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="input-gray"
+        >
+          <WithStyles(ForwardRef(Input))
+            className="input-gray"
+            disableUnderline={true}
+            onChange={[Function]}
+            placeholder="Tambahkan Komentar..."
+            value=""
+          />
+          <WithStyles(ForwardRef(Paper))
+            className="send-card"
+            onClick={[Function]}
+          >
+            <p
+              className="title-send"
+            >
+              Send
+            </p>
+            <img
+              alt="icon"
+              height="15"
+              src="arrowSend.png"
+              width="15"
+            />
+          </WithStyles(ForwardRef(Paper))>
+        </WithStyles(ForwardRef(Paper))>
+      </Row>
+      <div>
+        <div
+          className="default-margin-top-bottom"
+          key="0"
+        >
+          <div
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <img
+              height="50"
+              src="account-pic.png"
+              width="50"
+            />
+            <div>
+              <p
+                className="item-name-comment"
+              >
+                Setiadi
+              </p>
+              <p
+                className="item-date-comment"
+              >
+                2/22/2021, 8:41:17 AM
+              </p>
+            </div>
+          </div>
+          <i
+            className="item-text-comment"
+          >
+            Ini Promo apakah masih berlaku ?
+          </i>
+          <p
+            className="line-horizontal "
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="default-margin"
+    >
+      <p
+        className="title-news-relate"
+      >
+        Berita Terkait
+      </p>
+      <div
+        className="container-product-related"
+        key="daaa19b6-d0a6-460c-12c1-08d8d4877ae9"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <img
+          className="image-promotion-relate-list"
+          src="https://firebasestorage.googleapis.com/v0/b/customer-portal-dan-ut-portal.appspot.com/o/Images%2F307949f7-1787-4ff9-97a4-410c6687d037%2F.jpg?alt=media&token=368a6249-238f-4c67-8352-a800e29c415a"
+        />
+        <p
+          className="title-product-related"
+        >
+          Aplikasi Perawatan Alat Berat UT Connect, Mudahkan Akses Informasi Produk United Tractors
+        </p>
+      </div>
+      <div
+        className="container-product-related"
+        key="cb678399-9d98-4b60-12c4-08d8d4877ae9"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <img
+          className="image-promotion-relate-list"
+          src="https://firebasestorage.googleapis.com/v0/b/customer-portal-dan-ut-portal.appspot.com/o/Images%2F307949f7-1787-4ff9-97a4-410c6687d037%2F.jpg?alt=media&token=368a6249-238f-4c67-8352-a800e29c415a"
+        />
+        <p
+          className="title-product-related"
+        >
+          Aplikasi Perawatan Alat Berat UT Connect, Mudahkan Akses Informasi Produk United Tractors
+        </p>
+      </div>
+      <div
+        className="container-product-related"
+        key="9871434b-46ff-417d-12c2-08d8d4877ae9"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <img
+          className="image-promotion-relate-list"
+          src="https://firebasestorage.googleapis.com/v0/b/customer-portal-dan-ut-portal.appspot.com/o/Images%2F307949f7-1787-4ff9-97a4-410c6687d037%2F.jpg?alt=media&token=368a6249-238f-4c67-8352-a800e29c415a"
+        />
+        <p
+          className="title-product-related"
+        >
+          Aplikasi UT Connect Telah hadir di IOS
+        </p>
+      </div>
+      <p
+        className="title-see"
+        onClick={[Function]}
+      >
+        See Other Promo →
+      </p>
+    </div>
+  </div>
+</div>
+`;

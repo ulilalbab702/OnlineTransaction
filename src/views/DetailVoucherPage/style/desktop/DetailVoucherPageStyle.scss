@@ -1,0 +1,1685 @@
+body {
+  background-color: #ffffff;
+}
+
+.bgTP {
+  margin-left: 150px;
+}
+.marginResponsive {
+  padding-left: 0;
+  padding-right: 0 !important;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.containerClaim {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 2px dashed rgba(86, 85, 85, 0.5);
+}
+.codeClaim {
+  font-family: "SFUIText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #303030;
+  margin: auto 0;
+  margin-left: 10px;
+}
+.btn-claim {
+  background-color: #ffd500;
+  border-radius: 6px;
+  height: 100%;
+  padding: 0 25px;
+  font-family: "SFUIDisplay-Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.4px;
+  color: #000000;
+  cursor: pointer;
+}
+.containerClaimStatus {
+  margin-top: 1rem;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  border-radius: 6px;
+  font-family: "SFUIText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: 19px;
+  color: #ffffff;
+}
+.imageCalendar {
+  margin-left: 15px;
+  width: 23px;
+  height: 23px;
+}
+
+@media only screen and (min-width: 1920px) {
+  .react-viewer-canvas {
+    padding-top: 70px !important;
+  }
+  .marginResponsive {
+    padding-left: 0;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .search-detailPromotion {
+    font-size: 14;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+  }
+
+  .gridListDetailPromo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+  }
+  .paddingPromoLainnya {
+    padding-right: 19vw;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+    margin-right: 10vw;
+  }
+
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .successVoucher1 {
+    flex: 1;
+    background-color: #3c3b3b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher2 {
+    flex: 1;
+    background-color: #d11836;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher3 {
+    flex: 1;
+    background-color: #f8db46;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+  .react-viewer-canvas {
+    padding-top: 70px !important;
+  }
+  .marginResponsive {
+    padding-left: 0;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .search-detailPromotion {
+    font-size: 14;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+  }
+
+  .gridListDetailPromo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+  }
+  .paddingPromoLainnya {
+    padding-right: 19vw;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+    margin-right: 9rem;
+  }
+
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .successVoucher1 {
+    flex: 1;
+    background-color: #3c3b3b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher2 {
+    flex: 1;
+    background-color: #d11836;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher3 {
+    flex: 1;
+    background-color: #f8db46;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1599px) {
+  .react-viewer-canvas {
+    padding-top: 70px !important;
+  }
+  .marginResponsive {
+    padding-left: 0;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .search-detailPromotion {
+    font-size: 14;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+  }
+
+  .gridListDetailPromo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+  }
+  .paddingPromoLainnya {
+    padding-right: 19vw;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+    margin-right: 7rem;
+  }
+
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .successVoucher1 {
+    flex: 1;
+    background-color: #3c3b3b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher2 {
+    flex: 1;
+    background-color: #d11836;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher3 {
+    flex: 1;
+    background-color: #f8db46;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1535px) {
+  .react-viewer-canvas {
+    padding-top: 70px !important;
+  }
+  .marginResponsive {
+    padding-left: 0;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .search-detailPromotion {
+    font-size: 14;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+  }
+
+  .gridListDetailPromo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+  }
+  .paddingPromoLainnya {
+    padding-right: 19vw;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+    margin-right: 5.5rem;
+  }
+
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .successVoucher1 {
+    flex: 1;
+    background-color: #3c3b3b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher2 {
+    flex: 1;
+    background-color: #d11836;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher3 {
+    flex: 1;
+    background-color: #f8db46;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .react-viewer-canvas {
+    padding-top: 70px !important;
+  }
+  .marginResponsive {
+    padding-left: 0;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .search-detailPromotion {
+    font-size: 14;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+  }
+
+  .gridListDetailPromo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+  }
+  .paddingPromoLainnya {
+    padding-right: 19vw;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+    margin-right: 4rem;
+  }
+
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .successVoucher1 {
+    flex: 1;
+    background-color: #3c3b3b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher2 {
+    flex: 1;
+    background-color: #d11836;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher3 {
+    flex: 1;
+    background-color: #f8db46;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .react-viewer-canvas {
+    padding-top: 70px !important;
+  }
+  .marginResponsive {
+    padding-left: 0;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 14px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cardImagePromotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 165px;
+  }
+
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+
+  .search-detailPromotion {
+    font-size: 14;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 311.28px;
+    height: 40.36px;
+  }
+
+  .gridListDetailPromo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(15px, auto);
+    grid-gap: 15px;
+    margin-left: 0px;
+  }
+  .paddingPromoLainnya {
+    padding-right: 19vw;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+    margin-right: 2.5rem;
+  }
+
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .successVoucher1 {
+    flex: 1;
+    background-color: #3c3b3b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher2 {
+    flex: 1;
+    background-color: #d11836;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .successVoucher3 {
+    flex: 1;
+    background-color: #f8db46;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .inputDetailPromoCode {
+    border: 2px solid #d8d8d8;
+    border-style: dotted;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: 1;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .dotPoin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .titlePoin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .descriptionPromo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .boldPeriodeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #c60242;
+    margin: 0;
+    margin-left: 5px;
+  }
+  .titlePeriodeDetail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .titlePromoDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10px;
+  }
+  .seeDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffd500;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .seeOther {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #5d9fd6;
+  }
+  .containerRowResponsive {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .reedemVoucherDetail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffd500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 2.5px;
+  }
+  .search-detailPromotion {
+    font-size: 12;
+    flex: 1;
+    margin-left: 20px;
+  }
+  .detailPromotionCode {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 270px;
+    height: 40.36px;
+  }
+  .imagePromotion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    transform: scale(1) !important;
+  }
+  .bgTP {
+    margin-left: 150px;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+}

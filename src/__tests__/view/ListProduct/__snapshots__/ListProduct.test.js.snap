@@ -1,0 +1,1267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Product Component List Product Component Should match to snapshot 1`] = `
+<Col
+  className="bgTP"
+  style={
+    Object {
+      "paddingLeft": "0",
+    }
+  }
+  tag="div"
+  widths={
+    Array [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+    ]
+  }
+>
+  <Col
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <img
+      className="logoBrand"
+      src="logo_komatsu.png"
+    />
+    <div
+      className="bannerWelcome"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="textBrand"
+          >
+            Welcome to Komatsu Parts
+          </p>
+          <p
+            className="textDescBrand"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          </p>
+        </Col>
+        <img
+          className="imagePC200"
+          src="komatsupc200.png"
+        />
+      </Row>
+    </div>
+  </Col>
+  <Row
+    style={
+      Object {
+        "marginTop": "2rem",
+      }
+    }
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginRight": "2rem",
+          "width": "180px",
+        }
+      }
+    >
+      <p
+        className="titleFilter1"
+      >
+        Filter
+      </p>
+      <hr
+        className="lineListProduct"
+      />
+      <p
+        className="titleList"
+      >
+        Brand
+      </p>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio1"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Komatsu
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio1"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            UD Truck
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio1"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Scania
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio1"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Bomag
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio1"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Tadano
+          </p>
+        </Label>
+      </FormGroup>
+      <hr />
+      <p
+        className="titleList"
+      >
+        Category
+      </p>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Battery
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Filter
+          </p>
+        </Label>
+        <div>
+          <select
+            className="styleFilterForm"
+            onClick={[Function]}
+          >
+            <option
+              hidden={true}
+            >
+              Select Filter
+            </option>
+          </select>
+          <div
+            className="boxSelectedFilter"
+          />
+        </div>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Get & Attachment
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Oil & Cmc
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            General Part
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Service Kit
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Tasp
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Hose
+          </p>
+        </Label>
+      </FormGroup>
+      <FormGroup
+        check={true}
+        tag="div"
+      >
+        <Label
+          check={true}
+          tag="label"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Input
+            name="radio2"
+            type="radio"
+          />
+           
+          <p
+            className="titleRadio"
+          >
+            Under Carriage
+          </p>
+        </Label>
+      </FormGroup>
+      <hr />
+      <p
+        className="titleList"
+      >
+        Rating
+      </p>
+      <Row
+        style={
+          Object {
+            "marginBottom": "1rem",
+            "marginLeft": "1.5rem",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Input
+          name="checkbox1"
+          type="checkbox"
+        />
+         
+        <Row
+          style={
+            Object {
+              "marginLeft": "5px",
+              "marginTop": "3px",
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+        </Row>
+      </Row>
+      <Row
+        style={
+          Object {
+            "marginLeft": "1.5rem",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Input
+          name="checkbox1"
+          type="checkbox"
+        />
+         
+        <Row
+          style={
+            Object {
+              "marginLeft": "5px",
+              "marginTop": "3px",
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="StarGray.png"
+          />
+          <p
+            className="titleStar"
+          >
+            Ke Atas
+          </p>
+        </Row>
+      </Row>
+      <Row
+        style={
+          Object {
+            "marginLeft": "1.5rem",
+          }
+        }
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Input
+          name="checkbox1"
+          type="checkbox"
+        />
+         
+        <Row
+          style={
+            Object {
+              "marginLeft": "5px",
+              "marginTop": "3px",
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="Star.png"
+          />
+          <img
+            className="ratingList"
+            src="StarGray.png"
+          />
+          <img
+            className="ratingList"
+            src="StarGray.png"
+          />
+          <p
+            className="titleStar"
+          >
+            Ke Atas
+          </p>
+        </Row>
+      </Row>
+      <hr />
+      <p
+        className="titleList"
+      >
+        Price
+      </p>
+      <div
+        className="boxPrice"
+      >
+        <p
+          className="rp"
+        >
+          Rp
+        </p>
+        <div
+          className="line-vertical-list"
+        />
+        <Input
+          id="minPrice"
+          name="minPrice"
+          placeholder="Minimum Price"
+          style={
+            Object {
+              "border": "0px",
+            }
+          }
+          type="price"
+        />
+      </div>
+      <div
+        className="boxPrice"
+      >
+        <p
+          className="rp"
+        >
+          Rp
+        </p>
+        <div
+          className="line-vertical-list"
+        />
+        <Input
+          id="maxPrice"
+          name="maxPrice"
+          placeholder="Maximum Price"
+          style={
+            Object {
+              "border": "0px",
+            }
+          }
+          type="price"
+        />
+      </div>
+    </div>
+    <div>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="titleFilterListActive"
+          onClick={[Function]}
+        >
+          Product List
+        </p>
+        <p
+          className="titleFilterList"
+          onClick={[Function]}
+        >
+          Product Manual Input
+        </p>
+      </Row>
+      <hr
+        className="lineProduct"
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <p
+          className="titleSort"
+        >
+          Sort by
+        </p>
+        <Input
+          className="sortByInput"
+          id="sort"
+          name="sort"
+          placeholder="bestseller"
+          type="sortby"
+        />
+        <p
+          className="titleSort"
+        >
+          1.198 Items
+        </p>
+      </Row>
+      <div
+        style={
+          Object {
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        <Row
+          className="gridListProduct  defaultMargin"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <div
+            className="cardListLP"
+            key="0"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardImageLP"
+              >
+                <img
+                  className="imageList"
+                  src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F37978014-625e-41ff-b29f-639ce3451d42%5C.png?alt=media&token=35f346eb-3199-41e8-a6c6-1fad0a5ee73d"
+                />
+              </div>
+              <p
+                className="titleListProduct"
+              >
+                Komatsu
+              </p>
+              <p
+                className="titleListProduct2"
+              >
+                Battery Komatsu K150A
+              </p>
+              <p
+                className="titleListProduct3"
+              >
+                12.000.000
+              </p>
+              <p
+                className="titleListProduct4"
+              >
+                10.000.000
+              </p>
+              <div
+                class="row"
+              >
+                <img
+                  src="Star.png"
+                  style={
+                    Object {
+                      "height": 10,
+                      "marginLeft": 15,
+                      "marginRight": 5,
+                      "marginTop": 2,
+                      "width": 10,
+                    }
+                  }
+                />
+                <p
+                  className="titleListProduct5"
+                >
+                  5.0
+                </p>
+                <p
+                  className="titleListProduct"
+                >
+                  ( 11 review )
+                </p>
+              </div>
+            </Col>
+          </div>
+          <div
+            className="cardListLP"
+            key="1"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardImageLP"
+              >
+                <img
+                  className="imageList"
+                  src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2Fcc9a0189-d1ab-4d8e-a304-8c75ee88fdc6%5C.png?alt=media&token=5fdf1c91-688b-497b-9d2e-6f7a58d0b905"
+                />
+              </div>
+              <p
+                className="titleListProduct"
+              >
+                Komatsu
+              </p>
+              <p
+                className="titleListProduct2"
+              >
+                Battery Komatsu K150A
+              </p>
+              <p
+                className="titleListProduct3"
+              >
+                12.000.000
+              </p>
+              <p
+                className="titleListProduct4"
+              >
+                10.000.000
+              </p>
+              <div
+                class="row"
+              >
+                <img
+                  src="Star.png"
+                  style={
+                    Object {
+                      "height": 10,
+                      "marginLeft": 15,
+                      "marginRight": 5,
+                      "marginTop": 2,
+                      "width": 10,
+                    }
+                  }
+                />
+                <p
+                  className="titleListProduct5"
+                >
+                  5.0
+                </p>
+                <p
+                  className="titleListProduct"
+                >
+                  ( 11 review )
+                </p>
+              </div>
+            </Col>
+          </div>
+          <div
+            className="cardListLP"
+            key="2"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardImageLP"
+              >
+                <img
+                  className="imageList"
+                  src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F7e2fa93a-4485-45af-ba90-e3a5a08333da%5C.png?alt=media&token=448bae01-fac7-4d55-ba87-22d051c5e6b8"
+                />
+              </div>
+              <p
+                className="titleListProduct"
+              >
+                Bomag
+              </p>
+              <p
+                className="titleListProduct2"
+              >
+                Battery Komatsu K150A
+              </p>
+              <p
+                className="titleListProduct3"
+              >
+                12.000.000
+              </p>
+              <p
+                className="titleListProduct4"
+              >
+                10.000.000
+              </p>
+              <div
+                class="row"
+              >
+                <img
+                  src="Star.png"
+                  style={
+                    Object {
+                      "height": 10,
+                      "marginLeft": 15,
+                      "marginRight": 5,
+                      "marginTop": 2,
+                      "width": 10,
+                    }
+                  }
+                />
+                <p
+                  className="titleListProduct5"
+                >
+                  5.0
+                </p>
+                <p
+                  className="titleListProduct"
+                >
+                  ( 11 review )
+                </p>
+              </div>
+            </Col>
+          </div>
+          <div
+            className="cardListLP"
+            key="3"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardImageLP"
+              >
+                <img
+                  className="imageList"
+                  src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F84921cd8-fcd7-4c1e-816f-6a7d3b9868e6%5C.png?alt=media&token=f66c6b33-cfcb-462e-b8b5-7248af4fbdf1"
+                />
+              </div>
+              <p
+                className="titleListProduct"
+              >
+                Tadano
+              </p>
+              <p
+                className="titleListProduct2"
+              >
+                Battery Komatsu K150A
+              </p>
+              <p
+                className="titleListProduct3"
+              >
+                12.000.000
+              </p>
+              <p
+                className="titleListProduct4"
+              >
+                10.000.000
+              </p>
+              <div
+                class="row"
+              >
+                <img
+                  src="Star.png"
+                  style={
+                    Object {
+                      "height": 10,
+                      "marginLeft": 15,
+                      "marginRight": 5,
+                      "marginTop": 2,
+                      "width": 10,
+                    }
+                  }
+                />
+                <p
+                  className="titleListProduct5"
+                >
+                  5.0
+                </p>
+                <p
+                  className="titleListProduct"
+                >
+                  ( 11 review )
+                </p>
+              </div>
+            </Col>
+          </div>
+          <div
+            className="cardListLP"
+            key="4"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardImageLP"
+              >
+                <img
+                  className="imageList"
+                  src="https://firebasestorage.googleapis.com/v0/b/utportal-d20a4.appspot.com/o/Images%2F116364fd-0839-4fef-9d2e-bc22d39cd3df%5C.png?alt=media&token=a1cc5faa-5c49-4da9-accc-ff2cfd48f041"
+                />
+              </div>
+              <p
+                className="titleListProduct"
+              >
+                UD Trucks
+              </p>
+              <p
+                className="titleListProduct2"
+              >
+                Battery Komatsu K150A
+              </p>
+              <p
+                className="titleListProduct3"
+              >
+                12.000.000
+              </p>
+              <p
+                className="titleListProduct4"
+              >
+                10.000.000
+              </p>
+              <div
+                class="row"
+              >
+                <img
+                  src="Star.png"
+                  style={
+                    Object {
+                      "height": 10,
+                      "marginLeft": 15,
+                      "marginRight": 5,
+                      "marginTop": 2,
+                      "width": 10,
+                    }
+                  }
+                />
+                <p
+                  className="titleListProduct5"
+                >
+                  5.0
+                </p>
+                <p
+                  className="titleListProduct"
+                >
+                  ( 11 review )
+                </p>
+              </div>
+            </Col>
+          </div>
+        </Row>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <div
+            className="cardMore"
+          >
+            <p
+              className="titleButtonMore"
+            >
+              See More Product
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Row>
+</Col>
+`;

@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Change Address Component Change Address Component Component Should match to snapshot 1`] = `
+<div>
+  <Col
+    className="bgTP"
+    lg="6"
+    md="10"
+    sm="10"
+    style={
+      Object {
+        "paddingLeft": "0",
+      }
+    }
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+    xs="12"
+  >
+    <p
+      className="addressTitle"
+    >
+      Alamat Tersimpan
+    </p>
+    <hr
+      className="lineAddress"
+    />
+    <div
+      key="34e6045b-5452-409d-cf3b-08d8bb5f8bb8"
+    >
+      <div
+        className="addressBoxBilling"
+      >
+        <p
+          className="address1"
+        >
+          Dwiky Fany Irawan
+        </p>
+        <p
+          className="address2"
+        >
+          Dwiky Fany Irawan
+        </p>
+        <p
+          className="address3"
+        >
+          Jl. Raya Bekasi No.KM.22, RT.7/RW.1, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910
+        </p>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="address4"
+          >
+            Edit Address
+          </p>
+          <p
+            className="address5"
+            onClick={[Function]}
+          >
+            Select Address
+          </p>
+        </Row>
+      </div>
+    </div>
+    <div
+      key="bbc23959-d18a-480e-cf3c-08d8bb5f8bb8"
+    >
+      <div
+        className="addressBoxBillingSelected"
+      >
+        <p
+          className="address1"
+        >
+          Kantor PT Global Service Indonesia
+        </p>
+        <p
+          className="address2"
+        >
+          Indah Kurnia
+        </p>
+        <p
+          className="address3"
+        >
+          Jl Raya kaliabang Tengah, Ruko San Jaya, Blok A5 No 9,
+Sebalah Indomaret
+        </p>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="address4"
+          >
+            Edit Address
+          </p>
+        </Row>
+      </div>
+    </div>
+    <div
+      key="3eccd8ca-da3f-469f-cf3d-08d8bb5f8bb8"
+    >
+      <div
+        className="addressBoxBilling"
+      >
+        <p
+          className="address1"
+        >
+          Agit Mahenda
+        </p>
+        <p
+          className="address2"
+        >
+          Agit Mahenda
+        </p>
+        <p
+          className="address3"
+        >
+          Jl. Raya Randugarut No.Km. 12, Tugurejo, Kec. Tugu, Kota Semarang, Jawa Tengah 50186
+        </p>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="address4"
+          >
+            Edit Address
+          </p>
+          <p
+            className="address5"
+            onClick={[Function]}
+          >
+            Select Address
+          </p>
+        </Row>
+      </div>
+    </div>
+    <div
+      key="fafba700-cca2-44b6-cf3e-08d8bb5f8bb8"
+    >
+      <div
+        className="addressBoxBilling"
+      >
+        <p
+          className="address1"
+        >
+          Cuy
+        </p>
+        <p
+          className="address2"
+        >
+          Cuy
+        </p>
+        <p
+          className="address3"
+        >
+          string
+        </p>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="address4"
+          >
+            Edit Address
+          </p>
+          <p
+            className="address5"
+            onClick={[Function]}
+          >
+            Select Address
+          </p>
+        </Row>
+      </div>
+    </div>
+    <div
+      key="45e2a550-91f6-4103-ae40-08d8be27a682"
+    >
+      <div
+        className="addressBoxBilling"
+      >
+        <p
+          className="address1"
+        >
+          hallo guys
+        </p>
+        <p
+          className="address2"
+        >
+          hallo guys
+        </p>
+        <p
+          className="address3"
+        >
+          string
+        </p>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="address4"
+          >
+            Edit Address
+          </p>
+          <p
+            className="address5"
+            onClick={[Function]}
+          >
+            Select Address
+          </p>
+        </Row>
+      </div>
+    </div>
+    <div
+      key="f3acde09-8129-4dd9-5ef3-08d8c0dc1cc9"
+    >
+      <div
+        className="addressBoxBilling"
+      >
+        <p
+          className="address1"
+        >
+          Christiano Messi
+        </p>
+        <p
+          className="address2"
+        >
+          Christiano Messi
+        </p>
+        <p
+          className="address3"
+        >
+          Jalan Mars
+        </p>
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p
+            className="address4"
+          >
+            Edit Address
+          </p>
+          <p
+            className="address5"
+            onClick={[Function]}
+          >
+            Select Address
+          </p>
+        </Row>
+      </div>
+    </div>
+    <p
+      className="confirmAddress"
+    >
+      Confirm Address
+    </p>
+    <hr
+      className="lineAddress"
+    />
+    <p
+      className="addAddress"
+      onClick={[Function]}
+    >
+      + Add New Address
+    </p>
+    <ModalAddress
+      isClose={[Function]}
+      isOpen={false}
+    />
+  </Col>
+</div>
+`;

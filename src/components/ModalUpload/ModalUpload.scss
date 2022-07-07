@@ -1,0 +1,298 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.modal-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  .container-modal-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    .upload-modal-body {
+      background-color: white;
+      margin: auto;
+      border-radius: vw(15);
+      display: flex;
+      flex-direction: column;
+      padding: vw(15) vw(60) vw(30) vw(60);
+    }
+    .titleUpload {
+      font-family: "SFProText-Bold";
+      font-style: normal;
+      font-weight: 600;
+      font-size: vw(24);
+      text-align: center;
+      color: #000000;
+    }
+  }
+}
+.container-tab {
+  display: flex;
+  flex-direction: row;
+  margin-left: vw(10);
+  margin-right: vw(10);
+  align-items: center;
+  justify-content: center;
+  width: 27vw;
+}
+.header-tab {
+  flex-direction: column;
+  flex: 1;
+}
+.card-download {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: #eff3f6;
+  border: 3px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  margin-top: vw(20);
+  padding-top: vw(20);
+  margin-right: vw(40);
+  margin-left: vw(40);
+}
+.imageUpload {
+  max-width: 50%;
+  max-height: 50%;
+}
+.btn-download {
+  width: vw(250);
+  height: vw(50);
+  background: #3da7de;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: vw(20);
+  margin-bottom: vw(20);
+  flex-direction: row;
+}
+.titleButtonDownload {
+  font-style: normal;
+  font-weight: 600;
+  font-size: vw(22);
+  text-align: center;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.footer-tab {
+  height: vw(5);
+  margin-top: vw(10);
+  margin-bottom: vw(10);
+}
+.title-tab-upload-click {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: vw(22);
+  color: #000000;
+  text-align: center;
+}
+.title-tab-upload {
+  font-family: "SFProText-Regular" !important;
+  font-style: normal;
+  font-size: vw(22);
+  text-align: center;
+  color: #231f20;
+  opacity: 0.5;
+}
+.icon-file {
+  width: vw(25);
+  height: vw(25);
+  margin-right: vw(10);
+}
+.title-drop {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: vw(22);
+  text-align: center;
+  color: #303030;
+}
+.title-attach {
+  font-style: normal;
+  font-weight: normal;
+  font-size: vw(16);
+  color: #000000;
+  opacity: 0.4;
+  margin-top: vw(20);
+}
+.header-file-upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title-name-file {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 14px !important;
+  font-weight: bold;
+  font-size: vw(12);
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-bottom: 0;
+}
+.header-progress {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: vw(40);
+}
+.cardSubmit {
+  width: vw(170);
+  height: vw(50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd500;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-left: vw(10);
+  padding: 5px;
+}
+.cardCancel {
+  width: vw(200);
+  padding: 0 0.7vw;
+  height: vw(50);
+  display: flex;
+  justify-content: center;
+  background: #d8d8d8;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 0.6vw;
+  margin-right: vw(10);
+}
+.row-button-upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 2vw;
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .modal-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-modal-uploadn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      .upload-modal-body {
+        background-color: white;
+        margin: auto;
+        height: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .titleButtonUpload {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #000000;
+        margin-bottom: 0;
+        margin-left: 0;
+      }
+      .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        color: #f3d641;
+      }
+      .titleUpload {
+        font-family: "SFProText-Bold";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        margin-right: 5px;
+      }
+      .btn-upload {
+        width: 180px;
+        height: 30px;
+        background: #ffd500;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .imageUpload {
+        max-width: 40%;
+        max-height: 25%;
+      }
+    }
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .titleButtonDownload {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw-tab(18);
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+}
+
+//laptop
+@media only screen and (min-width: 1280px) {
+  .modal-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: fit-content;
+    margin: auto;
+    padding: 0;
+    .container-modal-upload {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      .upload-modal-body {
+        background-color: white;
+        margin: auto;
+        border-radius: vw(15);
+        display: flex;
+        flex-direction: column;
+        padding: vw(15) vw(60) vw(30) vw(60);
+      }
+      .titleUpload {
+        font-family: "SFProText-Bold";
+        font-style: normal;
+        font-weight: 600;
+        font-size: vw(24);
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+  .titleButtonDownload {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(12);
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+}

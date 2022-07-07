@@ -1,0 +1,709 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.item-text-seeMore {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(16);
+  color: #0055a0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: vw(5);
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+}
+.icon-share {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.title-promotion-list {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #0055a0;
+  margin-bottom: 5px;
+}
+.title-promotion-date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: vw(16);
+  line-height: 19px;
+  color: #1d1d1d;
+  opacity: 0.5;
+}
+.image-promotion-list {
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1) !important;
+  border-radius: 10px;
+}
+.image-promotion-relate-list {
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1) !important;
+}
+.default-margin {
+  margin-left: vw(60);
+  margin-right: vw(40);
+}
+.title-product-related {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(20);
+  letter-spacing: 0.01em;
+  color: #303030;
+  margin-top: vw(20);
+}
+.container-product-related {
+  width: vw(250);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title-promotion-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: vw(20);
+  line-height: 25px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  color: #404040;
+  border: 0.1px solid #ffffff;
+  box-sizing: border-box;
+}
+.input-gray {
+  background-color: #f2f2f2 !important;
+  border-radius: 5px !important;
+  height: vw(70);
+  display: flex;
+  flex: 1;
+  margin-left: vw(20);
+  margin-right: vw(20);
+  padding-left: vw(20);
+  padding-right: vw(20);
+  align-items: center;
+}
+.send-card {
+  background-color: #ffd500 !important;
+  border-radius: 5px !important;
+  height: vw(50);
+  width: vw(130);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: vw(20);
+  padding-right: vw(20);
+}
+.title-send {
+  font-family: "SFUIDisplay-Bold";
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: vw(16);
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  color: #000000;
+  margin-right: vw(20);
+}
+.item-text-comment {
+  font-style: normal;
+  font-weight: 600;
+  font-size: vw(16);
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #000000;
+  opacity: 0.7;
+}
+.item-name-comment {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(20);
+  line-height: 24px;
+  color: #515151;
+  margin-bottom: 0;
+  margin-left: vw(10);
+  text-align: justify;
+}
+.item-date-comment {
+  font-style: normal;
+  font-weight: normal;
+  font-size: vw(16);
+  line-height: 19px;
+  color: #b4b4b4;
+  margin-left: vw(10);
+}
+.title-komentar {
+  font-style: normal;
+  font-weight: 600;
+  font-size: vw(22);
+  line-height: 26px;
+  color: #404040;
+  margin-bottom: 0;
+  margin-left: vw(20);
+}
+.title-icon {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(16);
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.75);
+  opacity: 0.8;
+  margin-bottom: 0;
+  margin-left: vw(10);
+  margin-right: vw(10);
+}
+.line-vertical-comment {
+  opacity: 0.15;
+  border: 0.7px solid #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: vw(40);
+}
+.title-news-relate {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(24);
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #0055a0;
+  margin-bottom: 0;
+}
+.title-see {
+  font-style: normal;
+  font-weight: bold;
+  font-size: vw(24);
+  line-height: 24px;
+  color: #5d9fd6;
+  text-align: center;
+  margin-top: vw(40);
+  cursor: pointer;
+}
+// Laptop 15 inch
+@media only screen and (min-width: 1280px) {
+  .item-text-seeMore {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw(16);
+    color: #0055a0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: vw(5);
+  }
+  .container-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .title-promotion-list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8vw;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #0055a0;
+    margin-bottom: 5px;
+  }
+  .title-promotion-date {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw(16);
+    line-height: 19px;
+    color: #1d1d1d;
+    opacity: 0.5;
+  }
+  .image-promotion-list {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1) !important;
+    border-radius: 10px;
+  }
+  .image-promotion-relate-list {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1) !important;
+  }
+  .default-margin {
+    margin-left: vw(60);
+    margin-right: vw(40);
+  }
+  .title-product-related {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw(20);
+    letter-spacing: 0.01em;
+    color: #303030;
+    margin-top: vw(20);
+  }
+  .container-product-related {
+    width: vw(250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title-promotion-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw(20);
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #404040;
+    border: 0.1px solid #ffffff;
+    box-sizing: border-box;
+  }
+  .input-gray {
+    background-color: #f2f2f2 !important;
+    border-radius: 5px !important;
+    height: vw(70);
+    display: flex;
+    flex: 1;
+    margin-left: vw(20);
+    margin-right: vw(20);
+    padding-left: vw(20);
+    padding-right: vw(20);
+    align-items: center;
+  }
+  .send-card {
+    background-color: #ffd500 !important;
+    border-radius: 5px !important;
+    height: vw(50);
+    width: vw(130);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: vw(20);
+    padding-right: vw(20);
+  }
+  .title-send {
+    font-family: "SFUIDisplay-Bold";
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: vw(16);
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-right: vw(20);
+  }
+  .item-text-comment {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(16);
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .item-name-comment {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw(20);
+    line-height: 24px;
+    color: #515151;
+    margin-bottom: 0;
+    margin-left: vw(10);
+    text-align: justify;
+  }
+  .item-date-comment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw(16);
+    line-height: 19px;
+    color: #b4b4b4;
+    margin-left: vw(10);
+  }
+  .title-komentar {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw(22);
+    line-height: 26px;
+    color: #404040;
+    margin-bottom: 0;
+    margin-left: vw(20);
+  }
+  .title-icon {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw(16);
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+    margin-bottom: 0;
+    margin-left: vw(10);
+    margin-right: vw(10);
+  }
+  .line-vertical-comment {
+    opacity: 0.15;
+    border: 0.7px solid #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: vw(40);
+  }
+  .title-see {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw(24);
+    line-height: 24px;
+    color: #5d9fd6;
+    text-align: center;
+    margin-top: vw(40);
+  }
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-text-seeMore {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(12);
+    color: #0055a0;
+    margin-bottom: vw-mobile(10);
+    margin-top: 0;
+    margin-left: vw-mobile(5);
+  }
+  .title-promotion-list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(20);
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #0055a0;
+    margin-bottom: 0;
+  }
+  .title-promotion-date {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw-mobile(14);
+    line-height: 19px;
+    color: #1d1d1d;
+    opacity: 0.5;
+  }
+  .image-promotion-list {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1) !important;
+    border-radius: 10px;
+  }
+  .image-promotion-relate-list {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1) !important;
+  }
+  .default-margin {
+    margin-left: vw-mobile(20);
+    margin-right: vw-mobile(20);
+  }
+  .title-product-related {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(16);
+    letter-spacing: 0.01em;
+    color: #303030;
+    margin-top: vw-mobile(20);
+  }
+  .container-product-related {
+    width: vw-mobile(250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title-promotion-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw-mobile(14);
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #404040;
+    border: 0.1px solid #ffffff;
+    box-sizing: border-box;
+  }
+  .input-gray {
+    background-color: #f2f2f2 !important;
+    border-radius: 5px !important;
+    height: vw-mobile(50);
+    display: flex;
+    flex: 1;
+    margin-left: vw-mobile(20);
+    margin-right: vw-mobile(20);
+    padding-left: vw-mobile(5);
+    padding-right: vw-mobile(10);
+    align-items: center;
+    font-size: vw-mobile(10);
+  }
+  .send-card {
+    background-color: #ffd500 !important;
+    border-radius: 5px !important;
+    height: vw-mobile(30);
+    width: vw-mobile(90);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: vw-mobile(20);
+    padding-right: vw-mobile(20);
+  }
+  .title-send {
+    font-family: "SFUIDisplay-Bold";
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: vw-mobile(12);
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-right: vw-mobile(20);
+  }
+  .item-text-comment {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw-mobile(13);
+    // letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.7;
+    text-align: justify;
+    margin-bottom: vw-mobile(30);
+  }
+  .item-name-comment {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(16);
+    line-height: 24px;
+    color: #515151;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+  .item-date-comment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw-mobile(12);
+    line-height: 19px;
+    color: #b4b4b4;
+  }
+  .title-komentar {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw-mobile(16);
+    line-height: 26px;
+    color: #404040;
+    margin-bottom: 0;
+    margin-left: vw-mobile(10);
+  }
+  .title-icon {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(16);
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+    margin-bottom: 0;
+    margin-left: vw-mobile(10);
+    margin-right: vw-mobile(10);
+  }
+  .line-vertical-comment {
+    opacity: 0.15;
+    border: 0.7px solid #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: vw-mobile(40);
+  }
+  .title-see {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-mobile(18);
+    line-height: 24px;
+    color: #5d9fd6;
+    text-align: center;
+    margin-top: vw-mobile(20);
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .item-text-seeMore {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(12);
+    color: #0055a0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: vw-tab(5);
+  }
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-promotion-list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(24);
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #0055a0;
+    margin-bottom: 0;
+  }
+  .title-promotion-date {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw-tab(14);
+    line-height: 19px;
+    color: #1d1d1d;
+    opacity: 0.5;
+  }
+  .image-promotion-list {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1) !important;
+    border-radius: 10px;
+  }
+  .image-promotion-relate-list {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1) !important;
+  }
+  .default-margin {
+    margin-left: vw-tab(170);
+    margin-right: vw-tab(40);
+  }
+  .title-product-related {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(20);
+    letter-spacing: 0.01em;
+    color: #303030;
+    margin-top: vw-tab(20);
+  }
+  .container-product-related {
+    width: vw-tab(250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title-promotion-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: vw-tab(16);
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #404040;
+    border: 0.1px solid #ffffff;
+    box-sizing: border-box;
+  }
+  .input-gray {
+    background-color: #f2f2f2 !important;
+    border-radius: 5px !important;
+    height: vw-tab(40);
+    display: flex;
+    flex: 1;
+    margin-left: vw-tab(20);
+    margin-right: vw-tab(20);
+    padding-left: vw-tab(20);
+    padding-right: vw-tab(20);
+    align-items: center;
+  }
+  .send-card {
+    background-color: #ffd500 !important;
+    border-radius: 5px !important;
+    height: vw-tab(30);
+    width: vw-tab(100);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: vw-tab(20);
+    padding-right: vw-tab(20);
+  }
+  .title-send {
+    font-family: "SFUIDisplay-Bold";
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: vw-tab(12);
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-right: vw-tab(20);
+  }
+  .item-text-comment {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw-tab(12);
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .item-name-comment {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(14);
+    line-height: 24px;
+    color: #515151;
+    margin-bottom: 0;
+    margin-left: vw-tab(10);
+    text-align: justify;
+  }
+  .item-date-comment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: vw-tab(12);
+    line-height: 19px;
+    color: #b4b4b4;
+    margin-left: vw-tab(10);
+  }
+  .title-komentar {
+    font-style: normal;
+    font-weight: 600;
+    font-size: vw-tab(14);
+    line-height: 26px;
+    color: #404040;
+    margin-bottom: 0;
+    margin-left: vw-tab(20);
+  }
+  .title-icon {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(16);
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.75);
+    opacity: 0.8;
+    margin-bottom: 0;
+    margin-left: vw-tab(10);
+    margin-right: vw-tab(10);
+  }
+  .line-vertical-comment {
+    opacity: 0.15;
+    border: 0.7px solid #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: vw-tab(40);
+  }
+  .title-see {
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw-tab(24);
+    line-height: 24px;
+    color: #5d9fd6;
+    text-align: center;
+    margin-top: vw-tab(40);
+  }
+}

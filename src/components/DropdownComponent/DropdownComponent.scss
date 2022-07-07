@@ -1,0 +1,247 @@
+@import '../../themes/colors';
+@import '../../themes/fonts';
+@import '../../themes/size';
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    width: vw(203.22);
+    height: vw(38.07);
+    margin-top: vw(51.93);
+    border-radius:vw(10);
+    box-shadow: 0px 0.2vw 0.6vw rgba(0, 0, 0, 0.161);
+    .dropdown-button {
+        border-radius: vw(5);
+        display: flex;
+        align-items: center;
+        height: vw(38.07);
+        .dropdown-selected-item{            
+            margin: 0 0 0 vw(19);
+            display: flex;
+            flex-direction: row;
+            white-space: nowrap;
+            align-items: center;
+            font-family: 'Lato-Medium';
+            font-size: vw(14);
+            line-height: vw(17);
+            font-weight: 500;
+            overflow: hidden;
+            color: black;
+            cursor: pointer;
+            .expand-icon-container{
+                background-color: map-get($colors, primary);
+                position: absolute;
+                right: 0;
+                height: 100%;
+                width: vw(38.07);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom-right-radius: vw(5);
+                border-top-right-radius: vw(5);
+                .expand-icon{
+                    font-size: vw(25);
+                }
+            }
+        }
+    }
+}
+
+.list-items {
+    list-style-type: none;
+    margin: 0;
+    padding: vw(10) 0 vw(20) 0;
+    top: vw(40);
+    right: 0px;
+    width: vw(203.22);
+    height: vw(185);
+    overflow-y: scroll;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0.3vw 0.6vw 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Lato-Bold';
+    font-size: vw(14);
+    line-height: vw(17);
+    font-weight: 500;
+    color: #3C3B3B;
+    .list-item {
+        padding: vw(6) vw(19);
+        color: #3C3B3B;
+        font-family: 'Lato-Bold';
+        font-size: vw(14);
+        line-height: vw(17);
+    }
+    .list-item:hover {
+        background-color: #e5e5e5;
+        color: #3C3B3B;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        background-color: #ffffff;
+        width: vw-tab(220);
+        height: vw-tab(33);
+        border-radius: vw-tab(5);
+        box-shadow: 0px 0.2vw 0.6vw rgba(0, 0, 0, 0.161);
+        .dropdown-button {
+            position: relative;
+            border-radius: vw-tab(5);
+            display: flex;
+            align-items: center;
+            height: vw-tab(33);
+            .dropdown-selected-item{
+                margin: 0 0 0 vw-tab(19);
+                flex: 1;
+                position: relative;
+                height: vw-tab(33);
+                display: flex;
+                flex-direction: row;
+                white-space: nowrap;
+                align-items: center;
+                font-family: 'Lato-Medium';
+                font-size: vw-tab(14);
+                line-height: vw-tab(17);
+                font-weight: 500;
+                overflow: hidden;
+                color: black;
+                .expand-icon-container{
+                    background-color: map-get($colors, primary);
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: vw-tab(33);
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom-right-radius: vw-tab(5);
+                    border-top-right-radius: vw-tab(5);
+                    .expand-icon{
+                        font-size: vw-tab(25);
+                    }
+                }
+            }
+        }    
+        .list-items {
+            list-style-type: none;
+            margin: 0;
+            padding: vw-tab(10) 0 0 0;
+            top: vw-tab(35);
+            right: 0px;
+            width: vw-tab(220);
+            height: vw-tab(170);
+            overflow-x: hidden;
+            overflow-y: scroll;
+            background-color: white;
+            position: absolute;
+            box-shadow: 0px 0.3vw 0.6vw 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            font-weight: 500;
+            color: #3C3B3B;
+            .list-item {
+                padding: vw-tab(12) vw-tab(19);
+                font-family: 'Lato-Medium';
+                font-size: vw-tab(14);
+                line-height: vw-tab(17);
+                text-overflow: ellipsis;
+                color: black;
+                font-size: vw-tab(14);
+            }
+            .list-item:hover {
+                background-color: #e5e5e5;
+                color: #000;
+            }
+        }
+    }
+    
+    
+}
+
+
+@media (max-width: 599px) {
+    .list-items {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: vw-mobile(2);
+        top: vw-mobile(2);
+        padding: vw-mobile(10) 0 0 0;
+        width: 100%;
+        height: vw-mobile(170);
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-color: white;
+        border-radius: vw-mobile(5);
+        position: relative;
+        box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0,0,0,0.2);
+        font-weight: 500;
+        color: #3C3B3B;
+        .list-item {
+            padding: vw-mobile(12) vw-mobile(19);
+            font-family: 'Lato-Medium';
+            font-size: vw-mobile(14);
+            line-height: vw-mobile(17);
+            text-overflow: ellipsis;
+            color: black;
+            font-size: vw-mobile(14);
+        }
+        .list-item:hover {
+            background-color: #e5e5e5;
+            color: #000;
+        }
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        background-color: #ffffff;
+        width: 100%;
+        height: vw-mobile(33);
+        border-radius: vw-mobile(5);
+        box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0,0,0,0.2);
+        .dropdown-button {
+            position: relative;
+            border-radius: vw-mobile(5);
+            display: flex;
+            align-items: center;
+            height: vw-mobile(33);
+            .dropdown-selected-item{
+                margin: 0 0 0 vw-mobile(19);
+                height: vw-mobile(33);
+                position: relative;
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                white-space: nowrap;
+                align-items: center;
+                font-family: 'Lato-Medium';
+                font-size: vw-mobile(14);
+                line-height: vw-mobile(17);
+                font-weight: 500;
+                overflow: hidden;
+                color: black;
+                .expand-icon-container{
+                    background-color: map-get($colors, primary);
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: vw-mobile(33);
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom-right-radius: vw-mobile(5);
+                    border-top-right-radius: vw-mobile(5);
+                    .expand-icon{
+                        font-size: vw-mobile(25);
+                    }
+                }
+            }
+        }            
+    }
+    
+}

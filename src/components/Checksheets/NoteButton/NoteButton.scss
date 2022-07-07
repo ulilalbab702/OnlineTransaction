@@ -1,0 +1,76 @@
+@import 'themes/colors';
+@import 'themes/fonts';
+@import 'themes/size';
+
+.note-container{
+    .btn-label{
+        font-size: vw(16);
+        font-family: 'SFUIDisplay-Regular';
+        margin: 0;
+        margin-bottom: vw(10);
+        color: #1C1A1A;
+    }
+    .btn-note-problems{
+        width: vw(150);
+        height: vw(32);
+        padding-top: vw(5);
+        background-color: #F2F2F4;
+        color: #FF7452;
+        text-align: center;
+        box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+        border-radius: vw(5);
+        font-family: 'Lato-Bold';
+        font-size: vw(18);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+    .note-container{
+        .btn-label{
+            font-size: vw-tab(10);
+            font-family: 'SFUIDisplay-Regular';
+            margin: 0;
+            margin-bottom: vw-tab(10);
+            color: #1C1A1A;
+        }
+        .btn-note-problems{
+            width: vw-tab(125);
+            height: vw-tab(32);
+            line-height: vw-tab(32);
+            background-color: #F2F2F4;
+            color: #FF7452;
+            text-align: center;
+            box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+            border-radius: vw-tab(5);
+            font-family: 'Lato-Bold';
+            font-size: vw-tab(11);
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .note-container{
+        .btn-label{
+            font-size: vw-mobile(8);
+            font-family: 'SFUIDisplay-Regular';
+            margin: 0;
+            margin-bottom: vw-mobile(5);
+            color: #1C1A1A;
+        }
+        .btn-note-problems{
+            width: vw-mobile(70);
+            height: vw-mobile(25);
+            line-height: vw-mobile(25);
+            background-color: #F2F2F4;
+            color: #FF7452;
+            text-align: center;
+            box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161);
+            border-radius: vw-mobile(5);
+            font-family: 'Lato-Bold';
+            font-size: vw-mobile(9);
+            cursor: pointer;
+        }
+    }
+}

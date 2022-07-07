@@ -1,0 +1,286 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.search-input-address {
+  width: 22vw;
+  height: 3.2vw;
+  position: relative;
+  background-color: transparent !important;
+  border-radius: vw(10) !important;
+  margin-bottom: vw(10) !important;
+  margin-right: vw(10) !important;
+  display: flex;
+  align-items: center;
+  padding-left: vw(20) !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 0 !important;
+  .search-text-address {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    flex: 1;
+  }
+}
+.error-message {
+  margin-bottom: 0;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #f21b1b;
+}
+@media (min-width: 600px) and (max-width: 1025px) {
+  .search-input-address {
+    width: vw(700);
+    position: relative;
+    background-color: #f9f9f9 !important;
+    display: flex;
+    align-items: center;
+    border-radius: vw-tab(10) !important;
+    margin-bottom: vw-tab(10) !important;
+    margin-right: vw-tab(10) !important;
+    height: vw-tab(40);
+    box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161) !important;
+    .search-text-address {
+      font-family: "Lato-Regular";
+      font-size: vw-tab(12);
+      line-height: vw-tab(20);
+      flex: 1;
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .search-input-mini {
+    width: vw-mobile(250);
+    position: relative;
+    background-color: #f9f9f9 !important;
+    border-radius: vw-mobile(10) !important;
+    margin-bottom: vw-mobile(10) !important;
+    margin-right: vw-mobile(10) !important;
+    display: flex;
+    align-items: center;
+    height: vw-mobile(38);
+    padding-left: vw-mobile(10) !important;
+    box-shadow: 0px vw-mobile(3) vw-mobile(6) rgba(0, 0, 0, 0.161) !important;
+    .search-text-address {
+      font-family: "Lato-Regular";
+      font-size: vw-mobile(14);
+      line-height: vw-mobile(20);
+      flex: 1;
+    }
+  }
+}
+
+.modal-address-body {
+  background-color: white;
+  margin: auto;
+  border-radius: 1.25vw;
+  display: flex;
+  flex-direction: column;
+  width: 42vw;
+  height: auto;
+  max-height: 44vw;
+  padding: 1vw;
+  overflow-y: auto;
+}
+.addressTitle {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+.lineAddress {
+  flex: 1;
+}
+.addressBox {
+  padding: 10px;
+  padding-left: 40px;
+  flex: 1;
+  height: 188px;
+  background: #ffffff;
+  border: 1px solid #148f0f;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.addressBoxSelected {
+  padding: 10px;
+  padding-left: 40px;
+  flex: 1;
+  height: 188px;
+  background: #f9f9f9;
+  border: 1px solid #148f0f;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.modal-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  background-color: #ffffff;
+}
+.pinLocation {
+  width: 529px;
+  height: 112px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+  padding: 10px;
+}
+.imageMapsLocation {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+.addressLocation {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.4;
+  flex: 1;
+  margin-top: 5px;
+}
+.changePointAddress {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 132px;
+  height: 41px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.textChange {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.5);
+  vertical-align: middle;
+  line-height: 41px;
+}
+.marginLabel {
+  margin-bottom: 1vw;
+  padding: 0;
+}
+.styleDivide {
+  display: flex;
+  .styleBig {
+    flex-grow: 1.1;
+  }
+  .styleSmall {
+    flex-grow: 1;
+  }
+  .styleBig1 {
+    flex-grow: 2;
+  }
+  .styleSmall1 {
+    flex-grow: 1;
+  }
+}
+.labelAddress {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9vw;
+  line-height: 1vw;
+  color: #707070;
+  margin-bottom: 0.4vw;
+  margin-top: 0.7vw;
+}
+.inputAlamat {
+  resize: none;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #000000;
+  height: 4vw;
+  vertical-align: text-top;
+  border-radius: 0.6vw;
+  &::placeholder {
+    color: #000000;
+  }
+}
+.inputAddress {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #000000;
+  height: 3.2vw;
+  border-radius: 0.6vw;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  &::placeholder {
+    color: #000000;
+  }
+}
+.styleDistrict {
+  color: #148f0f;
+}
+.titleNewAddress {
+  font-family: "SFProText-Bold";
+  font-size: 1.5vw;
+  color: #000000;
+  padding-top: 10px;
+  margin: 0;
+  margin-bottom: 1vw;
+  text-align: center;
+}
+.header-button-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+.cardCancel {
+  cursor: pointer;
+}
+.cardSave {
+  cursor: pointer;
+}
+.cardSuggestion {
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 100%;
+  padding-left: 0.98vw;
+  margin-top: 0.5vw;
+  border-radius: 0.5vw;
+  max-height: 12vw;
+  overflow: auto;
+  .textSuggestion {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    margin: 0;
+    margin-bottom: 0.4vw;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    cursor: pointer;
+  }
+}

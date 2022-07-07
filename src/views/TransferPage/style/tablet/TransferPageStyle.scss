@@ -1,0 +1,156 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bgTP {
+    margin-left: 4rem;
+    padding-right: 3rem;
+  }
+  .paddingTP {
+    padding-top: 7vw;
+    padding-left: 10vw;
+    padding-right: 18vw;
+    margin-bottom: 10rem;
+  }
+  .breadCrumbTP {
+    padding: 0;
+    padding-left: 1px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .styleTPBold {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .rowTotalPayment {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 1.5rem;
+  }
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+  .rowBtnTP {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  .btnOkTP {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #ffd500;
+    border-radius: 8px;
+    height: 48.5px;
+    width: 331.5px;
+  }
+  .styleTPregular {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3c3b3b;
+  }
+  .styleTPregular1 {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3c3b3b;
+  }
+  .styleTPCek {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #979797;
+    margin-bottom: 1.5rem;
+  }
+  .styleTPKet {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3c3b3b;
+    width: 530px;
+    letter-spacing: 0.02em;
+  }
+  .rowTimer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    padding-left: 20px;
+    margin: 0;
+    margin-bottom: 3.5rem;
+    background-color: #fff7d0;
+    border-radius: 8px;
+  }
+  .iconTimer {
+    width: 24px;
+    height: 24px;
+  }
+  .styleTimer {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #303030;
+    letter-spacing: 0.02em;
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+  .styleTextPetunjuk {
+    margin-top: 5px;
+    font-family: "SFUIText-Regular";
+    font-size: 16px;
+    line-height: 18px;
+    color: #3c3b3b;
+    font-weight: 400;
+  }
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+  .fontPriceTP {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fa591d;
+    text-align: right;
+    padding-left: 2rem;
+    padding-left: 1rem;
+    float: right;
+  }
+  .fontRekTP {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffd500;
+    margin-bottom: 5px;
+  }
+}

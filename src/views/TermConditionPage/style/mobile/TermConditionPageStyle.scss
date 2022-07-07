@@ -1,0 +1,75 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .bgTC {
+    background-color: #ffffff;
+    padding-top: 12rem;
+  }
+  .bgContainerTC {
+    margin-left: 2em;
+    background-color: #ffffff;
+    margin-top: 2em;
+    margin-right: 2em;
+    color: #535258;
+  }
+  .whitespacejustify {
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP Printers */
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .bgTC {
+    background-color: #ffffff;
+    padding-top: 10rem;
+  }
+  .bgContainerTC {
+    margin-left: 10px;
+    background-color: #ffffff;
+    margin-top: 2em;
+    margin-right: 10px;
+    color: #535258;
+  }
+  .whitespacejustify {
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP Printers */
+    word-wrap: break-word;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    text-align: justify;
+  }
+  .tncHeader1 {
+    font-size: 18px;
+  }
+  .tncHeader2 {
+    font-size: 16px !important;
+  }
+  .contentParagraph {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+}
+
+@media only screen and (max-width: 319px) {
+}

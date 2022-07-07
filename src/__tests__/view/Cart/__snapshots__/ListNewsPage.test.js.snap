@@ -1,0 +1,793 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart List Component Cart List Component Should match to snapshot 1`] = `
+<Fragment>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <ModalShippment
+      isClose={[Function]}
+      isOpen={false}
+    />
+    <ModalSelectBranch
+      isClose={[Function]}
+      isOpen={false}
+      selectAddress={[Function]}
+    />
+    <Col
+      className="containerBucket"
+      lg="12"
+      md="7"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xl="7"
+    >
+      <div>
+        <h3
+          className="styleBLBold"
+        >
+          Branch Supply Point
+        </h3>
+        <div
+          className="cardBranch"
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "paddingBottom": 10,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <div
+            className="card-bullet"
+          >
+            <img
+              height="15"
+              src="iconWarehouse.png"
+              width="15"
+            />
+          </div>
+          <h5
+            className="titleSelect"
+          >
+            Select Branch Supply Point
+          </h5>
+          <div
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "display": "flex",
+              }
+            }
+          >
+            <div
+              className="btnSelectBranch"
+              onClick={[Function]}
+            >
+              <p
+                className="titleCheckout"
+              >
+                Select Branch
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Row
+        className="headerBucketList"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <h3
+            className="styleBLBold"
+          >
+            Bucket List
+          </h3>
+        </Col>
+        <WithStyles(ForwardRef(Paper))
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3DA7DE",
+              "borderRadius": "8px",
+              "boxShadow": "none",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 36,
+              "justifyContent": "center",
+              "width": 149,
+            }
+          }
+        >
+          <img
+            className="iconDownloadList"
+            src="iconDownload.png"
+          />
+          <p
+            className="titleBtnDownloadList"
+            style={
+              Object {
+                "color": "#ffffff",
+                "marginBottom": 0,
+                "marginLeft": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            Download List
+          </p>
+        </WithStyles(ForwardRef(Paper))>
+      </Row>
+      <Row
+        className="bucketList"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          className="productList"
+          key="0"
+          lg="12"
+          md="12"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xl="12"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              style={
+                Object {
+                  "paddingLeft": "3px",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Checkbox))
+                name="600-311-8291"
+                onChange={[Function]}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#5ACC4D",
+                  }
+                }
+                value="checked"
+              />
+            </div>
+            <div
+              className="imageProduct"
+            >
+              <img
+                className="imageList"
+                src="https://untr-my.sharepoint.com/:i:/g/personal/cst_dev04_unitedtractors_com/EW__sgepd2xJs1m7uxNquHQBbRKmqLZ3DkmR7N1Mb7JWww?e=1f9bRa"
+              />
+            </div>
+            <Col
+              className="pl-0 productDescription"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <p
+                className="mb-1 titleKategoriProductBL"
+              >
+                600-311-8291
+              </p>
+              <p
+                className="titleProductBL"
+              />
+              <p
+                className="mb-1 titlePriceBL"
+              >
+                IDR
+                 
+                500.000
+              </p>
+              <p
+                className="mb-1 titlePriceDiscountBL"
+              >
+                IDR
+                 
+                300.000
+              </p>
+              <Row
+                className="cardMinPlusBL"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="btnMin"
+                >
+                  <TiMinus />
+                </div>
+                <div
+                  className="totalOrder"
+                >
+                  <h4
+                    className="mb-0 teksTotalOrder"
+                  >
+                    2
+                  </h4>
+                </div>
+                <div
+                  className="btnPlus"
+                >
+                  <TiPlus />
+                </div>
+              </Row>
+            </Col>
+            <Col
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardLabel"
+              >
+                <h5
+                  style={
+                    Object {
+                      "color": "#148F0F",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "marginBottom": 0,
+                    }
+                  }
+                >
+                  Available
+                </h5>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+        <Col
+          className="productList"
+          key="1"
+          lg="12"
+          md="12"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xl="12"
+        >
+          <Row
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              style={
+                Object {
+                  "paddingLeft": "3px",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Checkbox))
+                name="568002"
+                onChange={[Function]}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#5ACC4D",
+                  }
+                }
+                value="checked"
+              />
+            </div>
+            <div
+              className="imageProduct"
+            >
+              <img
+                className="imageList"
+                src="https://untr-my.sharepoint.com/:i:/g/personal/cst_dev04_unitedtractors_com/EW__sgepd2xJs1m7uxNquHQBbRKmqLZ3DkmR7N1Mb7JWww?e=1f9bRa"
+              />
+            </div>
+            <Col
+              className="pl-0 productDescription"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <p
+                className="mb-1 titleKategoriProductBL"
+              >
+                568002
+              </p>
+              <p
+                className="titleProductBL"
+              />
+              <p
+                className="mb-1 titlePriceBL"
+              >
+                IDR
+                 
+                1.000.000
+              </p>
+              <p
+                className="mb-1 titlePriceDiscountBL"
+              >
+                IDR
+                 
+                800.000
+              </p>
+              <Row
+                className="cardMinPlusBL"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="btnMin"
+                >
+                  <TiMinus />
+                </div>
+                <div
+                  className="totalOrder"
+                >
+                  <h4
+                    className="mb-0 teksTotalOrder"
+                  >
+                    2
+                  </h4>
+                </div>
+                <div
+                  className="btnPlus"
+                >
+                  <TiPlus />
+                </div>
+              </Row>
+            </Col>
+            <Col
+              style={
+                Object {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                }
+              }
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <div
+                className="cardLabel"
+              >
+                <h5
+                  style={
+                    Object {
+                      "color": "#148F0F",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "marginBottom": 0,
+                    }
+                  }
+                >
+                  Available
+                </h5>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+        <hr
+          style={
+            Object {
+              "margin": "0",
+              "width": "100%",
+            }
+          }
+        />
+      </Row>
+    </Col>
+    <Col
+      className="containerPromo"
+      lg="12"
+      md="5"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+      xl="5"
+    >
+      <div
+        className="cardPromotion"
+      >
+        <Col
+          className="p-0"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            className="kontenCardPromotion"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Col
+              className="pl-0 teksCardPromotion"
+              lg="12"
+              md="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Promotion
+            </Col>
+            <Col
+              className="pl-0 pr-0 inputPromoOD"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <WithStyles(ForwardRef(Paper))
+                className="inputPromoCode"
+                elevation={1}
+              >
+                <WithStyles(ForwardRef(InputBase))
+                  className="promoCode-text"
+                  placeholder="Type Promo Code"
+                />
+                <Col
+                  style={
+                    Object {
+                      "paddingLeft": "25px",
+                    }
+                  }
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  <div
+                    className="btnApply"
+                  >
+                    <p
+                      className="teksApply"
+                    >
+                      Apply
+                    </p>
+                  </div>
+                </Col>
+              </WithStyles(ForwardRef(Paper))>
+            </Col>
+            <hr
+              style={
+                Object {
+                  "marginBottom": "1rem",
+                  "marginTop": "1.5rem",
+                  "width": "100%",
+                }
+              }
+            />
+            <Col
+              className="pl-0 teksCardOrderDetail"
+              lg="12"
+              md="12"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              Purchase Summary
+            </Col>
+            <Col
+              className="p-0 "
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Row
+                className="subTotal"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="teksSubTotal"
+                >
+                  Sub Total
+                </div>
+                <div
+                  className="hargaSubTotal"
+                >
+                  2.500.000
+                </div>
+              </Row>
+              <Row
+                className="subTotal"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="teksSubTotal"
+                >
+                  Biaya Pengiriman
+                </div>
+                <div
+                  className="hargaSubTotal"
+                >
+                  Not Yet Calculated
+                </div>
+              </Row>
+              <hr
+                style={
+                  Object {
+                    "borderTop": "1px dashed #707070",
+                    "marginBottom": "0",
+                    "marginTop": "1rem",
+                    "opacity": "0.5",
+                    "width": "100%",
+                  }
+                }
+              />
+              <Row
+                className="subTotal"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="teksSubTotal"
+                >
+                  Total Pembayaran
+                </div>
+                <div
+                  className="hargaSubTotal1"
+                >
+                  2.500.000
+                </div>
+              </Row>
+            </Col>
+          </Col>
+          <Col
+            className="bgCheckoutBL"
+            lg="12"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="btnCheckoutBL"
+              onClick={[Function]}
+            >
+              <p
+                className="titleCheckout"
+              >
+                Check Out
+              </p>
+            </div>
+          </Col>
+        </Col>
+      </div>
+      <div>
+        <div
+          className="cardNotif"
+        >
+          <div>
+            <img
+              height="50"
+              src="cautionYellow.png"
+              width="50"
+            />
+          </div>
+          <h6
+            className="titleNotif"
+          >
+            There is item was not available, it will be impact for delay in delivery process, are you sure to continue transaction?
+          </h6>
+        </div>
+      </div>
+    </Col>
+  </Row>
+</Fragment>
+`;

@@ -1,0 +1,3062 @@
+body {
+  background-color: #ffffff;
+}
+
+.bgTP {
+  margin-left: 50px !important;
+}
+.containerDP {
+  margin-top: 7vw;
+  margin-bottom: 4rem;
+  margin-left: 10vw;
+}
+.unitStatusProduct {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.8;
+  background: #ffd500;
+  padding: 5px;
+  display: inline-block;
+}
+.conReplayReview {
+  margin-top: 1rem;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-right: 20vw;
+  margin-bottom: 1rem;
+}
+.avatarReplayReview {
+  margin-left: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.iconFavourite {
+  cursor: pointer;
+}
+
+.qty {
+  border: 1px solid #ececec;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.qty.number {
+  width: 60px;
+  border-right: none;
+  border-left: none;
+  cursor: default;
+}
+
+@media only screen and (min-width: 1920px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 550px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 40px;
+  }
+
+  .imageDetailProduct {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: scale(1) !important;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 20px;
+    color: #fa591d;
+    margin-bottom: 0;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 12px;
+    color: #c60242;
+    margin-left: 20px;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 26px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 25px;
+    width: 25px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+  .materialNumber {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 40px;
+    color: #000000;
+    opacity: 0.8;
+    background: #f7cd00;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .buyButton {
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .addButton {
+    font-family: "SFProText-Bold";
+    margin-left: 20px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .carousel-product-detail .imageItem {
+    transform: scale(1) !important;
+    max-width: 80% !important;
+    max-height: 80%;
+    height: 80%;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 110px;
+    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 24px;
+    width: 24px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    max-width: 550px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -95px;
+  }
+  .owl-next2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-right: -25px;
+    margin-top: -95px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 40px;
+  }
+
+  .imageDetailProduct {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: scale(1) !important;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    color: #fa591d;
+    margin-bottom: 0;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #c60242;
+    margin-left: 20px;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+  .materialNumber {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 35px;
+    color: #000000;
+    opacity: 0.8;
+    background: #f7cd00;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .buyButton {
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .addButton {
+    font-family: "SFProText-Bold";
+    margin-left: 20px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .carousel-product-detail .imageItem {
+    transform: scale(1) !important;
+    max-width: 80% !important;
+    max-height: 80%;
+    height: 80%;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 110px;
+    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 22px;
+    width: 22px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    font-size: 18px;
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    max-width: 550px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -95px;
+  }
+  .owl-next2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-right: -25px;
+    margin-top: -95px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1599px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 450px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    margin-bottom: 0;
+    padding: 35px;
+  }
+
+  .imageDetailProduct {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: scale(1) !important;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #fa591d;
+    margin-bottom: 0;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #c60242;
+    margin-left: 20px;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+  .materialNumber {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000000;
+    opacity: 0.8;
+    background: #f7cd00;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .buyButton {
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .addButton {
+    font-family: "SFProText-Bold";
+    margin-left: 20px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .carousel-product-detail .imageItem {
+    transform: scale(1) !important;
+    max-width: 80% !important;
+    max-height: 80%;
+    height: 80%;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    max-width: 500px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -90px;
+  }
+  .owl-next2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-right: -25px;
+    margin-top: -90px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1535px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 450px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    margin-bottom: 0;
+    padding: 35px;
+  }
+
+  .imageDetailProduct {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: scale(1) !important;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #fa591d;
+    margin-bottom: 0;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #c60242;
+    margin-left: 20px;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+  .materialNumber {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000000;
+    opacity: 0.8;
+    background: #f7cd00;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .buyButton {
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .addButton {
+    font-family: "SFProText-Bold";
+    margin-left: 20px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .carousel-product-detail .imageItem {
+    transform: scale(1) !important;
+    max-width: 80% !important;
+    max-height: 80%;
+    height: 80%;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    max-width: 500px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -80px;
+  }
+  .owl-next2 {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-top: -80px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 0;
+    padding: 30px;
+  }
+
+  .imageDetailProduct {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: scale(1) !important;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #fa591d;
+    margin-bottom: 0;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #c60242;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+  .materialNumber {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000000;
+    opacity: 0.8;
+    background: #f7cd00;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .buyButton {
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .addButton {
+    font-family: "SFProText-Bold";
+    margin-left: 20px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .carousel-product-detail .imageItem {
+    transform: scale(1) !important;
+    max-width: 80% !important;
+    max-height: 80%;
+    height: 80%;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 85px;
+    height: 85px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    max-width: 500px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -75px;
+  }
+  .owl-next2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-top: -75px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 350px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+
+  .imageDetailProduct {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: scale(1) !important;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #fa591d;
+    margin-bottom: 0;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #c60242;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+    margin-bottom: 0;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-bottom: 0;
+  }
+  .materialNumber {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: -15px;
+    margin-bottom: 0;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000000;
+    opacity: 0.8;
+    background: #f7cd00;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .buyButton {
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+  }
+  .addButton {
+    font-family: "SFProText-Bold";
+    margin-left: 20px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50.86px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+
+  .carousel-product-detail .imageItem {
+    transform: scale(1) !important;
+    max-width: 80% !important;
+    max-height: 80%;
+    height: 80%;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    max-width: 450px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -75px;
+  }
+  .owl-next2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-top: -75px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .defaultFlexProduct {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerTP {
+    margin-top: 0.5rem;
+  }
+
+  .marginTP {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .marginTP1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .marginButtonTP {
+    margin-left: 2rem;
+  }
+
+  .styleTP {
+    font-family: "SFUIText-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #3c3b3b;
+    font-weight: 600;
+  }
+
+  .TPord {
+    float: left;
+    width: 93%;
+  }
+
+  .conImageDetailProduct {
+    height: 350px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+
+  .imageDetailProduct {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 296px;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  .titleProductDetail {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: -15px;
+  }
+
+  .priceProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #148f0f;
+  }
+
+  .priceBefore {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.75;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+
+  .discountProduct {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #c60242;
+    margin-left: 20px;
+    background-color: #ffacc7;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .titleRating {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 15px;
+  }
+
+  .descRating {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 5px;
+    opacity: 0.5;
+  }
+
+  .titleBrandProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: -15px;
+  }
+
+  .ratingProduct {
+    height: 20px;
+    width: 20px;
+  }
+
+  .serialNumberProduct {
+    flex: 0.5;
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+  }
+  .unitCodeProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  .canBeUse {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  .unitCodeBrand {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    background: #f2f2f2;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 5px;
+  }
+  .unitDiscountProduct {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.8;
+    background: #ffd500;
+    padding: 5px;
+    display: inline-block;
+  }
+  .buyButton {
+    font-family: "SFProText-Regular";
+    padding-top: 15px;
+    width: 150px;
+    height: 50.86px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+  }
+  .addButton {
+    font-family: "SFProText-Regular";
+    margin-left: 20px;
+    padding-top: 15px;
+    width: 200px;
+    height: 50.86px;
+    background: #ffd500;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+  }
+  .descriptionFavourite {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+  }
+  .relateProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+  .descriptionProduct {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #404040;
+    margin-left: 5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .descriptionProductActive {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 5rem;
+    border-spacing: 5px;
+    border-bottom: 5px solid #ffd500;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .discountDetailProduct {
+    width: auto;
+    height: 100%;
+  }
+  .iconFavourite {
+    width: 25px;
+    height: 25px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .gridListRelate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+    overflow: scroll;
+  }
+  .gridListImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    grid-gap: 5px;
+  }
+  .imageItem {
+    transform: scale(1) !important;
+    max-width: 100%;
+    max-height: 90%;
+  }
+  .cardImageItem {
+    display: flex;
+    border-radius: 8px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    height: 80px;
+    cursor: pointer;
+  }
+  .iconAva {
+    margin-left: 8rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+  .titleName {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #515151;
+  }
+  .ratingReview {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .dateRating {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4b4b4;
+    margin-top: 5px;
+  }
+  .reviewDesc {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+  }
+  .textDescription {
+    font-family: "SFUIText-Regular";
+    margin-left: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .container-carousel {
+    width: 450px;
+  }
+  .owl-carousel {
+    margin-top: 0;
+  }
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  .owl-prev2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-left: -25px;
+    margin-top: -75px;
+  }
+  .owl-next2 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.08);
+    margin-top: -75px;
+  }
+  .owl-carousel .owl-prev2.disabled,
+  .owl-carousel .owl-next2.disabled {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .owl-nav2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  }
+}

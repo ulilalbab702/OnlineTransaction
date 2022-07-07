@@ -1,0 +1,982 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.buttonSign {
+  margin-left: 2.3vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ffb500;
+  border-radius: 0.7vw;
+  width: 8.5vw;
+  height: 2.8vw;
+}
+.widthimagelogo {
+  max-height: 3.2vw;
+  height: 100%;
+  width: auto;
+  transform: scale(1) !important;
+}
+.imgKlikUT {
+  max-height: 3.2vw;
+  width: auto;
+  transform: scale(1) !important;
+  margin-left: 20px;
+}
+.totalCart {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  background-color: #d0021b;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: 18px;
+}
+.textTotalCart {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  margin: 0;
+  font-size: 10px;
+  color: white;
+}
+.modal-logout {
+  .container-modal-x {
+    position: absolute !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px !important;
+    background: white !important;
+    padding: 10px;
+    top: 5.5vw;
+    right: 7vw;
+    width: 20%;
+    @media (min-width: 600px) and (max-width: 1025px) {
+      width: 25%;
+      top: 10vw;
+      right: 2vw;
+    }
+    @media (max-width: 599px) {
+      width: 69%;
+    }
+  }
+  .container-text-profile {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #f0f0f0;
+    overflow: auto;
+    @media (min-width: 600px) and (max-width: 1025px) {
+      padding-left: 6vw;
+    }
+    @media (max-width: 599px) {
+      padding-left: 15vw;
+    }
+    .box-text-profile {
+      margin-left: 0.5vw;
+      overflow: auto;
+    }
+    .text-profile {
+      font-family: "SFUIDisplay-Regular";
+      font-size: 1.1vw;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      margin: 0;
+    }
+    .sub-text-profile {
+      font-family: "SFUIDisplay-Regular";
+      font-size: 0.9vw;
+      letter-spacing: 0.05em;
+      color: #707070;
+    }
+  }
+  .container-items {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    .icon-items {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    .icon-logout {
+      width: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    p {
+      padding: 5px;
+      margin: 0;
+    }
+  }
+}
+.containerHeader {
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin: 0;
+  top: 0;
+}
+.containerHeaderDefault {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding: 0 10vw;
+  .profileIcon {
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 100%;
+  }
+}
+.logoHeader {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.containerHeaderApps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px 10vw;
+  padding-right: 15.7vw;
+  padding-bottom: 0;
+}
+.titleHeaderApps {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.005em;
+  color: #707070;
+  padding: 3px 10%;
+  margin-bottom: 0;
+  display: flex;
+  background-color: #f9f9f9;
+  a {
+    font-family: "SFUIDisplay-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.005em;
+    color: #707070;
+  }
+  span {
+    margin-left: auto;
+    :last-child {
+      margin-left: 25px;
+    }
+  }
+}
+.categoryHeader {
+  flex-direction: row;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.input {
+  margin-left: 30px;
+  margin-right: 50px;
+  width: 600px;
+  border-radius: 10px;
+}
+.headerInput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.headerImageCart {
+  align-items: center;
+  display: flex;
+}
+.buttonLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb500;
+  border-radius: 10px;
+  width: vw(150);
+  height: vw(50);
+  margin-left: -1rem;
+}
+.iconButton {
+  max-width: 50%;
+  max-height: 50%;
+  flex: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.iconLeft {
+  max-width: 30%;
+  max-height: 20%;
+  flex: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.titleSign {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: vw(24);
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.titleButton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0.0928571px;
+  color: #000000;
+  margin-bottom: 0;
+  flex: 1;
+  margin-left: 20px;
+}
+.widthimagelogoNotif {
+  height: 1.7vw;
+  width: auto;
+  transform: scale(1);
+  margin-right: 2rem;
+}
+.widthimagelogoCart {
+  width: 2.3vw;
+  height: 2.3vw;
+  margin-right: 2rem;
+}
+.widthimagelogoOrder {
+  width: 1.7vw;
+  height: 1.9vw;
+  margin-right: 2rem;
+}
+.icon-category {
+  width: 1.8vw;
+  height: 1.8vw;
+}
+.titleCategory {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
+  color: #030303;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: vw(10);
+}
+.modal-del-wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  .container-modal-del-wishlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    .del-modal-body {
+      background-color: white;
+      margin: auto;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 20px;
+      width: 100%;
+    }
+    .titleUpload {
+      font-family: "SFProText-Bold";
+      font-style: normal;
+      font-weight: 600;
+      font-size: vw(24);
+      text-align: center;
+      color: #000000;
+      margin: 1rem 0;
+    }
+    .iconModal {
+      width: 30%;
+      align-self: center;
+    }
+    .titleAvailable {
+      font-family: "SFUIDisplay-Regular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.3px;
+      color: #636363;
+    }
+    .title-contact {
+      font-family: "SFUIDisplay-regular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      color: #000000;
+      text-align: center;
+      margin-top: 48px;
+    }
+    .container-footer-contact {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      img {
+        height: 10%;
+        margin: 0 1em;
+        padding: 0;
+      }
+      .marginIcon {
+        margin-top: 3px;
+      }
+    }
+  }
+}
+.widthMaxModalTerm {
+  max-width: 800px !important;
+
+  .headerTitleTerm {
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-size: 26px;
+    line-height: 28px;
+    color: #d2b520;
+  }
+  .containerDash {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .headerDash {
+    border-bottom-color: #adadae;
+    border-radius: 1px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    flex-grow: 1;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.1em;
+  }
+  .unsetJustCont {
+    justify-content: unset !important;
+  }
+  .title-term {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2b2b2b;
+  }
+  .desc-term {
+    font-family: "SFProText-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 15px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    opacity: 0.6;
+  }
+}
+@media (min-width: 1280px) {
+  .containerHeaderDefault {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5vw;
+    padding: 0 10vw;
+  }
+  .widthimagelogo {
+    max-height: 14vw;
+    max-width: 14vw;
+    transform: scale(1) !important;
+  }
+}
+//mobile version
+@media (max-width: 599px) {
+  .container-button-category {
+    width: 140px !important;
+    height: 100% !important;
+    margin: 0 0 10px 5px !important;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+    .img-category {
+      width: 95px !important;
+      height: 20px !important;
+      margin: 15px 10px 15px 25px;
+    }
+  }
+  .icon-category {
+    width: vw-mobile(20);
+    height: vw-mobile(20);
+  }
+  .widthimagelogoCart {
+    max-width: 70%;
+    max-height: 70%;
+    transform: scale(0.5) !important;
+  }
+  .widthimagelogoOrder {
+    max-width: 70%;
+    max-height: 70%;
+    transform: scale(0.5) !important;
+  }
+  .widthimagelogo {
+    max-height: 70%;
+    max-width: 90%;
+    transform: scale(1) !important;
+  }
+  .modal-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-modal-login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      .login-modal-body {
+        background-color: white;
+        margin: auto;
+        width: 300px;
+        height: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .titleInput {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #8e8e8e;
+        margin-bottom: 0;
+      }
+      .titleButton {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #000000;
+        margin-bottom: 0;
+        flex: 1;
+        margin-left: 0;
+      }
+      .titleButtonLogin {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #000000;
+        margin-bottom: 0;
+        margin-left: 0;
+      }
+      .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        color: #f3d641;
+      }
+      .titleDont {
+        font-family: "SFUIDisplay-Regular";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        margin-right: 5px;
+      }
+      .btn-login {
+        width: 180px;
+        height: 30px;
+        background: #ffd500;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .btn-goggle {
+        width: 180px;
+        height: 30px;
+        background: #ffffff;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .horizontal-line-input {
+        width: 180px;
+        height: 0px;
+        border: 1px solid #d3d3d3;
+        margin-bottom: 10px;
+      }
+      .horizontal-line {
+        width: 150px;
+        height: 0px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      .container-title-input {
+        width: 180px;
+      }
+      .imageLogin {
+        max-width: 40%;
+        max-height: 25%;
+      }
+      .iconButton {
+        max-width: 50%;
+        max-height: 50%;
+        flex: 0;
+        margin-left: 20px;
+      }
+      .iconLeft {
+        max-width: 30%;
+        max-height: 20%;
+        flex: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .containerHeader {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    .profileIcon {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+    }
+  }
+  .containerHeaderDefault {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 0 6vw;
+  }
+  .logoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 0 !important;
+  }
+  .titleHeaderApps {
+    text-align: center;
+    color: #707070;
+    padding-top: 3px !important;
+    padding: 3px 6vw;
+    margin-bottom: 5px;
+    margin-left: 0;
+    a {
+      font-size: 6px;
+    }
+    img {
+      width: 6px;
+    }
+    span {
+      display: flex;
+
+      :last-child {
+        margin-left: 8px;
+      }
+    }
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .titleCategory {
+    font-size: vw-mobile(12);
+    font-weight: bold;
+    color: #231f20;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .input {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .headerImageCart {
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .buttonLogin {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb500;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+  }
+  .buttonSign {
+    border-radius: 4px;
+    width: 14vw;
+    height: 5vw;
+  }
+  .titleSign {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: vw-mobile(9);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container-modal-category {
+    border-radius: 5px;
+    position: absolute;
+    background: white;
+    margin-left: 2vw !important;
+    margin-top: 30vw !important;
+    padding: 8px 8px !important;
+  }
+  .button-category {
+    justify-content: left !important;
+    font-size: 12px !important;
+    font-family: "SFUIText-Regular" !important;
+    width: 120px !important;
+    padding-top: 10px !important;
+  }
+  .button-content:hover {
+    background-color: #f2f2f2;
+  }
+  .button-content {
+    display: -webkit-inline-box;
+    border-radius: 5px;
+    padding: 0 !important;
+  }
+}
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .titleSign {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: vw-tab(12);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .widthimagelogoCart {
+    width: vw-tab(20);
+    height: vw-tab(20);
+  }
+  .widthimagelogoOrder {
+    width: vw-tab(20);
+    height: vw-tab(20);
+  }
+  .buttonLogin {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb500;
+    border-radius: 10px;
+    width: vw-tab(70);
+    height: vw-tab(35);
+    margin-left: -1rem;
+  }
+  .buttonSign {
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb500;
+    border-radius: 8px;
+    width: 9vw;
+    height: 3.5vw;
+  }
+  .icon-category {
+    width: vw-tab(20);
+    height: vw-tab(20);
+  }
+  .widthimagelogo {
+    max-height: 50%;
+    max-width: 50%;
+    transform: scale(1) !important;
+  }
+  .containerHeader {
+    background-color: #ffffff;
+    margin: 0;
+    .profileIcon {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+    }
+  }
+  .containerHeaderDefault {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 0 10vw;
+    // display: flex;
+    // flex-direction: row;
+    // width: 100vw;
+    // padding: 0 10vw;
+  }
+  .logoHeader {
+    display: flex;
+    align-items: center;
+    margin-left: 0 !important;
+    // margin-right: 2rem;
+  }
+  .titleHeaderApps {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #707070;
+    padding-top: 3px !important;
+    padding: 3px 10%;
+    margin-bottom: 0px;
+    margin-left: 0 !important;
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .titleCategory {
+    font-size: vw-tab(10);
+    font-weight: bold;
+    color: #231f20;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .input {
+    margin-right: 20px;
+    width: 250px;
+  }
+  .headerImageCart {
+    align-items: center;
+    display: flex;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container-modal-category {
+    border-radius: 5px;
+    position: absolute;
+    background: white;
+    margin-left: 24vw;
+    margin-top: 10vw !important;
+  }
+  .button-category {
+    justify-content: left !important;
+    font-size: 14px !important;
+    font-family: "SFUIText-Regular" !important;
+    width: 145px !important;
+    padding-top: 14px !important;
+  }
+  .button-content:hover {
+    background-color: #f2f2f2;
+  }
+  .button-content {
+    display: -webkit-inline-box;
+    border-radius: 5px;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+}
+.container-modal-category {
+  border-radius: 18px;
+  position: absolute;
+  background: white;
+  margin-left: 26vw;
+  margin-top: 8vw;
+  width: 40vw;
+  padding: 0 !important;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+.column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 10%;
+  padding: 10px;
+}
+.rows:after {
+  content: "";
+  display: table;
+  flex: 1;
+  clear: both;
+  height: 100%;
+}
+.container-button-category {
+  display: flex;
+  width: 180px;
+  height: 50px;
+  margin: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.08);
+  .img-category {
+    max-height: 80%;
+    max-width: 80%;
+    margin: auto;
+    transform: scale(1);
+  }
+}
+.categoryPartList {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.categoryPartList:hover {
+  color: #1355a5;
+}
+.button-category {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.41px;
+  color: #030303;
+  margin: auto 0;
+}
+.line-category {
+  border-left: 4px solid #f0f0f0;
+  float: left;
+  margin-left: 15px;
+}
+.continer-text-icon {
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 6px;
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.continer-text-icon.active {
+  background-color: #f2f2f2;
+}
+.continer-text-icon:hover {
+  background-color: #f2f2f2;
+}
+.button-content {
+  display: -webkit-inline-box;
+  border-radius: 5px;
+  padding: 0 10px 0 30px;
+  cursor: pointer;
+}
+.img-arrow {
+  display: flex;
+}
+
+.container-modal-denied {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  border-radius: vw(15);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  .container-denied {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 3vw;
+  }
+  .title-denied {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+  .title-message {
+    font-family: "SFUIDisplay-Regular";
+    font-weight: 400;
+    font-size: 18px;
+    color: #636363;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.01em;
+  }
+  .title-contact {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .btn-confirm-denied {
+    background-color: #ffd500;
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+    .title-confirm {
+      margin: 0.5em 0;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  .container-footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    img {
+      height: 10%;
+      margin: 0 1em;
+      padding: 0;
+    }
+    .marginIcon {
+      margin-top: 3px;
+    }
+  }
+}

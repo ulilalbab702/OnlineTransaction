@@ -1,0 +1,270 @@
+@import 'themes/colors';
+@import 'themes/fonts';
+@import 'themes/size';
+
+.addition-container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    margin: vw(30) 0;
+    padding-top: vw(30);
+    border-top: solid vw(3) #F2F2F4;
+    .addition-title {
+        font-family: 'Lato-Bold';
+        font-size: vw(23);
+    }
+    .addition-detail {
+        display: flex;
+        flex: 1;
+        margin-bottom: vw(15);
+        .fluid-description {
+            flex: 1;
+            margin-right: vw(50);
+            .additional-input {
+                width: 100%;
+                height: vw(45);
+                font-family: 'Lato-Regular';
+                font-size: vw(20);
+            }
+        }
+        .fluid-quantity {
+            flex: 0.8;
+            margin-right: vw(50);
+            .fluid-quantity-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .fluid-quantity-card{
+                    color: #3B3B3B;
+                    font-family: 'Lato-Bold';
+                    text-align: center;
+                    font-size: vw(18);     
+                    width: vw(100);
+                    padding: vw(10) 0;
+                    box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+                    border-radius: vw(5)
+                }
+                .fluid-quantity-card-btn{
+                    color: #3B3B3B;
+                    font-family: 'Lato-Bold';
+                    font-size: vw(18);     
+                    box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+                    padding: vw(10) vw(15);
+                    border-radius: vw(5);
+                    cursor: pointer;
+                }
+                .fluid-delete{
+                    height: vw(30);
+                    cursor: pointer;
+                }
+            }
+        }
+        .fluid-label{
+            color: #1D1D1D;
+            opacity: .5;
+            font-family: 'Lato-Bold';
+            font-size: vw(16);
+        }
+        .fluid-text{
+            color: #3B3B3B;
+            font-family: 'Lato-Bold';
+            font-size: vw(18);            
+            padding-bottom: vw(15);
+            border-bottom: rgba(59, 59, 59, .25) vw(2) solid;
+        }
+    }
+    .btn-addition {
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato-Bold';
+        background-color: #F2F2F4;
+        margin-top: vw(30);
+        font-size: vw(23);
+        padding: vw(15) 0;
+        border-radius: vw(10);
+        box-shadow: 0px vw(3) vw(6) rgba(0, 0, 0, 0.161);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+    .addition-container {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        margin: vw-tab(30) 0;
+        padding-top: vw-tab(30);
+        border-top: solid vw-tab(3) #F2F2F4;
+        .addition-title {
+            font-family: 'Lato-Bold';
+            font-size: vw-tab(18);
+        }
+        .addition-detail {
+            display: flex;
+            flex: 1;
+            margin-bottom: vw-tab(15);
+            .fluid-description {
+                flex: 1;
+                margin-right: vw-tab(50);
+                .additional-input {
+                    width: 100%;
+                    height: vw-tab(45);
+                    font-family: 'Lato-Regular';
+                    font-size: vw-tab(14);
+                }
+            }
+            .fluid-quantity {
+                flex: 0.8;
+                margin-right: vw-tab(15);
+                .fluid-quantity-container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fluid-quantity-card{
+                        color: #3B3B3B;
+                        font-family: 'Lato-Bold';
+                        text-align: center;
+                        font-size: vw-tab(14);     
+                        width: vw-tab(100);
+                        padding: vw-tab(10) 0;
+                        box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+                        border-radius: vw-tab(5)
+                    }
+                    .fluid-quantity-card-btn{
+                        color: #3B3B3B;
+                        font-family: 'Lato-Bold';
+                        font-size: vw-tab(18);     
+                        box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+                        padding: vw-tab(10) vw-tab(15);
+                        border-radius: vw-tab(5);
+                        cursor: pointer;
+                    }
+                    .fluid-delete{
+                        height: vw-tab(25);
+                        margin-left: vw-tab(15);
+                        cursor: pointer;
+                    }
+                }
+            }
+            .fluid-label{
+                color: #1D1D1D;
+                opacity: .5;
+                font-family: 'Lato-Bold';
+                font-size: vw-tab(14);
+            }
+            .fluid-text{
+                color: #3B3B3B;
+                font-family: 'Lato-Bold';
+                font-size: vw-tab(14);            
+                padding-bottom: vw-tab(15);
+                border-bottom: rgba(59, 59, 59, .25) vw(2) solid;
+            }
+        }
+        .btn-addition {
+            width: 100%;
+            text-align: center;
+            font-family: 'Lato-Bold';
+            background-color: #F2F2F4;
+            margin-top: vw-tab(30);
+            font-size: vw-tab(18);
+            padding: vw-tab(15) 0;
+            border-radius: vw-tab(10);
+            box-shadow: 0px vw-tab(3) vw-tab(6) rgba(0, 0, 0, 0.161);
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .addition-container {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        margin: vw-mobile(15) 0;
+        padding-top: vw-mobile(15);
+        border-top: solid vw-mobile(2) #F2F2F4;
+        .addition-title {
+            font-family: 'Lato-Bold';
+            font-size: vw-mobile(14);
+        }
+        .addition-detail {
+            display: flex;
+            flex: 1;
+            margin-bottom: vw-mobile(5);
+            .fluid-description {
+                flex: 1;
+                margin-right: vw-mobile(10);
+                .additional-input {
+                    width: 100%;
+                    height: vw-mobile(22);
+                    font-family: 'Lato-Regular';
+                    font-size: vw-mobile(9);
+                }
+            }
+            .fluid-quantity {
+                flex: 0.8;
+                margin-right: vw-mobile(5);
+                .fluid-quantity-container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fluid-quantity-card{
+                        color: #3B3B3B;
+                        font-family: 'Lato-Bold';
+                        text-align: center;
+                        font-size: vw-mobile(9);     
+                        width: vw-mobile(40);
+                        padding: vw-mobile(5) 0;
+                        box-shadow: 0px vw-mobile(1) vw-mobile(2) rgba(0, 0, 0, 0.161);
+                        border-radius: vw-mobile(5)
+                    }
+                    .fluid-quantity-card-btn{
+                        color: #3B3B3B;
+                        font-family: 'Lato-Bold';
+                        font-size: vw-mobile(17);     
+                        box-shadow: 0px vw-mobile(1) vw-mobile(2) rgba(0, 0, 0, 0.161);
+                        padding: 0 vw-mobile(7);
+                        border-radius: vw-mobile(5);
+                        cursor: pointer;
+                    }
+                    .fluid-delete{
+                        height: vw-mobile(17);
+                        margin-left: vw-mobile(5);
+                        cursor: pointer;
+                    }
+                }
+            }
+            .fluid-label{
+                color: #1D1D1D;
+                opacity: .5;
+                font-family: 'Lato-Bold';
+                font-size: vw-mobile(8);
+            }
+            .fluid-text{
+                color: #3B3B3B;
+                font-family: 'Lato-Bold';
+                font-size: vw-mobile(12);            
+                padding-bottom: vw-mobile(15);
+                border-bottom: rgba(59, 59, 59, .25) vw(2) solid;
+            }
+        }
+        .btn-addition {
+            width: 100%;
+            text-align: center;
+            font-family: 'Lato-Bold';
+            background-color: #F2F2F4;
+            margin-top: vw-mobile(15);
+            font-size: vw-mobile(13);
+            padding: vw-mobile(8) 0;
+            border-radius: vw-mobile(10);
+            box-shadow: 0px vw-mobile(1) vw-mobile(2) rgba(0, 0, 0, 0.161);
+            cursor: pointer;
+        }
+    }
+}

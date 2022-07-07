@@ -1,0 +1,406 @@
+@import "../../themes/colors";
+@import "../../themes/fonts";
+@import "../../themes/size";
+
+.teksCongratulation {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 28px;
+  color: #3c3b3b;
+  width: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.titleButtonLanjut {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.0928571px;
+  color: #1d1d1d;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-family: "SFUIText-Regular";
+  letter-spacing: 0.03em;
+}
+
+.teksSuccess {
+  font-family: "SFUIDisplay-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636363;
+  text-align: center;
+  margin-bottom: 8rem;
+  letter-spacing: 0.5px;
+}
+.modal-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  width: 40%;
+  .container-modal-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    .success-modal-body {
+      // width: vw(519);
+      // height: vh(321);
+      background-color: white;
+      margin: auto;
+      border-radius: vw(15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: vw(15) vw(24) vw(30) vw(24);
+      width: 40rem;
+    }
+    .titleInput {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.0928571px;
+      color: #8e8e8e;
+      margin-bottom: 0;
+    }
+    .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #f3d641;
+    }
+    .titleDont {
+      font-family: "SFUIDisplay-Regular";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      margin-right: 5px;
+    }
+    .btn-lanjut {
+      width: 400px;
+      height: 50px;
+      background: #ffd500;
+      border-radius: 12px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin: 2rem 0;
+    }
+    .btn-goggle {
+      width: 400px;
+      height: 50px;
+      background: #ffffff;
+      border-radius: 12px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .horizontal-line-input {
+      width: 400px;
+      height: 0px;
+      border: 1px solid #d3d3d3;
+      margin-bottom: 10px;
+    }
+    .horizontal-line {
+      width: 180px;
+      height: 0px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    .container-title-input {
+      width: 400px;
+    }
+    .imageSuccess {
+      margin-top: 1rem;
+      max-width: 114px;
+      max-height: 114px;
+    }
+    .title-contact {
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 48px;
+    }
+    .container-footer-contact {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      img {
+        height: 10%;
+        margin: 0 1em;
+        padding: 0;
+      }
+      .marginIcon {
+        margin-top: 3px;
+      }
+    }
+  }
+}
+.containerHeader {
+  background-color: #ffffff;
+}
+.containerHeaderTab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.categoryHeader {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input {
+  margin-left: 30px;
+  margin-right: 50px;
+  width: 600px;
+  border-radius: 10px;
+}
+.headerInput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.iconButton {
+  max-width: 50%;
+  max-height: 50%;
+  flex: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.iconLeft {
+  max-width: 30%;
+  max-height: 20%;
+  flex: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.titleButton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0.0928571px;
+  color: #000000;
+  margin-bottom: 0;
+  flex: 1;
+  margin-left: 20px;
+}
+
+//mobile version
+@media (max-width: 599px) {
+  .modal-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-modal-login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      .success-modal-body {
+        background-color: white;
+        margin: auto;
+        // width: 300px;
+        // height: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+      }
+      .titleInput {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #8e8e8e;
+        margin-bottom: 0;
+      }
+      .titleButton {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.0928571px;
+        color: #000000;
+        margin-bottom: 0;
+        flex: 1;
+        margin-left: 0;
+      }
+      .titleButtonLanjut {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.0928571px;
+        color: #1d1d1d;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-family: "SFUIText-Regular";
+        letter-spacing: 0.03em;
+      }
+      .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        color: #f3d641;
+      }
+      .titleDont {
+        font-family: "SFUIDisplay-Regular";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        margin-right: 5px;
+      }
+      .btn-lanjut {
+        width: 180px;
+        height: 30px;
+        background: #ffd500;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 2rem 0;
+      }
+      .btn-goggle {
+        width: 180px;
+        height: 30px;
+        background: #ffffff;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .horizontal-line-input {
+        width: 180px;
+        height: 0px;
+        border: 1px solid #d3d3d3;
+        margin-bottom: 10px;
+      }
+      .horizontal-line {
+        width: 150px;
+        height: 0px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      .container-title-input {
+        width: 180px;
+      }
+      .imageLogin {
+        max-width: 40%;
+        max-height: 25%;
+      }
+      .iconButton {
+        max-width: 50%;
+        max-height: 50%;
+        flex: 0;
+        margin-left: 20px;
+      }
+      .iconLeft {
+        max-width: 30%;
+        max-height: 20%;
+        flex: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .title-contact {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 48px;
+      }
+      .container-footer-contact {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        img {
+          height: 10%;
+          margin: 0 1em;
+          padding: 0;
+        }
+        .marginIcon {
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+  .containerHeader {
+    background-color: #ffffff;
+  }
+  .containerHeaderTab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+//tab version
+@media (min-width: 600px) and (max-width: 1025px) {
+  .containerHeader {
+    background-color: #ffffff;
+  }
+  .containerHeaderTab {
+    display: flex;
+    flex-direction: row;
+  }
+  .categoryHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-right: 20px;
+    width: 250px;
+  }
+  .headerInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

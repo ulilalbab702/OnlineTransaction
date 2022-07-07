@@ -1,0 +1,74 @@
+@import "../../../themes/colors";
+@import "../../../themes/fonts";
+@import "../../../themes/size";
+
+.container-modall-not-ready-stock {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  border-radius: vw(15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .container-denied {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 3vw;
+  }
+  .title-denied {
+    font-family: "SFProText-Bold";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  img {
+    margin: 15px 0;
+  }
+  .title-message {
+    font-family: "SFUIDisplay-Regular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #636363;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.01em;
+    max-width: 30vw;
+  }
+  .title-contact {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .btn-confirm-denied {
+    background-color: #ffd500;
+    border-radius: 8px;
+    width: 50%;
+    height: 45px;
+    cursor: pointer;
+    margin: 0 auto;
+    .title-confirm {
+      font-family: "SFUIDisplay-Regular";
+      margin: auto;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 45px;
+    }
+  }
+  .container-footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    img {
+      height: 10%;
+      margin: 0 1em;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,155 @@
+.bgCA {
+  padding-top: 7vw;
+  padding-left: 10vw;
+  padding-right: 35vw;
+}
+.addressTitleCA {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  margin-top: 2vw;
+  color: #000000;
+}
+.lineAddress {
+  flex: 1;
+}
+.addressBoxBilling {
+  padding: 1vw;
+  padding-left: 2.5vw;
+  flex: 1;
+  max-height: 14.6vw;
+  background: #ffffff;
+  border: 0.07vw solid #d4d5d5;
+  box-sizing: border-box;
+  border-radius: 1.25vw;
+  margin-bottom: 1.5vw;
+  overflow: auto;
+}
+.addressBoxBillingSelected {
+  padding: 1vw;
+  padding-left: 2.5vw;
+  flex: 1;
+  max-height: 14.6vw;
+  background: #f9f9f9;
+  border: 0.07vw solid #148f0f;
+  box-sizing: border-box;
+  border-radius: 1.25vw;
+  margin-bottom: 1.5vw;
+  overflow: auto;
+}
+.address1 {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4vw;
+  line-height: 21px;
+  color: #050505;
+}
+.address2 {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.4;
+  margin-bottom: 0px;
+}
+.address3 {
+  font-family: "SFProText-Regular";
+  font-style: normal;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.4;
+}
+.rowActionAddress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.address4 {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1.25vw;
+  line-height: 1.4vw;
+  color: #148f0f;
+  opacity: 0.75;
+  margin: 0;
+  cursor: pointer;
+}
+.address5 {
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  background: #5acc4d;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.confirmAddress {
+  width: 25.8vw;
+  height: 3.7vw;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1vw;
+  line-height: 1.3vw;
+  color: #000000;
+  background-color: #ffd500;
+  border-radius: 0.6vw;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.3vw;
+  margin-left: auto;
+  cursor: pointer;
+}
+.addAddress {
+  height: 5vw;
+  border: 0.2vw dashed #565555;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 1.25vw;
+  font-family: "SFProText-Bold";
+  font-style: normal;
+  font-size: 1.4vw;
+  line-height: 1.6vw;
+  color: #050505;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  margin-bottom: 5vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1280px) {
+  .paddingTP {
+    padding-top: 6vw;
+    padding-left: 10vw;
+    padding-right: 30vw;
+    margin-bottom: 10rem;
+  }
+}
